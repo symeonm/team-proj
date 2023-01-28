@@ -1,0 +1,66 @@
+.details-res {
+  width: 100%;
+  height: 735px;
+  padding-top: 24px;
+  padding-right: 15px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65),
+    url(/src/images/details-rest-tel@1x.jpg);
+  @include retina {
+    background-image: rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65),
+      url(/src/images/details-rest-tel@2x.jpg);
+  }
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.details-res__pre-title {
+  margin-bottom: 12px;
+  margin-left: 140px;
+  color: #ffffff;
+  font-family: 'Film P3';
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 100%;
+  text-align: left;
+  letter-spacing: 30%;
+}
+
+.details-res__title {
+  margin-left: 140px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat';
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 24px;
+  // line-height: 100%;
+  text-align: left;
+  letter-spacing: 2%;
+}
+
+.details-res__description {
+  margin-left: 140px;
+  margin-bottom: 48px;
+  color: #bababa;
+
+  font-family: 'Montserrat';
+  font-style: SemiBold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+  letter-spacing: 2%;
+  // Line height: 100%
+  // Vertical align: Top
+}
+
+.details-res__button {
+  width: 236px;
+  height: 48px;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+}
