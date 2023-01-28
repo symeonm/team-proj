@@ -28,13 +28,6 @@ img {
   height: auto;
 }
 
-@font-face {
-  font-family: "Times New Roman";
-  src: url("../fonts/times_new_roman.eot");
-  /* IE 9 Compatibility Mode */
-  src: url("../fonts/times_new_roman.eot?#iefix") format("embedded-opentype"), url("../fonts/times_new_roman.woff2") format("woff2"), url("../fonts/times_new_roman.woff") format("woff"), url("../fonts/times_new_roman.ttf") format("truetype"), url("../fonts/times_new_roman.svg#times_new_roman") format("svg");
-  /* Chrome < 4, Legacy iOS */
-}
 /* cyrillic-ext */
 @font-face {
   font-family: "Montserrat";
