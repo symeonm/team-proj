@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restaurant page</title>
+    <title>Home page</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="/node_modules/modern-normalize/modern-normalize.css"
     />
-    <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="stylesheet" href="./sass/index.css" />
   </head>
   <body>
     <include src="./partials/header.html"></include>
@@ -23,8 +23,17 @@
       <include src="./partials/page-home/about-hotel.html"></include>
       <include src="./partials/page-home/datails-hotel.html"></include>
       <include src="./partials/page-home/contacts.html"></include>
+      <include src="./partials/modal/modal-price.html"></include>
+      <include src="./partials/modal/modal-room.html"></include>
+      <include src="./partials/modal/modal-table.html"></include>
     </main>
     <include src="./partials/footer.html"></include>
+    <script src="./js/vendors/swiper-bundle.min.js"></script>
     <script type="module" src="./index.js"></script>
   </body>
 </html>
+
+<a href="./hotel.html">hotel</a>
+<a href="./index.html">home</a>
+<a href="./restaurant.html">restaurant</a>
+<a href="./room.html">room</a>
