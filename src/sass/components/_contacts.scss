@@ -1,1 +1,150 @@
-// < !-- Zhevenkov Evgen -->
+// Zhyvenkov Evgen
+.section-contacts{
+background-color: #FFFDEE;
+padding: 36px 0 32px 0;
+@media (min-width: 1024px){
+padding: 56px 0 40px 0;
+}
+&__tablet{
+@media (min-width:1024px) {
+display: flex;}
+}
+
+&__text{
+font-family: 'Film P3';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 1.07;
+letter-spacing: 0.3em;
+color: #494848;
+text-decoration: none;
+margin-bottom: 12px;
+@media (min-width: 1024px) {
+font-size: 64px;
+line-height: 1.08;
+margin-bottom: 8px;}    
+}
+
+&__content{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+color: #7A7A7A;
+margin-bottom: 16px;
+margin-right: 22px;
+@media (min-width: 1024px) {
+margin-bottom: 52px;
+margin-right: 0;}
+}
+
+&__item{   
+display: flex;
+align-items: center;
+margin-bottom: 32px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #C79002;
+@media (min-width: 1024px) {
+margin-bottom: 24px;
+align-items: flex-start;
+flex-direction: column;
+&:last-child{margin-bottom: 0;}}
+}
+
+&__link{
+display: flex;
+align-items: center;
+padding: 9px 6px 7px 8px; 
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.21;
+letter-spacing: 0.02em;
+color: #494848;
+text-decoration: none;
+background-color: #FFFFFF;
+border: 0.5px solid #F3C653;
+border-radius: 2px;
+}
+
+&__icon{fill: #C79002;
+margin-right: 8px;}
+
+&__tel{margin-left: 22px;
+@media (min-width:1024px){margin-left: 0;
+margin-top: 8px;}}
+&__tells {
+margin-left: 54px;
+@media (min-width:1024px) {
+margin-left: 0;
+margin-top: 8px;}
+}
+&__number{margin-left: 12px;}
+
+&__location{
+margin-bottom: 32px;
+margin-left: 124px;
+padding: 8px 33px 7px 10px;
+display: flex;
+align-items: center;
+text-decoration: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.01em;
+color: #494848;
+background-color: #FFFFFF;
+border: 0.5px solid #F3C653;
+border-radius: 2px;
+@media (min-width:1024px) {
+margin-top: 48px;
+margin-left: 0;
+width: 285px;}
+}
+
+&__icon-location{fill: #C79002;
+margin-right: 10px;
+}
+&__text-location{
+@media (min-width:1024px){
+width: 233px;}
+}
+
+
+&__map{
+border: 1px solid #BABABA;
+box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+border-radius: 2px;}
+&__map-location{
+    @media (min-width:1024px) {
+    width:535px;
+    height:412px;
+    }
+}
+
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+}
