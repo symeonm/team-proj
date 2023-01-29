@@ -1,1 +1,42 @@
 // < !-- Anna Ivanova -->
+<section class="section">
+    <div class="container">
+        <h2>зручності у номері</h2>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <ul>
+            <li>
+                <h3>загальні</h3>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </li>
+            <li>
+                <h3>ванна кімната</h3>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </li>
+            <li>
+                <h3>спальня</h3>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            </li>
+            <li>
+                <h3>кухня</h3>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+            </li>
+            <li>
+                <h3>медіа</h3>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </li>
+        </ul>
+        <button 
+        data-modal-open
+        type="button"
+        class="button">
+        оформити бронювання
+        </button>
+        <a class="" href="#">Повернутися до перегляду номерів  <svg width="24px" height="24px" class="contacts-nav--icon">
+            <use href="../images/icons.svg#icon-arrow-right"></use>
+          </svg></a>
+    </div>
+</section>
+
