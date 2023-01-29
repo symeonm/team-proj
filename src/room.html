@@ -18,7 +18,48 @@
     <include src="./partials/header.html"></include>
     <main>
       <include src="./partials/page-room/hero-room.html"></include>
-      <include src="./partials/page-room/amenities.html"></include>
+      <!-- <include src="./partials/page-room/amenities.html"></include> -->
+      <section class="section amenities">
+        <div class="container">
+            <h2 class="amenities__title">зручності у номері</h2>
+            <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <ul class="amenities__list">
+                <li class="amenities__item"> 
+                    <h3 class="amenities__subtitle">загальні</h3>
+                    <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </li>
+                <li class="amenities__item">
+                    <h3 class="amenities__subtitle">ванна кімната</h3>
+                    <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </li>
+                <li class="amenities__item">
+                    <h3 class="amenities__subtitle">спальня</h3>
+                    <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </li>
+                <li class="amenities__item">
+                    <h3 class="amenities__subtitle">кухня</h3>
+                    <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </li>
+                <li class="amenities__item">
+                    <h3 class="amenities__subtitle">медіа</h3>
+                    <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </li>
+            </ul>
+            <button 
+            data-modal-open
+            type="button"
+            class="amenities__button">
+            оформити бронювання
+            </button>
+            <a class="amenities__link" href="#">Повернутися до перегляду номерів  <svg width="24px" height="24px" class="amenities__icon">
+                <use href="./images/icons.svg#icon-arrow-right"></use>
+            </svg></a>
+        </div>
+    </section>
+    
     </main>
     <include src="./partials/footer.html"></include>
     <script src="./js/vendors/swiper-bundle.min.js"></script>
