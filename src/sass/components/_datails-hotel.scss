@@ -171,7 +171,15 @@
 
 .details-hotel__position {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+
+  @include tablet {
+    justify-content: space-between;
+  }
+
+  @include desktop {
+    // transform: translateX(calc(52px - 85px));
+  }
 }
 
 .details-hotel__tablet {
@@ -179,10 +187,25 @@
   @include tablet {
     display: flex;
   }
+  @include desktop {
+    display: none;
+  }
+}
+
+.details-hotel__desktop {
+  display: none;
+
+  @include desktop {
+    display: flex;
+  }
 }
 
 .details-hotel__img {
   &:not(:last-child) {
     margin-right: 34px;
+
+    @include desktop {
+      margin-right: calc(86px - (85px - 52px) / 2);
+    }
   }
 }

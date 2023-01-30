@@ -783,9 +783,13 @@ img {
 
 .details-hotel__position {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
-
+@media screen and (min-width: 1024px) {
+  .details-hotel__position {
+    justify-content: space-between;
+  }
+}
 .details-hotel__tablet {
   display: none;
 }
@@ -794,9 +798,28 @@ img {
     display: flex;
   }
 }
+@media screen and (min-width: 1280px) {
+  .details-hotel__tablet {
+    display: none;
+  }
+}
+
+.details-hotel__desktop {
+  display: none;
+}
+@media screen and (min-width: 1280px) {
+  .details-hotel__desktop {
+    display: flex;
+  }
+}
 
 .details-hotel__img:not(:last-child) {
   margin-right: 34px;
+}
+@media screen and (min-width: 1280px) {
+  .details-hotel__img:not(:last-child) {
+    margin-right: 69.5px;
+  }
 }
 
 .hero-rest {
