@@ -422,7 +422,7 @@ img {
   background-size: cover;
   background-image: url(../images/hero/hero-home-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background-image: url(../images/hero/hero-home-mobile@2x.jpg);
   }
@@ -472,7 +472,7 @@ img {
 .hero-rest {
   background-image: url(../images/hero/hero-rest-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-rest {
     background-image: url(../images/hero/hero-rest-mobile@2x.jpg);
   }
@@ -484,10 +484,14 @@ img {
   margin-top: 113px;
 }
 
+.about-kitchen {
+  background-color: rgb(199, 144, 2);
+}
+
 .hero-hotel {
   background-image: url(../images/hero/hero-room-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-hotel {
     background-image: url(../images/hero/hero-room-mobile@2x.jpg);
   }
@@ -501,7 +505,7 @@ img {
   padding-bottom: 14px;
   background-image: url(../images/hero/hero-room-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-room {
     background-image: url(../images/hero/hero-room-mobile@2x.jpg);
   }
@@ -541,4 +545,4 @@ img {
 .hero-room__media {
   flex-direction: column;
   padding-bottom: 0;
-}
+}/*# sourceMappingURL=index.css.map */
