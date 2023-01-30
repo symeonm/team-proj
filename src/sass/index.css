@@ -741,7 +741,7 @@ img {
 }
 @media screen and (min-width: 1024px) {
   .details-hotel__buttons {
-    align-items: flex-end;
+    justify-content: flex-end;
   }
 }
 
@@ -779,6 +779,24 @@ img {
   .details-hotel__good {
     display: none;
   }
+}
+
+.details-hotel__position {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-hotel__tablet {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .details-hotel__tablet {
+    display: flex;
+  }
+}
+
+.details-hotel__img:not(:last-child) {
+  margin-right: 34px;
 }
 
 .hero-rest {

@@ -124,7 +124,7 @@
   align-items: center;
 
   @include tablet {
-    align-items: flex-end;
+    justify-content: flex-end;
   }
 }
 
@@ -166,5 +166,23 @@
 
   @include tablet {
     display: none;
+  }
+}
+
+.details-hotel__position {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-hotel__tablet {
+  display: none;
+  @include tablet {
+    display: flex;
+  }
+}
+
+.details-hotel__img {
+  &:not(:last-child) {
+    margin-right: 34px;
   }
 }
