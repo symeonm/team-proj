@@ -1,4 +1,54 @@
 // < !-- Andriy Kovratovskiy -->
-.main__excerpt {
-    color: blue;
+.page {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #FFFDEE;
+}
+
+.main {
+    &__excerpt {
+        font-family: 'Times New Roman';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.15;
+
+        color: #B4B4B4;
+    }
+    &__title {
+        font-family: 'Film P3';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.075;
+        letter-spacing: 0.3em;
+
+        color: #494848;
+    }
+    &__subtitle {
+        font-family: 'Times New Roman';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.16;
+        letter-spacing: 0.05em;
+
+        color: #000000;
+    }
+    &__desc {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+
+        color: #7A7A7A;
+    }
+
+    &__images {
+        max-width: 244px;
+    }
+}
+
+.slider {
+    &__photos {
+        max-width: 194px;
+    }
 }
