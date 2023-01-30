@@ -1,1 +1,230 @@
 // < !-- Dzhaman Nazar -->
+
+.room-modal {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    overflow-y: auto;
+    width: 100%;
+    max-width: 414px;
+    height: 100%;
+    max-height: 780px;
+
+    padding: 60px 15px;
+    background-color: #FFFDEE;
+
+    @media screen and (min-width:712px) {
+        width: 100%;
+        max-width: 712px;
+        height: 100%;
+        max-height: 638px;
+
+        padding: 60px;
+    }
+}
+
+.icon-close {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    padding: 0;
+
+    border: none;
+    background-color: transparent;
+
+    &:hover {
+        fill: #C79002;
+    }
+}
+
+.room-modal-form__header {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman';
+
+    line-height: 1.17;
+
+    letter-spacing: 0.05em;
+
+    color: #000000;
+
+    @media screen and (min-width:712px) {
+        font-size: 40px;
+        line-height: 1.15;
+        margin-bottom: 36px;
+    }
+}
+
+.room-modal-form__item {
+    @media screen and (min-width:712px) {
+        display: inline-block;
+
+        &--left {
+            margin-left: 11px;
+        }
+    }
+}
+
+.room-modal-form__input {
+    width: 100%;
+    display: block;
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+
+    padding: 16px 12px;
+    cursor: pointer;
+    outline: none;
+
+    color: #808080;
+    border: 1px solid #C79002;
+    margin-bottom: 8px;
+    background-color: #FFFDEE;
+
+    &:hover,
+    &:focus {
+        border-color: #808080;
+    }
+
+    @media screen and (min-width:712px) {
+        width: 288px;
+        font-size: 24px;
+        line-height: 1.17;
+    }
+}
+
+.js-inputmask {
+    width: 100%;
+    display: block;
+
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+
+    padding: 16px 12px;
+
+    cursor: pointer;
+    outline: none;
+
+    color: #808080;
+    border: 1px solid #C79002;
+    margin-bottom: 8px;
+    background-color: #FFFDEE;
+
+    &:hover,
+    &:focus {
+        border-color: #808080;
+    }
+
+    @media screen and (min-width:712px) {
+        width: 288px;
+        font-size: 24px;
+        line-height: 1.17;
+    }
+}
+
+.room-modal__label {
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.21;
+
+    letter-spacing: 0.02em;
+
+    color: #C79002;
+    padding-left: 12px;
+    margin-bottom: 20px;
+
+    @media screen and (min-width:712px) {
+        margin-bottom: 28px;
+    }
+}
+
+.room-modal-form__select-one {
+    @media screen and (min-width:712px) {
+        width: 288px;
+        margin-left: auto;
+    }
+}
+
+.js-select {
+    border: none;
+}
+
+.nice-select {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    padding-left: 12px;
+    margin-bottom: 8px;
+
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+
+    letter-spacing: 0.05em;
+
+    color: #808080;
+    background-color: #FFFDEE;
+    border: 1px solid #C79002;
+    border-radius: 0;
+
+    &:hover {
+        border-color: #808080;
+    }
+
+    & .nice-select-search {
+        background-color: #FFFDEE;
+        font-family: 'Times New Roman';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.15;
+
+        letter-spacing: 0.05em;
+        border: none;
+    }
+
+    &.open .nice-select-dropdown {
+        width: 100%;
+        background-color: #FFFDEE;
+        border-radius: 0;
+    }
+
+    @media screen and (min-width:712px) {
+        width: 288px;
+        font-size: 24px;
+        line-height: 1.17;
+    }
+}
+
+.nice-select::after {
+    content: "";
+    height: 15px;
+    width: 15px;
+    right: 20px;
+    top: 40%;
+    border-bottom: 3px solid #C79002;
+    border-right: 3px solid#C79002;
+}
+
+.room-modal-form__btn {
+    width: 100%;
+    display: block;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
