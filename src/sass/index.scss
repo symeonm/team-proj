@@ -1,9 +1,13 @@
 @import './base/reset.scss';
 @import './base/base.scss';
+@import './utils/filmp3.scss';
 @import './utils/fonts.scss';
 @import './utils/mixin.scss';
 @import './utils/variables.scss';
 @import './layout/container.scss';
+@import './components/buttons';
+@import './components/media-list';
+@import './components/hero-address';
 @import './components/header.scss';
 @import './components/hero.scss';
 @import './components/about-rest.scss';
