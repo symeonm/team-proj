@@ -8,7 +8,7 @@
     padding: 60px 15px;
 
 
-    background: #fffdee;
+    background: $color-background-modal;
 
     position: absolute;
     top: 50%;
@@ -24,7 +24,7 @@
 }
 
 .close {
-    background-color: #fffdee;
+    background-color: $color-background-modal;
     cursor: pointer;
     border: none;
     outline: none;
@@ -41,7 +41,7 @@
 
         .close:hover &,
         .close:focus & {
-            color: #C79002;
+            color: $color-text-brown;
         }
 
 
@@ -67,7 +67,7 @@
         text-transform: uppercase;
 
         letter-spacing: 0.05em;
-        color: #000000;
+        color: $color-button-modal;
         margin-top: 20px;
         margin-bottom: 40px;
 
@@ -99,7 +99,7 @@
         height: 54px;
         padding: 16px 12px;
         outline: none;
-        border: 1px solid #C79002;
+        border: 1px solid $color-text-brown;
         border-radius: 2px;
 
         font-weight: 700;
@@ -108,8 +108,8 @@
         letter-spacing: 0.05em;
         cursor: pointer;
 
-        background-color: rgb(255, 253, 238);
-        color: #808080;
+        background-color: $color-background-modal;
+        color: $color-text-modal;
 
         margin-bottom: 8px;
 
@@ -124,7 +124,7 @@
         }
 
         &:focus {
-            outline: 1px solid #C79002;
+            outline: 1px solid $color-text-brown;
         }
     }
 
@@ -133,7 +133,7 @@
         font-size: 14px;
         line-height: 1.21;
         letter-spacing: 0.02em;
-        color: #C79002;
+        color: $color-text-brown;
         margin-left: 12px;
         margin-bottom: 20px;
 
@@ -150,7 +150,7 @@
         height: 54px;
         padding-left: 12px;
         margin-bottom: 8px;
-        border: 1px solid #C79002;
+        border: 1px solid $color-text-brown;
         border-radius: 2px;
 
 
@@ -158,8 +158,8 @@
         font-size: 20px;
         line-height: 1.15;
         letter-spacing: 0.05em;
-        color: #808080;
-        background-color: #FFFDEE;
+        color: $color-text-modal;
+        background-color: $color-background-modal;
         @media screen and (min-width: 1024px) {
             height: 64px;
             width: 288px;
@@ -169,7 +169,7 @@
 
 
         &:focus {
-            outline: 1px solid #C79002;
+            outline: 1px solid $color-text-brown;
             ;
         }
     }
@@ -178,8 +178,8 @@
 }
 
 .button-select {
-    background-color: #FFFDEE;
-    fill: #C79002;
+    background-color: $color-background-modal;
+    fill: $color-text-brown;
     position: absolute;
     cursor: pointer;
     border: none;

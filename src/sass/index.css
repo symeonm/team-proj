@@ -357,10 +357,10 @@ img {
 
 .button {
   padding: 14px 35px;
-  border: 2px solid #ffffff;
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #f3c653;
+  background-color: rgb(0, 0, 0);
+  color: rgb(243, 198, 83);
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 16px;
@@ -554,7 +554,7 @@ img {
   height: 100%;
   max-height: 780px;
   padding: 60px 15px;
-  background-color: #FFFDEE;
+  background-color: rgb(255, 253, 238);
 }
 @media screen and (min-width: 712px) {
   .room-modal {
@@ -575,7 +575,7 @@ img {
   background-color: transparent;
 }
 .icon-close:hover {
-  fill: #C79002;
+  fill: rgb(199, 144, 2);
 }
 
 .room-modal-form__header {
@@ -585,7 +585,7 @@ img {
   font-family: "Times New Roman";
   line-height: 1.17;
   letter-spacing: 0.05em;
-  color: #000000;
+  color: rgb(0, 0, 0);
 }
 @media screen and (min-width: 712px) {
   .room-modal-form__header {
@@ -615,13 +615,13 @@ img {
   padding: 16px 12px;
   cursor: pointer;
   outline: none;
-  color: #808080;
-  border: 1px solid #C79002;
+  color: rgb(128, 128, 128);
+  border: 1px solid rgb(199, 144, 2);
   margin-bottom: 8px;
-  background-color: #FFFDEE;
+  background-color: rgb(255, 253, 238);
 }
 .room-modal-form__input:hover, .room-modal-form__input:focus {
-  border-color: #808080;
+  border-color: rgb(128, 128, 128);
 }
 @media screen and (min-width: 712px) {
   .room-modal-form__input {
@@ -642,13 +642,13 @@ img {
   padding: 16px 12px;
   cursor: pointer;
   outline: none;
-  color: #808080;
-  border: 1px solid #C79002;
+  color: rgb(128, 128, 128);
+  border: 1px solid rgb(199, 144, 2);
   margin-bottom: 8px;
-  background-color: #FFFDEE;
+  background-color: rgb(255, 253, 238);
 }
 .js-inputmask:hover, .js-inputmask:focus {
-  border-color: #808080;
+  border-color: rgb(128, 128, 128);
 }
 @media screen and (min-width: 712px) {
   .js-inputmask {
@@ -666,7 +666,7 @@ img {
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: 0.02em;
-  color: #C79002;
+  color: rgb(199, 144, 2);
   padding-left: 12px;
   margin-bottom: 20px;
 }
@@ -700,16 +700,16 @@ img {
   font-size: 20px;
   line-height: 1.15;
   letter-spacing: 0.05em;
-  color: #808080;
-  background-color: #FFFDEE;
-  border: 1px solid #C79002;
+  color: rgb(128, 128, 128);
+  background-color: rgb(255, 253, 238);
+  border: 1px solid rgb(199, 144, 2);
   border-radius: 0;
 }
 .nice-select:hover {
-  border-color: #808080;
+  border-color: rgb(128, 128, 128);
 }
 .nice-select .nice-select-search {
-  background-color: #FFFDEE;
+  background-color: rgb(255, 253, 238);
   font-family: "Times New Roman";
   font-weight: 700;
   font-size: 20px;
@@ -719,7 +719,7 @@ img {
 }
 .nice-select.open .nice-select-dropdown {
   width: 100%;
-  background-color: #FFFDEE;
+  background-color: rgb(255, 253, 238);
   border-radius: 0;
 }
 @media screen and (min-width: 712px) {
@@ -736,8 +736,8 @@ img {
   width: 15px;
   right: 20px;
   top: 40%;
-  border-bottom: 3px solid #C79002;
-  border-right: 3px solid #C79002;
+  border-bottom: 3px solid rgb(199, 144, 2);
+  border-right: 3px solid rgb(199, 144, 2);
 }
 
 .room-modal-form__btn {
@@ -754,7 +754,7 @@ img {
   width: 100%;
   border-radius: 2px;
   padding: 60px 15px;
-  background: #FFFDEE;
+  background: rgb(255, 253, 238);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -768,7 +768,7 @@ img {
 }
 
 .close {
-  background-color: #FFFDEE;
+  background-color: rgb(255, 253, 238);
   cursor: pointer;
   border: none;
   outline: none;
@@ -784,7 +784,7 @@ img {
   align-items: center;
 }
 .close:hover .close__icon, .close:focus .close__icon {
-  color: #C79002;
+  color: rgb(199, 144, 2);
 }
 
 @media screen and (min-width: 1024px) {
@@ -803,7 +803,7 @@ img {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #000000;
+  color: rgb(0, 0, 0);
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -829,15 +829,15 @@ img {
   height: 54px;
   padding: 16px 12px;
   outline: none;
-  border: 1px solid #C79002;
+  border: 1px solid rgb(199, 144, 2);
   border-radius: 2px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   letter-spacing: 0.05em;
   cursor: pointer;
-  background-color: #FFFDEE;
-  color: #808080;
+  background-color: rgb(255, 253, 238);
+  color: rgb(128, 128, 128);
   margin-bottom: 8px;
 }
 @media screen and (min-width: 1024px) {
@@ -849,14 +849,14 @@ img {
   }
 }
 .form-table__input:focus {
-  outline: 1px solid #C79002;
+  outline: 1px solid rgb(199, 144, 2);
 }
 .form-table__label {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: 0.02em;
-  color: #C79002;
+  color: rgb(199, 144, 2);
   margin-left: 12px;
   margin-bottom: 20px;
 }
@@ -872,14 +872,14 @@ img {
   height: 54px;
   padding-left: 12px;
   margin-bottom: 8px;
-  border: 1px solid #C79002;
+  border: 1px solid rgb(199, 144, 2);
   border-radius: 2px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   letter-spacing: 0.05em;
-  color: #808080;
-  background-color: #FFFDEE;
+  color: rgb(128, 128, 128);
+  background-color: rgb(255, 253, 238);
 }
 @media screen and (min-width: 1024px) {
   .form-table__select {
@@ -890,12 +890,12 @@ img {
   }
 }
 .form-table__select:focus {
-  outline: 1px solid #C79002;
+  outline: 1px solid rgb(199, 144, 2);
 }
 
 .button-select {
-  background-color: #FFFDEE;
-  fill: #C79002;
+  background-color: rgb(255, 253, 238);
+  fill: rgb(199, 144, 2);
   position: absolute;
   cursor: pointer;
   border: none;

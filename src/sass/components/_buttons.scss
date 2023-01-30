@@ -1,9 +1,9 @@
 .button {
   padding: 14px 35px;
-  border: 2px solid #ffffff;
+  border: 2px solid $color-text-white;
   border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #f3c653;
+  background-color: $color-button-modal;
+  color: $color-text-yellow;
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 16px;

@@ -14,7 +14,7 @@
     max-height: 780px;
 
     padding: 60px 15px;
-    background-color: #FFFDEE;
+    background-color: $color-background-modal;
 
     @media screen and (min-width:712px) {
         width: 100%;
@@ -36,7 +36,7 @@
     background-color: transparent;
 
     &:hover {
-        fill: #C79002;
+        fill: $color-text-brown;
     }
 }
 
@@ -50,7 +50,7 @@
 
     letter-spacing: 0.05em;
 
-    color: #000000;
+    color: $color-button-modal;
 
     @media screen and (min-width:712px) {
         font-size: 40px;
@@ -82,14 +82,14 @@
     cursor: pointer;
     outline: none;
 
-    color: #808080;
-    border: 1px solid #C79002;
+    color: $color-text-modal;
+    border: 1px solid $color-text-brown;
     margin-bottom: 8px;
-    background-color: #FFFDEE;
+    background-color: $color-background-modal;
 
     &:hover,
     &:focus {
-        border-color: #808080;
+        border-color: $color-text-modal;
     }
 
     @media screen and (min-width:712px) {
@@ -114,14 +114,14 @@
     cursor: pointer;
     outline: none;
 
-    color: #808080;
-    border: 1px solid #C79002;
+    color: $color-text-modal;
+    border: 1px solid $color-text-brown;
     margin-bottom: 8px;
-    background-color: #FFFDEE;
+    background-color: $color-background-modal;
 
     &:hover,
     &:focus {
-        border-color: #808080;
+        border-color: $color-text-modal;
     }
 
     @media screen and (min-width:712px) {
@@ -141,7 +141,7 @@
 
     letter-spacing: 0.02em;
 
-    color: #C79002;
+    color: $color-text-brown;
     padding-left: 12px;
     margin-bottom: 20px;
 
@@ -177,17 +177,17 @@
 
     letter-spacing: 0.05em;
 
-    color: #808080;
-    background-color: #FFFDEE;
-    border: 1px solid #C79002;
+    color: $color-text-modal;
+    background-color: $color-background-modal;
+    border: 1px solid $color-text-brown;
     border-radius: 0;
 
     &:hover {
-        border-color: #808080;
+        border-color: $color-text-modal;
     }
 
     & .nice-select-search {
-        background-color: #FFFDEE;
+        background-color: $color-background-modal;
         font-family: 'Times New Roman';
         font-weight: 700;
         font-size: 20px;
@@ -199,7 +199,7 @@
 
     &.open .nice-select-dropdown {
         width: 100%;
-        background-color: #FFFDEE;
+        background-color: $color-background-modal;
         border-radius: 0;
     }
 
@@ -216,8 +216,8 @@
     width: 15px;
     right: 20px;
     top: 40%;
-    border-bottom: 3px solid #C79002;
-    border-right: 3px solid#C79002;
+    border-bottom: 3px solid $color-text-brown;
+    border-right: 3px solid$color-text-brown;
 }
 
 .room-modal-form__btn {
