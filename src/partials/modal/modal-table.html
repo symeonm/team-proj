@@ -3,7 +3,7 @@
 <div class="modal" data-modal="1">
   <button type="button" class="close js-modal-close" data-modal="1">
     <svg class="close__icon" width="24" height="24">
-      <use href="./images/icons.svg#icon-x-1"></use>
+      <use href="/src/images/icons.svg#icon-button-close"></use>
     </svg>
   </button>
 
@@ -12,11 +12,6 @@
     <div class="form-table__field">
       <input type="text" name="name" id="name" placeholder="Ваше ім’я" class="form-table__input" />
       <label for="name" class="form-table__label">На кого забронювати столик?</label>
-    </div>
-    <div class="form-table__field">
-      <input type="tell" name="tell" id="tell" placeholder="+38 (___) ___-__-__"
-        class="form-table__input js-inputmask" />
-      <label for="tell" class="form-table__label">Номер телефону</label>
     </div>
     <div class="form-table__field">
       <select id="number" name="number" class="form-table__select">
@@ -31,6 +26,11 @@
           <use href="./images/icons.svg#icon-select"></use>
         </svg>
       </button>
+    </div>
+        <div class="form-table__field">
+      <input type="tell" name="tell" id="tell" placeholder="+38 (___) ___-__-__"
+        class="form-table__input js-inputmask" />
+      <label for="tell" class="form-table__label">Номер телефону</label>
     </div>
     <div class="form-table__field">
       <select id="date" name="date" class="form-table__select">
@@ -47,4 +47,7 @@
         </svg>
       </button>
     </div>
+    <button class="room-modal-form__btn button button-modal" type="submit">
+      оформити бронювання
+    </button>
 </div>
