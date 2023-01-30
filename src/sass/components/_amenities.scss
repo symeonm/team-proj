@@ -1,14 +1,29 @@
 // < !-- Anna Ivanova -->
 .amenities {
     background-color: #F0ECD6;
-    // padding: 32px 15px;
-    // box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.container {
-    // background-color: #F0ECD6;
+.amenities__container {
     padding: 32px 15px;
-    box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+    .amenities__container {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        padding-left: 47px;
+        padding-right: 47px;
+    } 
+}
+
+@media (min-width: 1280px) {
+    .amenities__container {
+        padding-top: 48px;
+        padding-bottom: 48px;
+        padding-left: 85px;
+        padding-right: 198px;
+    }
 }
 
 .amenities__title {
@@ -50,13 +65,41 @@
     line-height: 1.25;
     letter-spacing: 0.02em;
     text-align: left;
+
+    &--last {
+        margin-bottom: 32px;
+
+        @media (min-width: 1024px) {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .amenities__descr--flex {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    }
+
+    .amenities__descr {
+    width: 400px;
+    }
+    
+    .amenities__paragraph {
+    width:757px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .amenities__descr--flex {
+        gap: 159px;
+        }
 }
 
 .amenities__button {
     display: block;
-    margin: 0 auto;  
-    margin-top: 32px;    
-    margin-bottom: 20px;  
+    margin: 0 auto;   
     font-family: 'Montserrat';
     text-transform: uppercase;
     height: 64px;
@@ -70,14 +113,29 @@
     color: $color-text-white;
     cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) color;
-}
+
+    @media (min-width: 1024px) {
+        width: 434px;
+        font-size: 24px;
+
+        &--right {
+            margin-left: 480px; 
+        } 
+        }
+
+    @media (min-width: 1280px) {
+        &--right {
+            margin-left: 560px; 
+            } 
+            }
+    }
+   
 
 .amenities__link {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 24px;
-
     color: $color-text-brown;
     
     font-family: 'Montserrat';
@@ -88,6 +146,20 @@
     text-transform: initial;
 
     text-decoration: none;
+
+    @media (min-width: 1024px) {
+        font-size: 20px;
+        line-height: 1.25;
+    }
+}
+
+.amenities__link--block {
+    display: block;
+    padding-top: 20px;
+
+    @media (min-width: 1024px) {
+        padding-top: 32px;
+    }
 }
 
 .amenities__icon {

@@ -1,18 +1,23 @@
 <!-- Anna Ivanova -->
 <section class="section amenities">
-    <div class="container">
+    <div class="container amenities__container">
         <h2 class="amenities__title">зручності у номері</h2>
-        <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <p class="amenities__descr amenities__paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         <ul class="amenities__list">
             <li class="amenities__item"> 
                 <h3 class="amenities__subtitle">загальні</h3>
-                <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <div class="amenities__descr--flex">
+                    <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+                
             </li>
             <li class="amenities__item">
                 <h3 class="amenities__subtitle">ванна кімната</h3>
-                <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <div class="amenities__descr--flex">
+                    <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
             </li>
             <li class="amenities__item">
                 <h3 class="amenities__subtitle">спальня</h3>
@@ -20,22 +25,29 @@
             </li>
             <li class="amenities__item">
                 <h3 class="amenities__subtitle">кухня</h3>
-                <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-                <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                <div class="amenities__descr--flex">
+                    <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                    <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                </div>
             </li>
             <li class="amenities__item">
                 <h3 class="amenities__subtitle">медіа</h3>
-                <p class="amenities__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <p class="amenities__descr amenities__descr--last">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
             </li>
         </ul>
-        <button 
-        data-modal-open
-        type="button"
-        class="amenities__button">
-        оформити бронювання
-        </button>
-        <a class="amenities__link" href="#">Повернутися до перегляду номерів  <svg width="24px" height="24px" class="amenities__icon">
-            <use href="./images/icons.svg#icon-arrow-right"></use>
-        </svg></a>
+        <div class="amenities__button--right">
+            <button 
+            data-modal-open
+            type="button"
+            class="amenities__button">
+            оформити бронювання
+            </button>
+            <div class="amenities__link--block">
+            <a class="amenities__link" href="#">Повернутися до перегляду номерів  <svg width="24px" height="24px" class="amenities__icon">
+                <use href="./images/icons.svg#icon-arrow-right"></use>
+            </svg></a>
+            </div>
+        </div>
+        
     </div>
 </section>
