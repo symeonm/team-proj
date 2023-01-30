@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // < !-- Domin Oleksandr -->
 
 
@@ -12,6 +11,28 @@
     background-color: green;
 
 }
-=======
-// < !-- Dyomin Oleksandr -->
->>>>>>> main
+
+.modal-price__modal
+{
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        max-width: 450px;
+        padding: 40px;
+        background-color: #fff;
+       }
+
+.modal-price__title {
+               display: block;
+               margin-bottom: 12px;
+               font-family: 'Roboto';
+               font-style: normal;
+               font-weight: 700;
+               font-size: 20px;
+               line-height: 1.5;
+               text-align: center;
+               letter-spacing: 0.03em;
+               color: red;
+
+           }
