@@ -33,301 +33,386 @@ img {
 }
 
 @font-face {
-  font-family: "Film P3 Narrow";
-  src: url("FilmP3NarrowLight.eot");
-  src: local("Film P3 Narrow Light"), local("FilmP3NarrowLight"), url("FilmP3NarrowLight.eot?#iefix") format("embedded-opentype"), url("FilmP3NarrowLight.woff2") format("woff2"), url("FilmP3NarrowLight.woff") format("woff"), url("FilmP3NarrowLight.ttf") format("truetype");
+  font-family: 'Film P3 Narrow';
+  src: url('FilmP3NarrowLight.eot');
+  src: local('Film P3 Narrow Light'), local('FilmP3NarrowLight'),
+    url('FilmP3NarrowLight.eot?#iefix') format('embedded-opentype'),
+    url('FilmP3NarrowLight.woff2') format('woff2'),
+    url('FilmP3NarrowLight.woff') format('woff'),
+    url('FilmP3NarrowLight.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Film P3";
-  src: url("FilmP3Light.eot");
-  src: local("Film P3 Light"), local("FilmP3Light"), url("FilmP3Light.eot?#iefix") format("embedded-opentype"), url("FilmP3Light.woff2") format("woff2"), url("FilmP3Light.woff") format("woff"), url("FilmP3Light.ttf") format("truetype");
+  font-family: 'Film P3';
+  src: url('FilmP3Light.eot');
+  src: local('Film P3 Light'), local('FilmP3Light'),
+    url('FilmP3Light.eot?#iefix') format('embedded-opentype'),
+    url('FilmP3Light.woff2') format('woff2'),
+    url('FilmP3Light.woff') format('woff'),
+    url('FilmP3Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Film P3 Narrow";
-  src: url("FilmP3NarrowBold.eot");
-  src: local("Film P3 Narrow Bold"), local("FilmP3NarrowBold"), url("FilmP3NarrowBold.eot?#iefix") format("embedded-opentype"), url("FilmP3NarrowBold.woff2") format("woff2"), url("FilmP3NarrowBold.woff") format("woff"), url("FilmP3NarrowBold.ttf") format("truetype");
+  font-family: 'Film P3 Narrow';
+  src: url('FilmP3NarrowBold.eot');
+  src: local('Film P3 Narrow Bold'), local('FilmP3NarrowBold'),
+    url('FilmP3NarrowBold.eot?#iefix') format('embedded-opentype'),
+    url('FilmP3NarrowBold.woff2') format('woff2'),
+    url('FilmP3NarrowBold.woff') format('woff'),
+    url('FilmP3NarrowBold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Film P3";
-  src: url("FilmP3.eot");
-  src: local("Film P3"), local("FilmP3"), url("FilmP3.eot?#iefix") format("embedded-opentype"), url("FilmP3.woff2") format("woff2"), url("FilmP3.woff") format("woff"), url("FilmP3.ttf") format("truetype");
+  font-family: 'Film P3';
+  src: url('FilmP3.eot');
+  src: local('Film P3'), local('FilmP3'),
+    url('FilmP3.eot?#iefix') format('embedded-opentype'),
+    url('FilmP3.woff2') format('woff2'), url('FilmP3.woff') format('woff'),
+    url('FilmP3.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Film P3 Wide";
-  src: url("FilmP3Wide.eot");
-  src: local("Film P3 Wide"), local("FilmP3Wide"), url("FilmP3Wide.eot?#iefix") format("embedded-opentype"), url("FilmP3Wide.woff2") format("woff2"), url("FilmP3Wide.woff") format("woff"), url("FilmP3Wide.ttf") format("truetype");
+  font-family: 'Film P3 Wide';
+  src: url('FilmP3Wide.eot');
+  src: local('Film P3 Wide'), local('FilmP3Wide'),
+    url('FilmP3Wide.eot?#iefix') format('embedded-opentype'),
+    url('FilmP3Wide.woff2') format('woff2'),
+    url('FilmP3Wide.woff') format('woff'),
+    url('FilmP3Wide.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Film P3 Narrow";
-  src: url("FilmP3Narrow.eot");
-  src: local("Film P3 Narrow"), local("FilmP3Narrow"), url("FilmP3Narrow.eot?#iefix") format("embedded-opentype"), url("FilmP3Narrow.woff2") format("woff2"), url("FilmP3Narrow.woff") format("woff"), url("FilmP3Narrow.ttf") format("truetype");
+  font-family: 'Film P3 Narrow';
+  src: url('FilmP3Narrow.eot');
+  src: local('Film P3 Narrow'), local('FilmP3Narrow'),
+    url('FilmP3Narrow.eot?#iefix') format('embedded-opentype'),
+    url('FilmP3Narrow.woff2') format('woff2'),
+    url('FilmP3Narrow.woff') format('woff'),
+    url('FilmP3Narrow.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Film P3";
-  src: url("FilmP3Bold.eot");
-  src: local("Film P3 Bold"), local("FilmP3Bold"), url("FilmP3Bold.eot?#iefix") format("embedded-opentype"), url("FilmP3Bold.woff2") format("woff2"), url("FilmP3Bold.woff") format("woff"), url("FilmP3Bold.ttf") format("truetype");
+  font-family: 'Film P3';
+  src: url('FilmP3Bold.eot');
+  src: local('Film P3 Bold'), local('FilmP3Bold'),
+    url('FilmP3Bold.eot?#iefix') format('embedded-opentype'),
+    url('FilmP3Bold.woff2') format('woff2'),
+    url('FilmP3Bold.woff') format('woff'),
+    url('FilmP3Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Film P3 Wide";
-  src: url("FilmP3WideLight.eot");
-  src: local("Film P3 Wide Light"), local("FilmP3WideLight"), url("FilmP3WideLight.eot?#iefix") format("embedded-opentype"), url("FilmP3WideLight.woff2") format("woff2"), url("FilmP3WideLight.woff") format("woff"), url("FilmP3WideLight.ttf") format("truetype");
+  font-family: 'Film P3 Wide';
+  src: url('FilmP3WideLight.eot');
+  src: local('Film P3 Wide Light'), local('FilmP3WideLight'),
+    url('FilmP3WideLight.eot?#iefix') format('embedded-opentype'),
+    url('FilmP3WideLight.woff2') format('woff2'),
+    url('FilmP3WideLight.woff') format('woff'),
+    url('FilmP3WideLight.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Film P3 Wide";
-  src: url("FilmP3WideBold.eot");
-  src: local("Film P3 Wide Bold"), local("FilmP3WideBold"), url("FilmP3WideBold.eot?#iefix") format("embedded-opentype"), url("FilmP3WideBold.woff2") format("woff2"), url("FilmP3WideBold.woff") format("woff"), url("FilmP3WideBold.ttf") format("truetype");
+  font-family: 'Film P3 Wide';
+  src: url('FilmP3WideBold.eot');
+  src: local('Film P3 Wide Bold'), local('FilmP3WideBold'),
+    url('FilmP3WideBold.eot?#iefix') format('embedded-opentype'),
+    url('FilmP3WideBold.woff2') format('woff2'),
+    url('FilmP3WideBold.woff') format('woff'),
+    url('FilmP3WideBold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2)
+    format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2)
+    format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2)
+    format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2)
+    format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
 }
 /* cyrillic */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2)
+    format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* vietnamese */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2)
+    format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2)
+    format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 .container {
   width: 100%;
@@ -355,17 +440,24 @@ img {
   }
 }
 
-.hero-button {
+.button {
   padding: 14px 35px;
   border: 2px solid #ffffff;
   border-radius: 25px;
   background-color: rgba(0, 0, 0, 0.4);
   color: #f3c653;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.02em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button:hover,
+.button:focus {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(243, 198, 83);
 }
 
 .media-list {
@@ -373,9 +465,14 @@ img {
   flex-direction: row;
   gap: 9px;
   padding-bottom: 20px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .media-list__icon {
   fill: rgba(243, 198, 83, 0.7);
+}
+.media-list__icon:hover,
+.media-list__icon:focus {
+  fill: rgb(255, 255, 255);
 }
 
 .address__control {
@@ -394,15 +491,15 @@ img {
   border-radius: 2px;
 }
 .address__link {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-size: 12px;
   line-height: 1.25;
   letter-spacing: 0.01em;
-  color: #E5E5E5;
+  color: #e5e5e5;
 }
 .address__icon {
-  fill: #F3C653;
+  fill: #f3c653;
 }
 
 .hero {
@@ -413,38 +510,41 @@ img {
   background-size: cover;
   background-image: url(../images/hero/hero-home-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .hero {
     background-image: url(../images/hero/hero-home-mobile@2x.jpg);
   }
 }
 .hero__title {
   margin-top: 70px;
-  font-family: "Film P3";
+  font-family: 'Film P3';
   font-size: 96px;
   line-height: 1.07;
   letter-spacing: 0.3em;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 .hero__subtitle {
   margin-top: 32px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 .hero__motto {
   margin-top: 44px;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   font-weight: 700;
   font-size: 32px;
   line-height: 1.15;
   letter-spacing: 0.05em;
-  color: #FDFBEC;
+  color: #fdfbec;
   text-align: center;
 }
 .hero__control-buttons {
@@ -467,15 +567,20 @@ img {
   padding-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-tel@1x.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url('/src/images/details-rest-tel@1x.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.25);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .details-res {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-tel@2x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('/src/images/details-rest-tel@2x.jpg');
   }
 }
 @media screen and (min-width: 1024px) {
@@ -483,29 +588,39 @@ img {
     height: 620px;
     padding-top: 48px;
     padding-bottom: 96px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-tab@1x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('/src/images/details-rest-tab@1x.jpg');
   }
 }
-@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (min-resolution: 192dpi), screen and (min-width: 1024px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 1024px) and (min-resolution: 192dpi),
+  screen and (min-width: 1024px) and (min-resolution: 2dppx) {
   .details-res {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-tab@2x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('/src/images/details-rest-tab@2x.jpg');
   }
 }
 @media screen and (min-width: 1280px) {
   .details-res {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-desk@1x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('/src/images/details-rest-desk@1x.jpg');
   }
 }
-@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 1280px) and (min-resolution: 192dpi),
+  screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .details-res {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-desk@2x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('/src/images/details-rest-desk@2x.jpg');
   }
 }
 
 .details-res__pre-title {
   margin-bottom: 12px;
   margin-left: 125px;
-  font-family: "Film P3";
+  font-family: 'Film P3';
   font-weight: 700;
   font-size: 40px;
   line-height: 1.08;
@@ -528,7 +643,7 @@ img {
 .details-res__title {
   margin-left: 125px;
   margin-bottom: 20px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
@@ -551,7 +666,7 @@ img {
 .details-res__description {
   margin-bottom: 48px;
   margin-left: 125px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
@@ -587,13 +702,14 @@ img {
   margin-bottom: 16px;
 }
 
-.details-res__menu, .details-res__booking {
+.details-res__menu,
+.details-res__booking {
   width: 236px;
   height: 48px;
   border-radius: 25px;
   border: 2px solid rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.4);
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -602,7 +718,10 @@ img {
   color: rgb(243, 198, 83);
   transition: background-color, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.details-res__menu:hover, .details-res__booking:hover, .details-res__menu:focus, .details-res__booking:focus {
+.details-res__menu:hover,
+.details-res__booking:hover,
+.details-res__menu:focus,
+.details-res__booking:focus {
   background-color: rgb(255, 255, 255);
   border-color: rgb(243, 198, 83);
 }
@@ -626,15 +745,20 @@ img {
   padding-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-hotel-tel@1x.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url('/src/images/details-hotel-tel@1x.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.25);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .details-hotel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-hotel-tel@2x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('/src/images/details-hotel-tel@2x.jpg');
   }
 }
 @media screen and (min-width: 1024px) {
@@ -642,29 +766,39 @@ img {
     height: 620px;
     padding-top: 48px;
     padding-bottom: 96px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-hotel-tab@1x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('/src/images/details-hotel-tab@1x.jpg');
   }
 }
-@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (min-resolution: 192dpi), screen and (min-width: 1024px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 1024px) and (min-resolution: 192dpi),
+  screen and (min-width: 1024px) and (min-resolution: 2dppx) {
   .details-hotel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-hotel-tab@2x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('/src/images/details-hotel-tab@2x.jpg');
   }
 }
 @media screen and (min-width: 1280px) {
   .details-hotel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-hotel-desk@1x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('/src/images/details-hotel-desk@1x.jpg');
   }
 }
-@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 1280px) and (min-resolution: 192dpi),
+  screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .details-hotel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-hotel-desk@2x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('/src/images/details-hotel-desk@2x.jpg');
   }
 }
 
 .details-hotel__pre-title {
   margin-bottom: 12px;
   margin-left: 128px;
-  font-family: "Film P3";
+  font-family: 'Film P3';
   font-weight: 700;
   font-size: 40px;
   line-height: 1.08;
@@ -688,7 +822,7 @@ img {
 .details-hotel__title {
   margin-left: 186px;
   margin-bottom: 20px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
@@ -712,7 +846,7 @@ img {
   margin-bottom: 48px;
   margin-left: 17px;
   max-width: 243px;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
@@ -749,13 +883,14 @@ img {
   margin-bottom: 16px;
 }
 
-.details-hotel__price, .details-hotel__booking {
+.details-hotel__price,
+.details-hotel__booking {
   width: 236px;
   height: 48px;
   border-radius: 25px;
   border: 2px solid rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.4);
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
@@ -763,7 +898,10 @@ img {
   color: rgb(243, 198, 83);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.details-hotel__price:hover, .details-hotel__booking:hover, .details-hotel__price:focus, .details-hotel__booking:focus {
+.details-hotel__price:hover,
+.details-hotel__booking:hover,
+.details-hotel__price:focus,
+.details-hotel__booking:focus {
   background-color: rgb(255, 255, 255);
   border-color: rgb(243, 198, 83);
 }
@@ -825,7 +963,10 @@ img {
 .hero-rest {
   background-image: url(../images/hero/hero-rest-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .hero-rest {
     background-image: url(../images/hero/hero-rest-mobile@2x.jpg);
   }
@@ -840,7 +981,10 @@ img {
 .hero-hotel {
   background-image: url(../images/hero/hero-room-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .hero-hotel {
     background-image: url(../images/hero/hero-room-mobile@2x.jpg);
   }
@@ -854,7 +998,10 @@ img {
   padding-bottom: 14px;
   background-image: url(../images/hero/hero-room-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .hero-room {
     background-image: url(../images/hero/hero-room-mobile@2x.jpg);
   }
@@ -865,21 +1012,21 @@ img {
   margin-top: 239px;
 }
 .hero-room__arrow {
-  fill: #F3C653;
+  fill: #f3c653;
   background-color: rgba(0, 0, 0, 0.65);
 }
 .hero-room__title {
   margin-top: 93px;
-  color: #FFFFFF;
-  font-family: "Times New Roman";
+  color: #ffffff;
+  font-family: 'Times New Roman';
   font-size: 28px;
   line-height: 1.14;
   letter-spacing: 0.05em;
 }
 .hero-room__meta {
   margin-top: 14px;
-  color: #FFFFFF;
-  font-family: "Montserrat";
+  color: #ffffff;
+  font-family: 'Montserrat';
   font-weight: 700;
   font-size: 12px;
   line-height: 1.25;
@@ -894,4 +1041,158 @@ img {
 .hero-room__media {
   flex-direction: column;
   padding-bottom: 0;
-}/*# sourceMappingURL=index.css.map */
+}
+
+.amenities {
+  background-color: #f0ecd6;
+  box-sizing: border-box;
+}
+
+.amenities__container {
+  padding: 32px 15px;
+}
+
+@media (min-width: 1024px) {
+  .amenities__container {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+}
+@media (min-width: 1280px) {
+  .amenities__container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 85px;
+    padding-right: 198px;
+  }
+}
+.amenities__title {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: 'Times New Roman';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.15;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.amenities__subtitle {
+  color: black;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-family: 'Times New Roman';
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.amenities__descr {
+  color: rgb(122, 122, 122);
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.amenities__descr--last {
+  margin-bottom: 32px;
+}
+@media (min-width: 1024px) {
+  .amenities__descr--last {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .amenities__descr--flex {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+  }
+  .amenities__descr {
+    width: 400px;
+  }
+  .amenities__paragraph {
+    width: 757px;
+  }
+}
+@media (min-width: 1280px) {
+  .amenities__descr--flex {
+    gap: 159px;
+  }
+}
+.amenities__button {
+  display: block;
+  margin: 0 auto;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  height: 64px;
+  width: 384px;
+  background: black;
+  border-radius: 25px;
+  border: 1px solid rgb(243, 198, 83);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) color;
+}
+@media (min-width: 1024px) {
+  .amenities__button {
+    width: 434px;
+    font-size: 24px;
+  }
+  .amenities__button--right {
+    margin-left: 480px;
+  }
+}
+@media (min-width: 1280px) {
+  .amenities__button--right {
+    margin-left: 560px;
+  }
+}
+
+.amenities__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  color: rgb(199, 144, 2);
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  text-transform: initial;
+  text-decoration: none;
+}
+@media (min-width: 1024px) {
+  .amenities__link {
+    font-size: 20px;
+    line-height: 1.25;
+  }
+}
+
+.amenities__link--block {
+  display: block;
+  padding-top: 20px;
+}
+@media (min-width: 1024px) {
+  .amenities__link--block {
+    padding-top: 32px;
+  }
+}
+
+.amenities__icon {
+  fill: rgb(199, 144, 2);
+  margin-left: 12px;
+}
