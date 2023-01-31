@@ -1,12 +1,13 @@
 // < !-- Maria Ostapovich -->
 
 .hero {
-    max-width: 1280px;
+    width: 100%;
     margin: auto;
     padding-top: 64px;
     padding-bottom: 20px;
     background-position: center;
     background-size: cover;
+    background-color: #000000;
     background-image: linear-gradient(to right,
     rgba(0, 0, 0, 0.65),
     rgba(0, 0, 0, 0.65)),
@@ -22,7 +23,7 @@
         url(../images/hero/hero-home-mobile@2x.jpg);
     }
 
-      @media (min-width:1024px){
+    @media (min-width:1024px){
         padding-top: 188px;
         padding-bottom: 15px;
         background-image: linear-gradient(to right,
@@ -37,6 +38,24 @@
                 rgba(0, 0, 0, 0.65),
                 rgba(0, 0, 0, 0.65)),
             url(../images/hero/hero-home-tablet@2x.jpg);
+        }
+    }
+
+    @media (min-width:1280px){
+        padding-top: 164px;
+        padding-bottom: 64px;
+        background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+            url(../images/hero/hero-home-desktop.jpg);
+
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: linear-gradient(to right,
+                rgba(0, 0, 0, 0.65),
+                rgba(0, 0, 0, 0.65)),
+            url(../images/hero/hero-home-desktop@2x.jpg);
         }
     }
 
@@ -75,6 +94,10 @@
             font-size: 20px;
             line-height: 1.2;
         }
+
+        @media (min-width:1280px) {
+            margin-top: 32px;
+        }
     }
 
     &__motto {
@@ -91,19 +114,26 @@
         @media (min-width:1024px) {
             margin-top: 56px;
             margin-bottom: 145px;
+            font-size: 36px;
+            line-height: 1.13;
+        }
+
+        @media (min-width:1280px) {
+            margin-top: 64px;
+            margin-bottom: 144px;
         }
 
     }
     &__buttons-container {
         display: flex;
         justify-content: center;
+
         @media (min-width:1024px) {
            display: flex;
            justify-content: flex-end;
            
         }
     }
-
 
     &__control-buttons {
         display: inline-flex;
@@ -119,6 +149,25 @@
             margin-top: 0;
             margin-bottom: 49px;
         }
+
+        @media (min-width:1280px) {
+            margin-bottom: 0;
+            gap: 60px;
+        }
+    }
+
+    &__address {
+        @media (min-width:1024px) {
+            position: absolute;
+            bottom: 49px;
+            left: 0;
+        }
+
+        @media (min-width:1280px) {
+            bottom: 1px;
+            left: 0;
+
+        }
     }
 
     &__media {
@@ -131,6 +180,9 @@
             padding: 0;
             margin: 0;
         }
-    }
 
+        @media (min-width:1280px) {
+            display: none;
+        }
+    }
 }

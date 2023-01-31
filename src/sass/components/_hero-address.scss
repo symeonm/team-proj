@@ -3,12 +3,6 @@
 &__control {
     display: flex;
     flex-direction: row-reverse;
-
-    @media (min-width:1024px) {
-        position: absolute;
-        bottom: 49px;
-        left: 0;
-    }
 }
 
 

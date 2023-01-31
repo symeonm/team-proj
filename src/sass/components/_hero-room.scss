@@ -21,11 +21,28 @@
         }
     }
 
+    @media (min-width:1280px){
+        padding-top: 412px;
+        padding-bottom: 48px;
+        background-image: url(../images/hero/hero-room-desktop.jpg);
+
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../images/hero/hero-room-desktop@2x.jpg);
+        }
+    }
+
 
     &__slider {
         display: flex;
         justify-content: space-between;
         margin-top: 239px;
+
+        @media (min-width:1024px) {
+            margin-top: 0;
+        }
+
     }
 
     &__arrow {
@@ -100,11 +117,22 @@
         @media (min-width:1024px) {
             flex-direction: row;
         }
+
+        @media (min-width:1280px) {
+            display: none;
+        }
     }
 
-    &__control-button {
+    &__button {
         @media (min-width:1024px) {
             margin-bottom: 49px;
+        }
+
+        @media (min-width:1280px) {
+            position: absolute;
+            bottom: 18px;
+            right: 0;
+            margin: 0;
         }
     }
 
@@ -112,10 +140,14 @@
 
     &__address {
         @media (min-width:1024px) {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        padding-right: 0;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding-right: 0;
+        }
+
+        @media (min-width:1280px) {
+            display: none;
         }
     }
 }
