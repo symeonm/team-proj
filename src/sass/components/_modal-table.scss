@@ -177,19 +177,3 @@
 
 
 }
-
-.button-select {
-    background-color: $color-background-modal;
-    fill: $color-text-brown;
-    position: absolute;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    margin-left: auto;
-    padding: 0;
-    display: block;
-    pointer-events: none;
-
-    top: 15%;
-    right: 5px;
-}
