@@ -16,7 +16,7 @@
     padding: 60px 15px;
     background-color: $color-background-modal;
 
-    @media screen and (min-width:712px) {
+    @media screen and (min-width: 1024px) {
         width: 100%;
         max-width: 712px;
         height: 100%;
@@ -41,6 +41,10 @@
 }
 
 .room-modal-form__header {
+    display: block;
+    font-family: Times New Roman, serif;
+    font-weight: 700;
+    font-size: 24px;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 40px;
@@ -52,7 +56,7 @@
 
     color: $color-button-modal;
 
-    @media screen and (min-width:712px) {
+    @media screen and (min-width: 1024px) {
         font-size: 40px;
         line-height: 1.15;
         margin-bottom: 36px;
@@ -60,7 +64,7 @@
 }
 
 .room-modal-form__item {
-    @media screen and (min-width:712px) {
+    @media screen and (min-width: 1024px) {
         display: inline-block;
 
         &--left {
@@ -92,7 +96,7 @@
         border-color: $color-text-modal;
     }
 
-    @media screen and (min-width:712px) {
+    @media screen and (min-width: 1024px) {
         width: 288px;
         font-size: 24px;
         line-height: 1.17;
@@ -124,7 +128,7 @@
         border-color: $color-text-modal;
     }
 
-    @media screen and (min-width:712px) {
+    @media screen and (min-width: 1024px) {
         width: 288px;
         font-size: 24px;
         line-height: 1.17;
@@ -145,13 +149,13 @@
     padding-left: 12px;
     margin-bottom: 20px;
 
-    @media screen and (min-width:712px) {
+    @media screen and (min-width: 1024px) {
         margin-bottom: 28px;
     }
 }
 
 .room-modal-form__select-one {
-    @media screen and (min-width:712px) {
+    @media screen and (min-width: 1024px) {
         width: 288px;
         margin-left: auto;
     }
@@ -203,7 +207,7 @@
         border-radius: 0;
     }
 
-    @media screen and (min-width:712px) {
+    @media screen and (min-width: 1024px) {
         width: 288px;
         font-size: 24px;
         line-height: 1.17;

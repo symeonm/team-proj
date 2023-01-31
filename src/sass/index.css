@@ -564,7 +564,7 @@ img {
   padding: 60px 15px;
   background-color: rgb(255, 253, 238);
 }
-@media screen and (min-width: 712px) {
+@media screen and (min-width: 1024px) {
   .room-modal {
     width: 100%;
     max-width: 712px;
@@ -587,6 +587,10 @@ img {
 }
 
 .room-modal-form__header {
+  display: block;
+  font-family: Times New Roman, serif;
+  font-weight: 700;
+  font-size: 24px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 40px;
@@ -595,7 +599,7 @@ img {
   letter-spacing: 0.05em;
   color: rgb(0, 0, 0);
 }
-@media screen and (min-width: 712px) {
+@media screen and (min-width: 1024px) {
   .room-modal-form__header {
     font-size: 40px;
     line-height: 1.15;
@@ -603,7 +607,7 @@ img {
   }
 }
 
-@media screen and (min-width: 712px) {
+@media screen and (min-width: 1024px) {
   .room-modal-form__item {
     display: inline-block;
   }
@@ -631,7 +635,7 @@ img {
 .room-modal-form__input:hover, .room-modal-form__input:focus {
   border-color: rgb(128, 128, 128);
 }
-@media screen and (min-width: 712px) {
+@media screen and (min-width: 1024px) {
   .room-modal-form__input {
     width: 288px;
     font-size: 24px;
@@ -658,7 +662,7 @@ img {
 .js-inputmask:hover, .js-inputmask:focus {
   border-color: rgb(128, 128, 128);
 }
-@media screen and (min-width: 712px) {
+@media screen and (min-width: 1024px) {
   .js-inputmask {
     width: 288px;
     font-size: 24px;
@@ -678,13 +682,13 @@ img {
   padding-left: 12px;
   margin-bottom: 20px;
 }
-@media screen and (min-width: 712px) {
+@media screen and (min-width: 1024px) {
   .room-modal__label {
     margin-bottom: 28px;
   }
 }
 
-@media screen and (min-width: 712px) {
+@media screen and (min-width: 1024px) {
   .room-modal-form__select-one {
     width: 288px;
     margin-left: auto;
@@ -730,7 +734,7 @@ img {
   background-color: rgb(255, 253, 238);
   border-radius: 0;
 }
-@media screen and (min-width: 712px) {
+@media screen and (min-width: 1024px) {
   .nice-select {
     width: 288px;
     font-size: 24px;
@@ -876,6 +880,7 @@ img {
   }
 }
 .form-table__select {
+  width: 100%;
   position: relative;
   height: 54px;
   padding-left: 12px;
