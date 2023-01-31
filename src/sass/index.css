@@ -1228,7 +1228,6 @@ li {
     flex-direction: column;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .footer-socials__item {
     border: 1px solid #F3C653;
