@@ -635,7 +635,8 @@ img {
   font-family: "Montserrat";
   text-transform: uppercase;
   height: 64px;
-  width: 384px;
+  width: 100%;
+  max-width: 384px;
   background: black;
   border-radius: 25px;
   border: 1px solid rgb(243, 198, 83);
@@ -648,7 +649,7 @@ img {
 }
 @media (min-width: 1024px) {
   .amenities__button {
-    width: 434px;
+    max-width: 434px;
     font-size: 24px;
   }
   .amenities__button--right {
