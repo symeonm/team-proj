@@ -5,7 +5,7 @@ prevEl: ".button-prev",
   },
   spaceBetween: 20,
   slidesPerView: 2,
-  slidesPerGroup: 2,
+  slidesPerGroup: 1,
 });
 
 
