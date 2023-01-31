@@ -1,4 +1,5 @@
 // < !-- Rozmaita Irina -->
+
 .menu{
     padding-top: 32px;
     padding-bottom: 32px;
@@ -7,13 +8,17 @@
     color: #000000;
 }
 
-table {
-    /*display: inline-block;*/
-    table-layout: fixed;
-    width: 100%;
-    margin-bottom: 16px;
-    /*потрібно на рядок,а не комірку*/
+.menu__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+.menu__box-indicators{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
 
 .menu__title{
     text-align: left;
@@ -24,7 +29,7 @@ table {
     line-height: 1.1563;
 }
 
-.caption__title{
+.menu__title-dish{
     margin-bottom: 16px;
     text-align: left;
     font-family: 'Times New Roman';
@@ -41,54 +46,37 @@ table {
     letter-spacing: 0.02em;
 }
 
-.menu__dish-composition{
+.menu__box-dish{
+   max-width: 220px;
+}
+
+.menu__composition-dish{
     margin-bottom: 8px;
     font-weight: 400;
     font-size: 10px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+  
 }
 
 .menu__dish-weight{
-    /*display: inline-block;*/
-   /* margin-right: 32px;*/
     font-weight: 300;
     font-size: 14px;
     line-height: 1.214;
     letter-spacing: 0.02em;
+    max-width: 40px;
 }
 
 .menu__dish-price{
-    /*display: inline-block;*/
-   /* margin-right: 32px;*/
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.214;
-   letter-spacing: 0.02em;
-}
-
-.menu__button{
-    display: block;
-    margin: 0 auto;
-    border: 2px solid #FFFDEE;
-    background-color: #000000;
-    border-radius: 25px;
-    padding: 14px 24px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.25;
     letter-spacing: 0.02em;
-    color: #F3C653;
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1),;
+    max-width: 67px;
 }
 
-.menu__button:hover,
-.menu__button:focus{
-background-color: #FFFFFF;
-border: 2px solid #F3C653;
-color: #F3C653;
+.menu__weight-drink{
+    max-width: 52px;
+
 }
