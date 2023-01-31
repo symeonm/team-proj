@@ -422,7 +422,7 @@ img {
   background-size: cover;
   background-image: url(../images/hero/hero-home-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background-image: url(../images/hero/hero-home-mobile@2x.jpg);
   }
@@ -485,13 +485,11 @@ img {
 }
 .section-contacts__text {
   font-family: "Film P3";
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 1.07;
   letter-spacing: 0.3em;
   color: #494848;
-  text-decoration: none;
   margin-bottom: 12px;
 }
 @media (min-width: 1024px) {
@@ -501,9 +499,13 @@ img {
     margin-bottom: 8px;
   }
 }
+@media (min-width: 1280px) {
+  .section-contacts__text {
+    margin-bottom: 16px;
+  }
+}
 .section-contacts__content {
   font-family: "Montserrat";
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.25;
@@ -518,12 +520,16 @@ img {
     margin-right: 0;
   }
 }
+@media (min-width: 1280px) {
+  .section-contacts__content {
+    margin-bottom: 40px;
+  }
+}
 .section-contacts__item {
   display: flex;
   align-items: center;
   margin-bottom: 32px;
   font-family: "Montserrat";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -545,13 +551,11 @@ img {
   align-items: center;
   padding: 9px 6px 7px 8px;
   font-family: "Montserrat";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: 0.02em;
   color: #494848;
-  text-decoration: none;
   background-color: #FFFFFF;
   border: 0.5px solid #F3C653;
   border-radius: 2px;
@@ -562,6 +566,11 @@ img {
 }
 .section-contacts__tel {
   margin-left: 22px;
+}
+@media (min-width: 320px) and (max-width: 413px) {
+  .section-contacts__tel {
+    margin-left: 10px;
+  }
 }
 @media (min-width: 1024px) {
   .section-contacts__tel {
@@ -584,12 +593,8 @@ img {
 .section-contacts__location {
   margin-bottom: 32px;
   margin-left: 124px;
-  padding: 8px 33px 7px 10px;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
+  padding: 8px 0 7px 0;
   font-family: "Montserrat";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -608,14 +613,14 @@ img {
 }
 .section-contacts__icon-location {
   fill: #C79002;
-  margin-right: 10px;
+  margin: 0 10px;
 }
-@media (min-width: 1024px) {
-  .section-contacts__text-location {
-    width: 233px;
-  }
+.section-contacts__link-location {
+  display: flex;
+  align-items: center;
 }
 .section-contacts__map {
+  margin-left: auto;
   border: 1px solid #BABABA;
   box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
@@ -623,10 +628,16 @@ img {
 @media (min-width: 1024px) {
   .section-contacts__map-location {
     width: 535px;
-    height: 412px;
+    height: 450px;
   }
 }
-.section-contacts .visually-hidden {
+@media (min-width: 1280px) {
+  .section-contacts__map-location {
+    width: 634px;
+  }
+}
+
+.visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -635,14 +646,15 @@ img {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
   margin: -1px;
 }
 
 .hero-rest {
   background-image: url(../images/hero/hero-rest-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-rest {
     background-image: url(../images/hero/hero-rest-mobile@2x.jpg);
   }
@@ -657,7 +669,7 @@ img {
 .hero-hotel {
   background-image: url(../images/hero/hero-room-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-hotel {
     background-image: url(../images/hero/hero-room-mobile@2x.jpg);
   }
@@ -671,7 +683,7 @@ img {
   padding-bottom: 14px;
   background-image: url(../images/hero/hero-room-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-room {
     background-image: url(../images/hero/hero-room-mobile@2x.jpg);
   }
@@ -711,4 +723,4 @@ img {
 .hero-room__media {
   flex-direction: column;
   padding-bottom: 0;
-}
+}/*# sourceMappingURL=index.css.map */
