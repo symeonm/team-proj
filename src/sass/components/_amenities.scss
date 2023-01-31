@@ -129,8 +129,12 @@
             margin-left: 560px; 
             } 
             }
+
+    &:hover, &:focus {
+        color: black;
+        background: $color-text-yellow;
     }
-   
+}
 
 .amenities__link {
     display: flex;
@@ -152,6 +156,12 @@
         font-size: 20px;
         line-height: 1.25;
     }
+
+    &:hover, &:focus {
+        color: $color-text-yellow;
+        fill: $color-text-yellow;
+        cursor: pointer;
+    }
 }
 
 .amenities__link--block {
@@ -164,6 +174,6 @@
 }
 
 .amenities__icon {
-    fill: $color-text-brown;
+    fill: currentColor;
     margin-left: 12px;
 }

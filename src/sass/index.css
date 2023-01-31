@@ -661,6 +661,10 @@ img {
     margin-left: 560px;
   }
 }
+.amenities__button:hover, .amenities__button:focus {
+  color: black;
+  background: rgb(243, 198, 83);
+}
 
 .amenities__link {
   display: flex;
@@ -682,6 +686,11 @@ img {
     line-height: 1.25;
   }
 }
+.amenities__link:hover, .amenities__link:focus {
+  color: rgb(243, 198, 83);
+  fill: rgb(243, 198, 83);
+  cursor: pointer;
+}
 
 .amenities__link--block {
   display: block;
@@ -694,6 +703,6 @@ img {
 }
 
 .amenities__icon {
-  fill: rgb(199, 144, 2);
+  fill: currentColor;
   margin-left: 12px;
 }/*# sourceMappingURL=index.css.map */
