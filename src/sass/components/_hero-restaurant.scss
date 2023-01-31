@@ -1,16 +1,67 @@
 // < !-- Maria Ostapovich -->
 .hero-rest {
-    background-image: url(../images/hero/hero-rest-mobile.jpg);
+    background-image: 
+    linear-gradient(to right,
+    rgba(0, 0, 0, 0.65),
+    rgba(0, 0, 0, 0.65)),
+    url(../images/hero/hero-rest-mobile.jpg);
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        background-image: url(../images/hero/hero-rest-mobile@2x.jpg);
+        background-image: linear-gradient(to right,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)),
+        url(../images/hero/hero-rest-mobile@2x.jpg);
+    }
+
+    @media (min-width:1024px){
+        background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+            url(../images/hero/hero-rest-tablet.jpg);
+
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: linear-gradient(to right,
+                rgba(0, 0, 0, 0.65),
+                rgba(0, 0, 0, 0.65)),
+            url(../images/hero/hero-rest-tablet@2x.jpg);
+        }
+    }
+
+
+    @media (min-width:1280px){
+        background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+            url(../images/hero/hero-rest-desktop.jpg);
+
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: linear-gradient(to right,
+                rgba(0, 0, 0, 0.65),
+                rgba(0, 0, 0, 0.65)),
+            url(../images/hero/hero-rest-desktop@2x.jpg);
+        }
+    }
+
+    &__subtitle {
+        margin-top: 20px;
+        @media (min-width:1024px) {
+            margin-top: 16px;
+        }
+
     }
 
 
     &__motto {
         margin-top: 44px;
+        @media (min-width:1024px) {
+            margin-top: 56px;
+        }
     }
 
     &__control-buttons {
