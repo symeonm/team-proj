@@ -936,6 +936,59 @@ img {
   text-transform: uppercase;
 }
 
+.form-select-room {
+  width: 100%;
+  position: relative;
+  height: 54px;
+  padding-left: 12px;
+  margin-bottom: 8px;
+  border: 1px solid rgb(199, 144, 2);
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  color: rgb(128, 128, 128);
+  background-color: rgb(255, 253, 238);
+}
+@media screen and (min-width: 1024px) {
+  .form-select-room {
+    height: 64px;
+    width: 288px;
+    font-size: 24px;
+    line-height: 1.17;
+  }
+}
+
+.form-input-room {
+  max-width: 384px;
+  width: 100%;
+  height: 54px;
+  padding: 16px 12px;
+  outline: none;
+  border: 1px solid rgb(199, 144, 2);
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  background-color: rgb(255, 253, 238);
+  color: rgb(128, 128, 128);
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 1024px) {
+  .form-input-room {
+    height: 64px;
+    width: 288px;
+    font-size: 24px;
+    line-height: 1.17;
+  }
+}
+.form-input-room:focus {
+  outline: 1px solid rgb(199, 144, 2);
+}
+
 .modal {
   max-width: 414px;
   width: 100%;
