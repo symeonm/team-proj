@@ -6,6 +6,12 @@
 }
 
 .main {
+    overflow: hidden;
+
+    &__content:not(:last-child) {
+        margin-bottom: 32px;
+    }
+
     &__excerpt {
         font-family: 'Times New Roman';
         font-weight: 400;
@@ -14,6 +20,11 @@
 
         color: #B4B4B4;
     }
+
+    &__excerpt:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
     &__title {
         font-family: 'Film P3';
         font-weight: 700;
@@ -23,6 +34,7 @@
 
         color: #494848;
     }
+
     &__subtitle {
         font-family: 'Times New Roman';
         font-weight: 700;
@@ -32,23 +44,115 @@
 
         color: #000000;
     }
+
+    &__subtitle:not(:last-child) {
+        margin-bottom: 12px;
+    }
+
     &__desc {
         font-family: 'Montserrat';
         font-weight: 600;
         font-size: 12px;
         line-height: 1.25;
         letter-spacing: 0.02em;
+        max-width: 258px;
 
         color: #7A7A7A;
     }
 
+    &__luxe:not(:last-child) {
+        margin-bottom: 32px;
+    }
+
     &__images {
-        max-width: 244px;
+        display: flex;
+        justify-content: flex-end;
+        img {
+            max-width: 244px;
+        }
+    }
+
+    &__images:not(:last-child) {
+        margin-bottom: 32px;
     }
 }
 
 .slider {
+    margin-bottom: 20px;
+
     &__photos {
-        max-width: 194px;
+        display: flex;
+        gap: 16px;
+        margin-left: -97px;
+        margin-bottom: 20px;
+
+        img {
+            max-width: 194px;
+        }
     }
+
+    &__button {
+        border: transparent;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    &__btn__content {
+        display: flex;
+        gap: 32px;
+        margin-left: 15px;
+    }
+}
+
+
+.main-buttons {
+    text-align: center;
+
+    &__button {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        width: 236px;
+        height: 48px;
+
+        color: #F3C653;
+        background-color: #000000;
+        border: 2px solid #FFFDEE;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    &__button:not(:last-child) {
+        margin-bottom: 16px;
+    }
+}
+
+// PAGE SENTER 
+
+.page-center {
+    background-color: rgba(240, 236, 214, 1);
+}
+.content__main {
+    text-align: end;
+}
+.title__main {
+    margin-right: -11px;
+}
+.luxe__main {
+    flex-flow: column wrap;
+    align-content: flex-end;
+    display: flex;
+}
+.images__main {
+    justify-content: normal;
+}
+.photos-slider {
+    margin-left: 97px;
+}
+.content__btn__slider {
+    justify-content: flex-end;
 }

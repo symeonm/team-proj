@@ -502,12 +502,21 @@ img {
   background-color: #FFFDEE;
 }
 
+.main {
+  overflow: hidden;
+}
+.main__content:not(:last-child) {
+  margin-bottom: 32px;
+}
 .main__excerpt {
   font-family: "Times New Roman";
   font-weight: 400;
   font-size: 20px;
   line-height: 1.15;
   color: #B4B4B4;
+}
+.main__excerpt:not(:last-child) {
+  margin-bottom: 8px;
 }
 .main__title {
   font-family: "Film P3";
@@ -525,20 +534,107 @@ img {
   letter-spacing: 0.05em;
   color: #000000;
 }
+.main__subtitle:not(:last-child) {
+  margin-bottom: 12px;
+}
 .main__desc {
   font-family: "Montserrat";
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
   letter-spacing: 0.02em;
+  max-width: 258px;
   color: #7A7A7A;
 }
+.main__luxe:not(:last-child) {
+  margin-bottom: 32px;
+}
 .main__images {
+  display: flex;
+  justify-content: flex-end;
+}
+.main__images img {
   max-width: 244px;
 }
+.main__images:not(:last-child) {
+  margin-bottom: 32px;
+}
 
+.slider {
+  margin-bottom: 20px;
+}
 .slider__photos {
+  display: flex;
+  gap: 16px;
+  margin-left: -97px;
+  margin-bottom: 20px;
+}
+.slider__photos img {
   max-width: 194px;
+}
+.slider__button {
+  border: transparent;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.slider__btn__content {
+  display: flex;
+  gap: 32px;
+  margin-left: 15px;
+}
+
+.main-buttons {
+  text-align: center;
+}
+.main-buttons__button {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  width: 236px;
+  height: 48px;
+  color: #F3C653;
+  background-color: #000000;
+  border: 2px solid #FFFDEE;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.main-buttons__button:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.page-center {
+  background-color: rgb(240, 236, 214);
+}
+
+.content__main {
+  text-align: end;
+}
+
+.title__main {
+  margin-right: -11px;
+}
+
+.luxe__main {
+  flex-flow: column wrap;
+  align-content: flex-end;
+  display: flex;
+}
+
+.images__main {
+  justify-content: normal;
+}
+
+.photos-slider {
+  margin-left: 97px;
+}
+
+.content__btn__slider {
+  justify-content: flex-end;
 }
 
 .hero-room {
