@@ -1,0 +1,11 @@
+.media-list {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    padding-bottom: 20px;
+
+    &__icon {
+        fill: rgba(243, 198, 83, 0.7);
+        
+    }
+}

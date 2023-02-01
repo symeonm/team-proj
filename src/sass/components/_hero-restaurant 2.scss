@@ -1,0 +1,20 @@
+// < !-- Maria Ostapovich -->
+.hero-rest {
+    background-image: url(../images/hero/hero-rest-mobile.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url(../images/hero/hero-rest-mobile@2x.jpg);
+    }
+
+
+    &__motto {
+        margin-top: 44px;
+    }
+
+    &__control-buttons {
+        margin-top: 113px;
+    }
+    
+}

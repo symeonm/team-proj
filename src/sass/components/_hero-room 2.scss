@@ -1,0 +1,57 @@
+// < !-- Maria Ostapovich -->
+.hero-room {
+    padding-left: 15px;
+    padding-bottom: 14px;
+    background-image: url(../images/hero/hero-room-mobile.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../images/hero/hero-room-mobile@2x.jpg);
+        }
+
+
+    &__slider {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 239px;
+    }
+
+    &__arrow {
+        fill: #F3C653;
+        background-color: rgba(0, 0, 0, 0.65);
+    }
+
+
+    &__title {
+        margin-top: 93px;
+        color: #FFFFFF;
+        font-family: 'Times New Roman';
+        font-size: 28px;
+        line-height: 1.14;
+        letter-spacing: 0.05em;
+    }
+
+    &__meta {
+        margin-top: 14px;
+        color: #FFFFFF;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+    }
+
+
+    &__control-container {
+        display: flex;
+        align-items: center;
+        gap: 70px;
+        margin-top: 16px;
+    }
+
+    &__media {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+}
