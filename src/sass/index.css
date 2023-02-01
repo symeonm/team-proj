@@ -872,7 +872,8 @@ img {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
   margin: -1px;
 }
 
@@ -931,17 +932,12 @@ img {
   font-style: normal;
   color: #000000;
 }
-.menu__item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 8px;
-}
-.menu__item--last {
-  margin-bottom: 0px;
-}
-.menu__box {
-  margin-bottom: 16px;
+@media screen and (min-width: 1024px) {
+  .menu {
+    background-color: #F0ECD6;
+    padding-top: 58px;
+    padding-bottom: 40px;
+  }
 }
 .menu__title {
   text-align: left;
@@ -951,6 +947,41 @@ img {
   font-size: 32px;
   line-height: 1.1563;
 }
+@media screen and (min-width: 1024px) {
+  .menu__title {
+    margin-bottom: 40px;
+  }
+}
+.menu__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.menu__item--last {
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 1024px) {
+  .menu__box--last {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .menu__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 88px;
+  }
+}
+.menu__box {
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 1024px) {
+  .menu__box {
+    margin-bottom: 20px;
+    flex-basis: calc((100% - 88px) / 2);
+  }
+}
 .menu__title-dish {
   margin-bottom: 16px;
   text-align: left;
@@ -958,6 +989,11 @@ img {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
+}
+@media screen and (min-width: 1024px) {
+  .menu__title-dish {
+    margin-bottom: 20px;
+  }
 }
 .menu__name-dish, .menu__name-dessert {
   margin-bottom: 4px;
@@ -995,10 +1031,19 @@ img {
 }
 .menu__button {
   display: block;
-  margin: 0 auto;
-  padding: 14px 24px;
-  background-color: #000000;
   margin-top: 32px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 14px 24px;
+  background-color: rgb(0, 0, 0);
+}
+@media screen and (min-width: 1024px) {
+  .menu__button {
+    margin-right: 0;
+    margin-top: 64px;
+    margin-bottom: 0;
+  }
 }
 .menu__box-indicators {
   display: flex;
@@ -1009,6 +1054,23 @@ img {
   max-width: 221px;
 }
 
+@media screen and (min-width: 1024px) {
+  .menu__flex-item:nth-of-type(1) {
+    order: 1;
+  }
+  .menu__flex-item:nth-of-type(2) {
+    order: 3;
+  }
+  .menu__flex-item:nth-of-type(3) {
+    order: 2;
+  }
+  .menu__flex-item:nth-of-type(4) {
+    order: 4;
+  }
+  .menu__flex-item:nth-of-type(5) {
+    order: 5;
+  }
+}
 .hero-hotel {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-room-mobile.jpg);
 }
@@ -1728,4 +1790,38 @@ img {
   letter-spacing: 0.02em;
   color: rgb(199, 144, 2);
   margin-left: 12px;
+  margin-bottom: 20px;
 }
+@media screen and (min-width: 1024px) {
+  .form-table__label {
+    max-width: 262px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+.form-table__select {
+  width: 100%;
+  position: relative;
+  height: 54px;
+  padding-left: 12px;
+  margin-bottom: 8px;
+  border: 1px solid rgb(199, 144, 2);
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  color: rgb(128, 128, 128);
+  background-color: rgb(255, 253, 238);
+}
+@media screen and (min-width: 1024px) {
+  .form-table__select {
+    height: 64px;
+    width: 288px;
+    font-size: 24px;
+    line-height: 1.17;
+  }
+}
+.form-table__select:focus {
+  outline: 1px solid rgb(199, 144, 2);
+}/*# sourceMappingURL=index.css.map */
