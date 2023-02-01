@@ -1365,6 +1365,13 @@ img {
   letter-spacing: 0.05em;
   color: #808080;
 }
+@media screen and (min-width: 1024px) {
+  .modal-price__title-room {
+    letter-spacing: 0.02em;
+    font-size: 32px;
+    line-height: 1.25;
+  }
+}
 
 .modal-price__thumb {
   margin-bottom: 40px;
@@ -1457,6 +1464,12 @@ img {
   color: #000000;
   box-shadow: 1px 4px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   outline: none;
+}
+@media screen and (min-width: 1024px) {
+  .btn-modal__booking {
+    font-size: 24px;
+    line-height: 1.21;
+  }
 }
 
 .modal-price__backdrop.is-hidden {
