@@ -1,6 +1,5 @@
 // < !-- Maria Ostapovich -->
 .hero-room {
-    padding-left: 15px;
     padding-bottom: 14px;
     background-image: url(../images/hero/hero-room-mobile.jpg);
 
@@ -10,11 +9,40 @@
             background-image: url(../images/hero/hero-room-mobile@2x.jpg);
         }
 
+    @media (min-width:1024px){
+        padding-top: 340px;
+        padding-bottom: 22px;
+        background-image: url(../images/hero/hero-room-tablet.jpg);
+
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../images/hero/hero-room-tablet@2x.jpg);
+        }
+    }
+
+    @media (min-width:1280px){
+        padding-top: 412px;
+        padding-bottom: 48px;
+        background-image: url(../images/hero/hero-room-desktop.jpg);
+
+        @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../images/hero/hero-room-desktop@2x.jpg);
+        }
+    }
+
 
     &__slider {
         display: flex;
         justify-content: space-between;
         margin-top: 239px;
+
+        @media (min-width:1024px) {
+            margin-top: 0;
+        }
+
     }
 
     &__arrow {
@@ -24,15 +52,24 @@
 
 
     &__title {
+        width: 325px;
         margin-top: 93px;
         color: #FFFFFF;
         font-family: 'Times New Roman';
         font-size: 28px;
         line-height: 1.14;
         letter-spacing: 0.05em;
+
+        @media (min-width:1024px){
+            width: 100%;
+            margin-top: 88px;
+            font-size: 36px;
+            line-height: 1.13;
+        }
     }
 
     &__meta {
+        width: 325px;
         margin-top: 14px;
         color: #FFFFFF;
         font-family: 'Montserrat';
@@ -40,6 +77,14 @@
         font-size: 12px;
         line-height: 1.25;
         letter-spacing: 0.02em;
+
+        @media (min-width:1024px){
+            width: 400px;
+            margin-top: 24px;
+            font-size: 16px;
+            line-height: 1.25;
+            
+        }
     }
 
 
@@ -48,10 +93,61 @@
         align-items: center;
         gap: 70px;
         margin-top: 16px;
+
+        @media (min-width:1024px) {
+            justify-content: flex-end;
+            margin-top: 0;
+        }
+
+
+    }
+
+    &__media-container {
+        @media (min-width:1024px) {
+            position: absolute;
+            bottom: 15px;
+            right: 540px;
+        }
     }
 
     &__media {
         flex-direction: column;
         padding-bottom: 0;
+
+        @media (min-width:1024px) {
+            flex-direction: row;
+        }
+
+        @media (min-width:1280px) {
+            display: none;
+        }
+    }
+
+    &__button {
+        @media (min-width:1024px) {
+            margin-bottom: 49px;
+        }
+
+        @media (min-width:1280px) {
+            position: absolute;
+            bottom: 18px;
+            right: 0;
+            margin: 0;
+        }
+    }
+
+
+
+    &__address {
+        @media (min-width:1024px) {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding-right: 0;
+        }
+
+        @media (min-width:1280px) {
+            display: none;
+        }
     }
 }
