@@ -23,7 +23,7 @@
     rgba(186, 186, 186, 0.4) 66.1% 66.2%,
     transparent 66.2%);
 
-    @media screen and (min-width: 1024px) {
+    @include tablet {
         padding-top: 120px;
         padding-bottom: 32px;
         // max-width: 1024px;
@@ -37,7 +37,7 @@
         transparent 72.5%);
     }
 
-    @media screen and (min-width: 1280px) {
+    @include desktop {
         padding-bottom: 50px;
         background-image:  linear-gradient(to right,
         transparent 26.4%,
@@ -64,7 +64,7 @@
         font-size: 20px;
         line-height: 1.15;
 
-        @media screen and (min-width: 1024px) {
+        @include tablet {
             margin-bottom: 4px;
             font-size: 32px;
         }
@@ -83,14 +83,14 @@
         line-height: 1.075;
         letter-spacing: 0.3em;
 
-        @media screen and (min-width: 1024px) {
+        @include tablet {
             margin-right: -19px;
             margin-bottom: 24px;
             font-size: 64px;
             line-height: 1.078;
         }
 
-        @media screen and (min-width: 1280px) {
+        @include desktop {
             color: #828282;
         }
     }
@@ -105,11 +105,11 @@
             margin-top: 32px;
         }
 
-        @media screen and (min-width: 1024px) {
+        @include tablet {
             gap: 48px;
         }
 
-        @media screen and (min-width: 1280px) {
+        @include desktop {
             gap: 45px;
         }
     }
@@ -127,13 +127,13 @@
         line-height: 1.25;
         letter-spacing: 0.02;
 
-        @media screen and (min-width: 1024px) {
+        @include tablet {
             max-width: 419px;
             font-size: 16px;
             margin-bottom: 142px;
         }
 
-        @media screen and (min-width: 1280px) {
+        @include desktop {
             max-width: 488px;
             margin-bottom: 162px;
         }
@@ -150,12 +150,12 @@
         line-height: 1.25;
         letter-spacing: 0.02;
 
-        @media screen and (min-width: 1024px) {
+        @include tablet {
             max-width: 312px;
             font-size: 16px;
         }
 
-        @media screen and (min-width: 1280px) {
+        @include desktop {
             max-width: 311px;
         }
     }
@@ -167,7 +167,7 @@
         max-width: 224px;
         max-height: 322px;
         
-        @media (min-width: 1024px) {
+        @include tablet {
             max-width: 400px;
             max-height: 524px;
             position: absolute;
@@ -175,7 +175,7 @@
             top: -144px;
         }
 
-        @media (min-width: 1280px) {
+        @include desktop {
             left: 100px;
             max-width: 460px;
             max-height: 574px;
@@ -187,27 +187,28 @@
         border-radius: 2px;
        
     }
-    @media (min-width: 1280px) {
+    @include desktop {
         max-width: 460px;
         max-height: 574px;
 }
 }
 
 .swiper-about-hotel {
-    margin-left: 0px;
+    margin-left: 85px;
+    
     
 
     @media screen and (max-width: 1023px) {
         margin-top: 32px;
     }
-    @media screen and (min-width: 1024px) {
+    @include tablet {
         display: flex;
         flex-direction: column;
         margin-top: -28px;
         
     }
     
-    @media screen and (min-width: 1280px) {
+    @include desktop {
         margin-top: -157px;
     }
 
@@ -215,11 +216,11 @@
         display: flex;
         margin-bottom: 20px;
 
-        @media screen and (min-width: 1024px) {
+        @include tablet {
             margin-bottom: 32px;
         }
         
-        @media screen and (min-width: 1280px) {
+        @include desktop {
             margin-bottom: 40px;
         }
     }
@@ -230,11 +231,11 @@
         // margin-right: auto;
         width: 254px;
 
-        @media screen and (min-width: 1280px){
+        @include desktop {
             width: 254px;
             }
 
-        @media screen and (min-width: 1024px){
+            @include tablet {
             width: 194px;
         }
 

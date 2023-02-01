@@ -617,7 +617,7 @@ img {
   max-width: 244px;
   height: 322px;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .restaurant__image-first {
     position: absolute;
     left: 50%;
@@ -626,7 +626,7 @@ img {
     height: 524px;
   }
 }
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .restaurant__image-first {
     left: 50%;
     top: -33px;
@@ -638,7 +638,7 @@ img {
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
 }
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .restaurant__image-second {
     max-width: 460px;
     height: 574px;
@@ -864,7 +864,7 @@ img {
   max-width: 224px;
   max-height: 322px;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .about-hotel__image-first {
     max-width: 400px;
     max-height: 524px;
@@ -873,7 +873,7 @@ img {
     top: -144px;
   }
 }
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .about-hotel__image-first {
     left: 100px;
     max-width: 460px;
@@ -884,7 +884,7 @@ img {
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
 }
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .about-hotel {
     max-width: 460px;
     max-height: 574px;
@@ -892,7 +892,7 @@ img {
 }
 
 .swiper-about-hotel {
-  margin-left: 0px;
+  margin-left: 85px;
 }
 @media screen and (max-width: 1023px) {
   .swiper-about-hotel {
