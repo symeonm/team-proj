@@ -3,20 +3,22 @@
 &__control {
     display: flex;
     flex-direction: row-reverse;
-    padding-right: 15px;
 }
 
 
 &__element {
     display: inline-flex;
     gap: 8px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
-    width: 210px;
-    padding: 8px 0 8px 6px;
+    padding: 8px 8px 8px 6px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
+
+    @media (min-width:1024px) {
+        padding: 8px 8px 8px 10px;
+    }
 }
 
 &__link {
@@ -26,6 +28,11 @@
     line-height: 1.25;
     letter-spacing: 0.01em;
     color: #E5E5E5;
+
+    @media (min-width:1024px) {
+        font-size: 16px;
+        line-height: 1.25; 
+    }
 }
 
 &__icon {
