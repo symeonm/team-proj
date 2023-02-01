@@ -3,80 +3,111 @@
 .menu{
     padding-top: 32px;
     padding-bottom: 32px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: #000000;
-}
 
-.menu__item{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.menu__box-indicators{
-    display: flex;
-    align-items: center;
-    gap: 32px;
-}
+    &__item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
+    &__box {
+            margin-bottom: 16px;
+        }
 
-.menu__title{
+    &__title {
     text-align: left;
     margin-bottom: 32px;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 1.1563;
-}
+    }
 
-.menu__title-dish{
+   &__title-dish {
     margin-bottom: 16px;
     text-align: left;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
-}
+   }
 
-.menu__name-dish{
+   &__name-dish,
+   &__name-dessert {
     margin-bottom: 4px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.214;
     letter-spacing: 0.02em;
-}
+   }
 
-.menu__box-dish{
-   max-width: 220px;
-}
-
-.menu__composition-dish{
+    &__name-dessert {
     margin-bottom: 8px;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-  
+   }
+
+    &__name-dessert--last {
+    margin-bottom: 0;
+   }
+
+   &__composition-dish {
+       margin-bottom: 8px;
+       font-weight: 400;
+       font-size: 10px;
+       line-height: 1.2;
+       letter-spacing: 0.02em;
+
+   }
+
+   &__composition-dish--last {
+       margin-bottom: 0;
+   }
+
+   &__dish-weight {
+       font-weight: 300;
+       font-size: 14px;
+       line-height: 1.214;
+       letter-spacing: 0.02em;
+       max-width: 40px;
+   }
+
+   &__weight-drink {
+       max-width: 52px;
+   }
+
+   &__dish-price {
+       font-style: normal;
+       font-weight: 700;
+       font-size: 14px;
+       line-height: 1.214;
+       letter-spacing: 0.02em;
+       max-width: 67px;
+   }
+
+   &_button {
+       display: block;
+       margin: 0 auto;
+       padding: 14px 24px;
+       background-color: #000000;
+       margin-top: 32px;
+   }
+
+   &__box-indicators {
+       display: flex;
+       align-items: center;
+       gap: 32px;
+   }
+
+   &__box-dish {
+       max-width: 221px;
+   }
 }
 
-.menu__dish-weight{
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 1.214;
-    letter-spacing: 0.02em;
-    max-width: 40px;
-}
 
-.menu__dish-price{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.214;
-    letter-spacing: 0.02em;
-    max-width: 67px;
-}
 
-.menu__weight-drink{
-    max-width: 52px;
 
-}
+
+
+
