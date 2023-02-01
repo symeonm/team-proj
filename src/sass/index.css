@@ -656,6 +656,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 8px;
+}
+.menu__item--last {
+  margin-bottom: 0px;
 }
 .menu__box {
   margin-bottom: 16px;
@@ -684,20 +688,13 @@ img {
   letter-spacing: 0.02em;
 }
 .menu__name-dessert {
-  margin-bottom: 8px;
-}
-.menu__name-dessert--last {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 .menu__composition-dish {
-  margin-bottom: 8px;
   font-weight: 400;
   font-size: 10px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-}
-.menu__composition-dish--last {
-  margin-bottom: 0;
 }
 .menu__dish-weight {
   font-weight: 300;
@@ -717,7 +714,7 @@ img {
   letter-spacing: 0.02em;
   max-width: 67px;
 }
-.menu_button {
+.menu__button {
   display: block;
   margin: 0 auto;
   padding: 14px 24px;

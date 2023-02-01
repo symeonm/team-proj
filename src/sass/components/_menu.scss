@@ -11,7 +11,12 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            margin-bottom: 8px;
         }
+
+    &__item--last{
+        margin-bottom: 0px;
+    }
 
     &__box {
             margin-bottom: 16px;
@@ -45,25 +50,15 @@
    }
 
     &__name-dessert {
-    margin-bottom: 8px;
-   }
-
-    &__name-dessert--last {
-    margin-bottom: 0;
+    margin-bottom: 0px;
    }
 
    &__composition-dish {
-       margin-bottom: 8px;
        font-weight: 400;
        font-size: 10px;
        line-height: 1.2;
        letter-spacing: 0.02em;
-
-   }
-
-   &__composition-dish--last {
-       margin-bottom: 0;
-   }
+    }
 
    &__dish-weight {
        font-weight: 300;
@@ -86,7 +81,7 @@
        max-width: 67px;
    }
 
-   &_button {
+   &__button {
        display: block;
        margin: 0 auto;
        padding: 14px 24px;
@@ -101,8 +96,8 @@
    }
 
    &__box-dish {
-       max-width: 221px;
-   }
+       max-width: 221px;  
+   }       
 }
 
 
