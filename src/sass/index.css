@@ -484,6 +484,9 @@ img {
     margin-top: 0;
   }
 }
+.hero__title--O {
+  letter-spacing: 0em;
+}
 .hero__subtitle {
   margin-top: 24px;
   font-family: "Montserrat";
