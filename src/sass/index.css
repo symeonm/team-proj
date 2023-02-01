@@ -422,7 +422,7 @@ img {
   background-size: cover;
   background-image: url(../images/hero/hero-home-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background-image: url(../images/hero/hero-home-mobile@2x.jpg);
   }
@@ -555,7 +555,7 @@ img {
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: 0.02em;
-  color: #494848;
+  color: #828282;
   background-color: #FFFFFF;
   border: 0.5px solid #F3C653;
   border-radius: 2px;
@@ -599,7 +599,7 @@ img {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.01em;
-  color: #494848;
+  color: #828282;
   background-color: #FFFFFF;
   border: 0.5px solid #F3C653;
   border-radius: 2px;
@@ -618,6 +618,7 @@ img {
 .section-contacts__link-location {
   display: flex;
   align-items: center;
+  color: #828282;
 }
 .section-contacts__map {
   margin-left: auto;
@@ -646,15 +647,14 @@ img {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   margin: -1px;
 }
 
 .hero-rest {
   background-image: url(../images/hero/hero-rest-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-rest {
     background-image: url(../images/hero/hero-rest-mobile@2x.jpg);
   }
@@ -669,7 +669,7 @@ img {
 .hero-hotel {
   background-image: url(../images/hero/hero-room-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-hotel {
     background-image: url(../images/hero/hero-room-mobile@2x.jpg);
   }
@@ -683,7 +683,7 @@ img {
   padding-bottom: 14px;
   background-image: url(../images/hero/hero-room-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-room {
     background-image: url(../images/hero/hero-room-mobile@2x.jpg);
   }
@@ -878,4 +878,4 @@ img {
 .amenities__icon {
   fill: rgb(199, 144, 2);
   margin-left: 12px;
-}/*# sourceMappingURL=index.css.map */
+}

@@ -68,7 +68,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.21;
 letter-spacing: 0.02em;
-color: #494848;
+color: #828282;;
 background-color: #FFFFFF;
 border: 0.5px solid #F3C653;
 border-radius: 2px;
@@ -102,7 +102,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.25;
 letter-spacing: 0.01em;
-color: #494848;
+color: #828282;
 background-color: #FFFFFF;
 border: 0.5px solid #F3C653;
 border-radius: 2px;
@@ -117,7 +117,9 @@ margin: 0 10px;}
 
 &__link-location{
 display: flex;
-align-items: center;}
+align-items: center;
+color: #828282;
+}
 
 &__map{
 margin-left: auto;
