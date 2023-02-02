@@ -8,163 +8,206 @@
     color: #000000;
 
     @media screen and (min-width: 1024px) {
-            background-color: #F0ECD6;
-            padding-top: 58px;
-            padding-bottom: 40px;
-        }
+    background-color: #F0ECD6;
+    padding-top: 58px;
+    padding-bottom: 40px;
+    }
+    @media (min-width: 1280px){
+    padding-bottom: 60px;
+    }
 
-        &__title {
-            text-align: left;
-            margin-bottom: 32px;
-            font-family: 'Times New Roman', serif;
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 1.1563;
+    &__title {
+    text-align: left;
+    margin-bottom: 32px;
+    font-family: 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.1563;
     
-            @media screen and (min-width: 1024px) {
-                margin-bottom: 40px;
-            }
-    
-        }
+    @media screen and (min-width: 1024px) {
+    margin-bottom: 40px;
+    }
+    }
         
 
     &__item {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 8px;
-        }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+
+    @media screen and (min-width: 1024px) {
+    margin-bottom: 12px;
+    }
+    }
 
     &__item--last{
-        margin-bottom: 0px;
-    }
-
-    &__box--last {
-    @media screen and (min-width: 1024px){
-        margin-bottom: 0;
-    }
+    margin-bottom: 0px;
     }
 
     &__container{
+    margin-bottom: 32px;
     @media screen and (min-width: 1024px){
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0px 88px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    }
+    @media screen and (min-width: 1280px){
+        margin-bottom: 48px;
     }
     }
 
     &__box {
     margin-bottom: 16px;
-    
     @media screen and (min-width: 1024px) {
         margin-bottom: 20px;
-        flex-basis: calc((100% - 88px)/2);
     }
     }
 
-   &__title-dish {
+    &__box--last {
+    @media screen and (min-width: 1024px) {
+    margin-bottom: 0;
+    }
+    }
+
+    &__title-dish {
     margin-bottom: 16px;
     text-align: left;
     font-family: 'Times New Roman', serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
-
-    @media screen and (min-width: 1024px){
-        margin-bottom: 20px;
+    @media screen and (min-width: 1024px) {
+    margin-bottom: 20px;
     }
-   }
-
-   &__name-dish,
-   &__name-dessert {
+    }
+    
+    &__name-dish,
+    &__name-dessert {
     margin-bottom: 4px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.214;
     letter-spacing: 0.02em;
-   }
-
+    }
+    
     &__name-dessert {
     margin-bottom: 0px;
-   }
-
-   &__composition-dish {
-       font-weight: 400;
-       font-size: 10px;
-       line-height: 1.2;
-       letter-spacing: 0.02em;
+    }
+    
+    &__composition-dish {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    }
+    
+    &__dish-weight {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.214;
+    letter-spacing: 0.02em;
+    max-width: 40px;
+    }
+    
+    &__weight-drink {
+    max-width: 52px;
+    }
+    
+    &__dish-price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.214;
+    letter-spacing: 0.02em;
+    max-width: 67px;
+    }
+    
+    &__button {
+    display: block;
+    margin: 0 auto;
+    padding: 14px 24px;
+    background-color: $color-button-modal;
+    
+    @media screen and (min-width: 1024px) {
+    margin-right: 0;
+    }
+    }
+    
+    &__box-indicators {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    }
+    
+    &__box-dish {
+      max-width: 226px;
+      @media (min-width: 1280px){
+     max-width: 292px;
+    }
     }
 
-   &__dish-weight {
-       font-weight: 300;
-       font-size: 14px;
-       line-height: 1.214;
-       letter-spacing: 0.02em;
-       max-width: 40px;
-   }
+    &__box-dessert {
+    @media screen and (max-width: 1023px) {
+    max-width: 384px;
+    }
 
-   &__weight-drink {
-       max-width: 52px;
-   }
+     @media screen and (min-width: 1024px){
+    width: 430px;
+    }
 
-   &__dish-price {
-       font-style: normal;
-       font-weight: 700;
-       font-size: 14px;
-       line-height: 1.214;
-       letter-spacing: 0.02em;
-       max-width: 67px;
-   }
-
-   &__button {
-       display: block;
-       margin-top: 32px;
-       margin-bottom: 0;
-       margin-left: auto;
-       margin-right: auto;
-       padding: 14px 24px;
-       background-color: $color-button-modal;
-       
-        @media screen and (min-width: 1024px){
-        margin-right: 0;
-        margin-top: 64px;
-        margin-bottom: 0;
-        }
-   }
-
-   &__box-indicators {
-       display: flex;
-       align-items: center;
-       gap: 32px;
-   }
-
-   &__box-dish {
-       max-width: 221px;  
-   }       
+     @media (min-width: 1280px) {
+     width: 486px;               
+     }
+    }   
 }
 
+   
  @media screen and (min-width: 1024px){ 
 
-    .menu__flex-item:nth-of-type(1) {
+        .menu__flex-item:nth-of-type(1) {
             order: 1;
+            width: 412px;
         }
     
         .menu__flex-item:nth-of-type(2) {
             order: 3;
+            width: 412px;
         }
     
         .menu__flex-item:nth-of-type(3) {
             order: 2;
+            width: 430px;
         }
     
         .menu__flex-item:nth-of-type(4) {
             order: 4;
         }
-    
-        .menu__flex-item:nth-of-type(5) {
-            order: 5;
-        }
  }
+
+ @media screen and (min-width: 1280px) {
+
+     .menu__flex-item:nth-of-type(1) {
+         order: 1;
+         width: 486px;
+     }
+
+     .menu__flex-item:nth-of-type(2) {
+         order: 3;
+         width: 486px;
+     }
+
+     .menu__flex-item:nth-of-type(3) {
+         order: 2;
+         width: 486px;
+     }
+
+     .menu__flex-item:nth-of-type(4) {
+         order: 4;
+     }
+ }
+
 
 
 

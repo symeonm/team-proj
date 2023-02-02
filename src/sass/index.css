@@ -939,6 +939,11 @@ img {
     padding-bottom: 40px;
   }
 }
+@media (min-width: 1280px) {
+  .menu {
+    padding-bottom: 60px;
+  }
+}
 .menu__title {
   text-align: left;
   margin-bottom: 32px;
@@ -958,19 +963,28 @@ img {
   justify-content: space-between;
   margin-bottom: 8px;
 }
+@media screen and (min-width: 1024px) {
+  .menu__item {
+    margin-bottom: 12px;
+  }
+}
 .menu__item--last {
   margin-bottom: 0px;
 }
-@media screen and (min-width: 1024px) {
-  .menu__box--last {
-    margin-bottom: 0;
-  }
+.menu__container {
+  margin-bottom: 32px;
 }
 @media screen and (min-width: 1024px) {
   .menu__container {
     display: flex;
     flex-wrap: wrap;
-    gap: 0px 88px;
+    justify-content: space-between;
+    margin-bottom: 64px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .menu__container {
+    margin-bottom: 48px;
   }
 }
 .menu__box {
@@ -979,7 +993,11 @@ img {
 @media screen and (min-width: 1024px) {
   .menu__box {
     margin-bottom: 20px;
-    flex-basis: calc((100% - 88px) / 2);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .menu__box--last {
+    margin-bottom: 0;
   }
 }
 .menu__title-dish {
@@ -1031,18 +1049,13 @@ img {
 }
 .menu__button {
   display: block;
-  margin-top: 32px;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding: 14px 24px;
   background-color: rgb(0, 0, 0);
 }
 @media screen and (min-width: 1024px) {
   .menu__button {
     margin-right: 0;
-    margin-top: 64px;
-    margin-bottom: 0;
   }
 }
 .menu__box-indicators {
@@ -1051,24 +1064,61 @@ img {
   gap: 32px;
 }
 .menu__box-dish {
-  max-width: 221px;
+  max-width: 226px;
+}
+@media (min-width: 1280px) {
+  .menu__box-dish {
+    max-width: 292px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .menu__box-dessert {
+    max-width: 384px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .menu__box-dessert {
+    width: 430px;
+  }
+}
+@media (min-width: 1280px) {
+  .menu__box-dessert {
+    width: 486px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .menu__flex-item:nth-of-type(1) {
     order: 1;
+    width: 412px;
   }
   .menu__flex-item:nth-of-type(2) {
     order: 3;
+    width: 412px;
   }
   .menu__flex-item:nth-of-type(3) {
     order: 2;
+    width: 430px;
   }
   .menu__flex-item:nth-of-type(4) {
     order: 4;
   }
-  .menu__flex-item:nth-of-type(5) {
-    order: 5;
+}
+@media screen and (min-width: 1280px) {
+  .menu__flex-item:nth-of-type(1) {
+    order: 1;
+    width: 486px;
+  }
+  .menu__flex-item:nth-of-type(2) {
+    order: 3;
+    width: 486px;
+  }
+  .menu__flex-item:nth-of-type(3) {
+    order: 2;
+    width: 486px;
+  }
+  .menu__flex-item:nth-of-type(4) {
+    order: 4;
   }
 }
 .hero-hotel {
