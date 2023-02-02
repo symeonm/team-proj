@@ -504,7 +504,7 @@ img {
 @media screen and (min-width: 1024px) {
   .main {
     padding-top: 62px;
-    padding-bottom: 62px;
+    padding-bottom: 32px;
   }
 }
 .main__content {
@@ -524,7 +524,7 @@ img {
 }
 @media screen and (min-width: 1024px) {
   .main-luxe {
-    margin-bottom: 176px;
+    margin-bottom: 200px;
   }
 }
 .main-luxe__subtitle {
@@ -565,7 +565,7 @@ img {
   .main__images {
     position: absolute;
     left: 465px;
-    top: -93px;
+    top: -94px;
     width: 400px;
   }
 }
@@ -597,7 +597,8 @@ img {
 @media screen and (min-width: 1024px) {
   .main-slider__photos {
     transform: translateX(0px);
-    gap: 40px;
+    gap: 32px;
+    margin-bottom: 32px;
   }
 }
 .main-slider__battons {
@@ -610,6 +611,7 @@ img {
   .main-slider__battons {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 8px;
   }
 }
 .main-slider__btn {
@@ -631,7 +633,7 @@ img {
 }
 @media screen and (min-width: 1024px) {
   .main-buttons {
-    margin-top: 41px;
+    margin-bottom: 41px;
   }
 }
 .main-buttons__button {
@@ -649,10 +651,8 @@ img {
   color: #F3C653;
   transition: background-color 250ms, border-color 250ms, color 250ms;
 }
-@media screen and (min-width: 1024px) {
-  .main-buttons__button:not(:last-child) {
-    margin-bottom: 16px;
-  }
+.main-buttons__button:not(:last-child) {
+  margin-bottom: 16px;
 }
 .main-buttons__button:hover, .main-buttons__button:focus {
   background-color: #fff;
@@ -664,6 +664,11 @@ img {
   flex-direction: column;
   gap: 8px;
   margin-bottom: 32px;
+}
+@media screen and (min-width: 1024px) {
+  .title-content {
+    margin-bottom: 62px;
+  }
 }
 .title-content__excerpt {
   font-family: "Times New Roman";
@@ -697,19 +702,47 @@ img {
   display: flex;
   justify-content: flex-start;
 }
+@media screen and (min-width: 1024px) {
+  .page__images {
+    left: 65px;
+  }
+}
 .page-luxe {
   flex-flow: column wrap;
   align-content: flex-end;
   display: flex;
 }
+@media screen and (min-width: 1024px) {
+  .page-luxe__desc {
+    max-width: 400px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .page-slider {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
 .page-slider__photo {
   display: flex;
   transform: translateX(98px);
+}
+@media screen and (min-width: 1024px) {
+  .page-slider__photo {
+    width: 45%;
+    transform: translateX(0px);
+  }
 }
 .page-slider__buttons {
   display: flex;
   justify-content: flex-end;
   margin-right: 15px;
+}
+@media screen and (min-width: 1024px) {
+  .page-slider__buttons {
+    margin-right: 318px;
+  }
 }
 
 .content-title {
@@ -717,11 +750,13 @@ img {
   flex-direction: column;
   align-items: flex-end;
 }
-.content-title__excerpt {
-  max-width: 242px;
-}
 .content-title__title {
   margin-right: -12px;
+}
+@media screen and (min-width: 1024px) {
+  .content-title__title {
+    margin-right: -20px;
+  }
 }
 
 .hero-room {
