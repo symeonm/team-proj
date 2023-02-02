@@ -1,6 +1,6 @@
 // < !-- Dzhaman Nazar -->
 
-.room-modal {
+.modal-room__modal-wind {
     position: absolute;
 
     top: 50%;
@@ -243,8 +243,9 @@
     border-radius: 2px;
 
 
+    font-family: 'Times New Roman';
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.15;
     letter-spacing: 0.05em;
     color: $color-text-modal;
@@ -267,8 +268,9 @@
     border: 1px solid $color-text-brown;
     border-radius: 2px;
 
+    font-family: 'Times New Roman';
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.15;
     letter-spacing: 0.05em;
     cursor: pointer;
@@ -290,5 +292,32 @@
 
     &:focus {
         outline: 1px solid $color-text-brown;
+    }
+}
+
+.modal-room__backdrop {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    transform: translate(-50%, -50%);
+
+    opacity: 1;
+
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &.is-hidden {
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    &.is-hidden .modal-room__modal-wind {
+        transform: translate(-50%, -50%) scale(0.6);
     }
 }
