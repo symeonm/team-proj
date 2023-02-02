@@ -103,7 +103,8 @@
     font-family: 'Montserrat';
     text-transform: uppercase;
     height: 64px;
-    width: 384px;
+    width: 100%;
+    max-width: 384px;
     background: black;
     border-radius: 25px;
     border: 1px solid $color-text-yellow;
@@ -115,7 +116,7 @@
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) color;
 
     @media (min-width: 1024px) {
-        width: 434px;
+        max-width: 434px;
         font-size: 24px;
 
         &--right {
@@ -128,7 +129,14 @@
             margin-left: 560px; 
             } 
             }
+
+     &:hover, &:focus {
+            color: black;
+            background: $color-text-yellow;
+            }
     }
+
+    
    
 
 .amenities__link {
@@ -151,6 +159,10 @@
         font-size: 20px;
         line-height: 1.25;
     }
+
+    &:hover, &:focus {
+        color: $color-text-yellow;
+    }
 }
 
 .amenities__link--block {
@@ -163,6 +175,6 @@
 }
 
 .amenities__icon {
-    fill: $color-text-brown;
+    fill: currentColor;
     margin-left: 12px;
 }
