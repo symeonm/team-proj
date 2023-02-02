@@ -481,6 +481,7 @@ img {
 }
 @media screen and (min-width: 1024px) {
   .header-navigation {
+    justify-content: space-between;
     margin-top: 24px;
   }
 }
@@ -553,7 +554,6 @@ img {
     border-radius: 2px;
     display: inline-flex;
     align-items: center;
-    margin-right: 80px;
   }
 }
 
@@ -1033,8 +1033,7 @@ img {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   margin: -1px;
 }
 
@@ -1177,7 +1176,6 @@ img {
   background-color: rgba(0, 0, 0, 0.65);
 }
 .hero-room__title {
-  width: 325px;
   margin-top: 93px;
   color: #FFFFFF;
   font-family: "Times New Roman";
@@ -1194,7 +1192,6 @@ img {
   }
 }
 .hero-room__meta {
-  width: 325px;
   margin-top: 14px;
   color: #FFFFFF;
   font-family: "Montserrat";

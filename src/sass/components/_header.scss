@@ -11,6 +11,7 @@
         align-items: center;
         margin-top: 17px;
         @media screen and (min-width: 1024px) {
+            justify-content: space-between;
             margin-top: 24px;
         }
     }
@@ -54,6 +55,7 @@
             margin-right: 6px;
         }
         @media screen and (min-width: 1024px) {
+            
             margin-right: 32px;
         }
     }
@@ -68,7 +70,7 @@
             border-radius: 2px;
             display: inline-flex;
             align-items: center;
-            margin-right: 80px;
+            
         }
     }
     
