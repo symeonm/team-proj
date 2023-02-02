@@ -1,1 +1,69 @@
 <!-- Dzhaman Nazar -->
+
+<div class="modal-room__backdrop is-hidden" data-modal-room>
+  <div class="modal-room__modal-wind" data-modal="2">
+    <button
+      type="button"
+      class="js-modal-close icon-close"
+      data-modal="2"
+      data-modal-room-close
+    >
+      <svg width="24" height="24">
+        <use href="/src/images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h2 class="room-modal-form__header">забронювати номер</h2>
+    <form class="room-modal-form">
+      <div class="room-modal-form__item">
+        <input
+          class="form-input-room"
+          type="text"
+          id="user_name"
+          name="name"
+          placeholder="Ваше імʼя"
+        />
+        <label class="room-modal__label" for="user_name"
+          >На кого забронювати номер?</label
+        >
+      </div>
+      <div class="room-modal-form__item room-modal-form__item--left">
+        <input
+          class="form-input-room"
+          id="user_telephone"
+          name="user_telephone"
+          placeholder="+38 (___) ___-__-__"
+        />
+        <label class="room-modal__label" for="user_telephone"
+          >Номер телефону</label
+        >
+      </div>
+      <div class="room-modal-form__select-one">
+        <select class="form-select-room" id="room" name="room">
+          <option value="2xlux" selected>Двомісний люкс</option>
+          <option value="3x">Трьохмісний номер</option>
+          <option value="2x">Двохмісний номер</option>
+        </select>
+        <label class="room-modal__label" for="room">Категорія номеру</label>
+      </div>
+      <div class="room-modal-form__item">
+        <select class="form-select-room" id="first-date" name="first-date">
+          <option value="first-date" selected>Сьогодні</option>
+          <option value="date">01.02.2023</option>
+          <option value="date">02.02.2023</option>
+        </select>
+        <label class="room-modal__label" for="first-date">Дата заїзду</label>
+      </div>
+      <div class="room-modal-form__item room-modal-form__item--left">
+        <select class="form-select-room" id="last-date" name="last-date">
+          <option value="last-date" selected>Сьогодні</option>
+          <option value="date">03.02.2023</option>
+          <option value="date">04.02.2023</option>
+        </select>
+        <label class="room-modal__label" for="last-date">Дата виїзду</label>
+      </div>
+      <button class="room-modal-form__btn button-modal" type="submit">
+        оформити бронювання
+      </button>
+    </form>
+  </div>
+</div>

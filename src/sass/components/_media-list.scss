@@ -1,0 +1,23 @@
+.media-list {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &__item {
+        height: 24px;
+        width: 24px;
+    }
+
+    &__icon {
+        fill: rgba(243, 198, 83, 0.7);
+        
+        &:hover,
+        &:focus {
+            fill: $color-text-white;
+                
+        }
+    }
+
+
+}

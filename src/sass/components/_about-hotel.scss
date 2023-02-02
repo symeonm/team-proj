@@ -1,1 +1,273 @@
 // < !-- Olga Ystrebova -->
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+        margin: -1px;}
+
+.about-hotel {
+    padding-top: 18px;
+    padding-bottom: 20px;
+    background-color: #fffdee;
+    background-image: linear-gradient(to right,
+    transparent 33.8%,
+    rgba(186, 186, 186, 0.4) 33.8% 33.9%,
+    transparent 33.9% 66.1%,
+    rgba(186, 186, 186, 0.4) 66.1% 66.2%,
+    transparent 66.2%);
+
+    @include tablet {
+        padding-top: 120px;
+        padding-bottom: 32px;
+        // max-width: 1024px;
+        background-image: linear-gradient(to right,
+        transparent 27.1%,
+        rgba(186, 186, 186, 0.4) 27.1% 27.2%,
+        transparent 27.2% 50%,
+        rgba(186, 186, 186, 0.4) 50% 50.1%,
+        transparent 50.1% 72.4%,
+        rgba(186, 186, 186, 0.4) 72.4% 72.5%,
+        transparent 72.5%);
+    }
+
+    @include desktop {
+        padding-bottom: 50px;
+        background-image:  linear-gradient(to right,
+        transparent 26.4%,
+        rgba(186, 186, 186, 0.4) 26.4% 26.5%,
+        transparent 26.5% 50%,
+        rgba(186, 186, 186, 0.4) 50% 50.1%,
+        transparent 50.1% 73.6%,
+        rgba(186, 186, 186, 0.4) 73.6% 73.7%,
+        transparent 73.7%);
+    }
+
+    &__container-position {
+        position: relative;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: row-reverse;
+        color: #b4b4b4;
+        margin-bottom: 6px;
+        font-family: 'Times New Roman', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.15;
+
+        @include tablet {
+            margin-bottom: 4px;
+            font-size: 32px;
+        }
+    }
+
+    &__logo {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: -12px;
+        margin-bottom: 16px;
+        color:  #494848;
+        text-transform: uppercase;
+        font-family: 'Film P3', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.075;
+        letter-spacing: 0.3em;
+
+        @include tablet {
+            margin-right: -19px;
+            margin-bottom: 24px;
+            font-size: 64px;
+            line-height: 1.078;
+        }
+
+        @include desktop {
+            color: #828282;
+        }
+    }
+
+    &__flex {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 21px;
+
+        @media screen and (max-width: 1023px) {
+            margin-top: 32px;
+        }
+
+        @include tablet {
+            gap: 48px;
+        }
+
+        @include desktop {
+            gap: 45px;
+        }
+    }
+
+    &__description-first {
+        display: flex;
+
+        max-width: 242px;
+        margin-bottom: 28px;
+        margin-left: auto;
+        color: #5f5f5f;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02;
+
+        @include tablet {
+            max-width: 419px;
+            font-size: 16px;
+            margin-bottom: 142px;
+        }
+
+        @include desktop {
+            max-width: 488px;
+            margin-bottom: 162px;
+        }
+    }
+
+    &__description-second {
+        display: flex;
+
+        max-width: 163px;
+        color:  #c79002;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02;
+
+        @include tablet {
+            max-width: 312px;
+            font-size: 16px;
+        }
+
+        @include desktop {
+            max-width: 311px;
+        }
+    }
+
+    &__image-first {
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        margin-right: auto;
+        max-width: 224px;
+        max-height: 322px;
+        
+        @include tablet {
+            max-width: 400px;
+            max-height: 524px;
+            position: absolute;
+            left: 65px;
+            top: -144px;
+        }
+
+        @include desktop {
+            left: 100px;
+            max-width: 460px;
+            max-height: 574px;
+            
+    }
+    }
+    &__image-second {
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+       
+    }
+    @include desktop {
+        max-width: 460px;
+        max-height: 574px;
+}
+}
+
+.swiper-about-hotel {
+    margin-left: 85px;
+    
+    
+
+    @media screen and (max-width: 1023px) {
+        margin-top: 32px;
+    }
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+        margin-top: -28px;
+        
+    }
+    
+    @include desktop {
+        margin-top: -157px;
+    }
+
+    &__flex {
+        display: flex;
+        margin-bottom: 20px;
+
+        @include tablet {
+            margin-bottom: 32px;
+        }
+        
+        @include desktop {
+            margin-bottom: 40px;
+        }
+    }
+
+    &__image {
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        // margin-right: auto;
+        width: 254px;
+
+        @include desktop {
+            width: 254px;
+            }
+
+            @include tablet {
+            width: 194px;
+        }
+
+        
+    }
+    
+    &__image--hidden {
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        margin-right: auto;
+       
+        @media screen and (max-width: 1023px) {
+            display: none;
+        }
+    }
+
+    &__svg {
+        display: flex;
+        gap: 32px;
+    }
+
+    &__svg-arrow {
+        display: inline-block;
+        cursor: pointer;
+        fill: #000000;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__svg-arrow:focus,
+    &__svg-arrow:hover {
+        fill: #f3c653;
+    }
+}
+
+
