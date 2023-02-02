@@ -6,9 +6,10 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: #000000;
+    background-color: #F0ECD6;
 
     @media screen and (min-width: 1024px) {
-    background-color: #F0ECD6;
+    
     padding-top: 58px;
     padding-bottom: 40px;
     }
@@ -149,16 +150,13 @@
     }
 
     &__box-dessert {
-    @media screen and (max-width: 1023px) {
-    max-width: 384px;
-    }
-
+   
      @media screen and (min-width: 1024px){
     width: 430px;
     }
 
      @media (min-width: 1280px) {
-     width: 486px;               
+      width: 486px;              
      }
     }   
 }
