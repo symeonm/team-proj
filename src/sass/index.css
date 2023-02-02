@@ -2034,8 +2034,9 @@ img {
   margin-bottom: 8px;
   border: 1px solid rgb(199, 144, 2);
   border-radius: 2px;
+  font-family: "Times New Roman";
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.15;
   letter-spacing: 0.05em;
   color: rgb(128, 128, 128);
@@ -2058,8 +2059,9 @@ img {
   outline: none;
   border: 1px solid rgb(199, 144, 2);
   border-radius: 2px;
+  font-family: "Times New Roman";
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.15;
   letter-spacing: 0.05em;
   cursor: pointer;
@@ -2181,8 +2183,9 @@ img {
   outline: none;
   border: 1px solid rgb(199, 144, 2);
   border-radius: 2px;
+  font-family: "Times New Roman";
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.15;
   letter-spacing: 0.05em;
   cursor: pointer;
@@ -2225,8 +2228,9 @@ img {
   margin-bottom: 8px;
   border: 1px solid rgb(199, 144, 2);
   border-radius: 2px;
+  font-family: "Times New Roman";
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.15;
   letter-spacing: 0.05em;
   color: rgb(128, 128, 128);
