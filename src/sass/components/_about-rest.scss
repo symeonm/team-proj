@@ -1,1 +1,219 @@
 // < !-- Olga Yastrebova -->
+.restaurant {
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    background-color: #fffdee;
+
+    @include tablet {
+        padding-top: 120px;
+        padding-bottom: 32px;
+    }
+
+    @include desktop {
+        padding-bottom: 50px;
+    }
+
+    &__text {
+        color: #b4b4b4;
+        margin-bottom: 12px;
+        font-family: 'Times New Roman', serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.15;
+
+        @include tablet {
+            margin-bottom: 4px;
+            font-size: 32px;
+        }
+    }
+
+    &__logo {
+        display: block;
+        margin-bottom: 12px;
+
+        color: #494848;
+        text-transform: uppercase;
+        font-family: 'Film P3', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.075;
+        letter-spacing: 0.3em;
+
+        @include tablet {
+            margin-bottom: 24px;
+            font-size: 64px;
+            line-height: 1.078;
+        }
+
+        @include desktop {
+            color: #828282;
+        }
+    }
+
+    &__flex {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        @media (max-width: 1023px) {
+            margin-top: 32px;
+        }
+
+        @include tablet {
+            gap: 48px;
+
+        }
+
+        @include desktop {
+            gap: 32px;
+        }
+    }
+
+    &__description-first {
+        max-width: 258px;
+        margin-bottom: 28px;
+        color: #5f5f5f;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02;
+
+        @include tablet {
+            max-width: 439px;
+            font-size: 16px;
+            margin-bottom: 142px;
+        }
+
+        @include desktop {
+            max-width: 518px;
+            margin-bottom: 162px;
+        }
+    }
+
+    &__description-second {
+        display: flex;
+        max-width: 163px;
+        color: #c79002;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02;
+
+        @include tablet {
+            max-width: 312px;
+            font-size: 16px;
+        }
+    }
+
+    &__image-first {
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        margin-left: auto;
+        max-width: 244px;
+        height: 322px;
+
+
+        @include tablet {
+            position: absolute;
+            left: 50%;
+            top: -32px;
+            max-width: 400px;
+            height: 524px;
+        }
+
+        @include desktop {
+            left: 50%;
+            top: -33px;
+            max-width: 460px;
+            height: 574px;
+        }
+    }
+
+    &__image-second {
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+
+        @include desktop {
+            max-width: 460px;
+            height: 574px;
+        }
+
+    }
+}
+
+.swiper-restaurant {
+    margin-right: 0px;
+
+    @media screen and (max-width: 1023px) {
+        margin-top: 32px;
+    }
+
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+        margin-top: -28px;
+
+    }
+
+    @include desktop {
+        margin-top: -157px;
+    }
+
+    &__flex {
+        display: flex;
+        // justify-content: right;
+        margin-bottom: 20px;
+
+        @include tablet {
+            margin-bottom: 32px;
+            margin-right: 0;
+            margin-left: auto;
+        }
+
+        @include desktop {
+            margin-bottom: 40px;
+
+        }
+    }
+
+    &__image {
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+        margin-left: auto;
+        width: 254px;
+
+    }
+
+    &__image--hidden {
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+
+        @media screen and (max-width: 1023px) {
+            display: none;
+        }
+    }
+
+    &__svg {
+        display: flex;
+        justify-content: flex-end;
+        gap: 32px;
+
+    }
+
+    &__svg-arrow {
+        display: inline-block;
+        cursor: pointer;
+        fill: #000000;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        ;
+
+    }
+
+    &__svg-arrow:focus,
+    &__svg-arrow:hover {
+        fill: #f3c653;
+    }
+}
