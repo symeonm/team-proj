@@ -171,6 +171,20 @@
     display: none;
   }
 }
+.details-hotel__minislide {
+  max-width: 80px;
+  max-height: 270px;
+}
+
+.details-hotel__mobile-pos {
+  display: flex;
+  gap: 20px;
+  transform: translateX(-15px);
+
+  @include tablet {
+    display: none;
+  }
+}
 
 .details-hotel__position {
   display: flex;
@@ -231,7 +245,7 @@
   justify-content: flex-end;
   fill: $color-text-white;
   gap: 33px;
-  margin-right: 55px;
+  margin-right: 25px;
   margin-bottom: 32px;
 
   @include tablet {

@@ -5,13 +5,22 @@
         <h2 class="details-res__title">Ресторан</h2>
         <p class="details-res__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
             Velit officia consequat duis enim velit mollit.</p>
-        <picture>
-            <source srcset="/src/images/slide-rest-tel@1x.jpg 1x, /src/images/slide-rest-tel@2x.jpg 2x" media="(min-width:414px)">                              
-            <img  class="details-res__good" srcset="/src/images/slide-rest-tel@1x.jpg 1x, /src/images/slide-rest-tel@2x.jpg 2x" 
-                src="/src/images/slide-rest-tel@1x.jpg" 
-                alt="Стейк"
-            >
-        </picture>
+        <div class="details-res-mobilepos">
+            <picture>
+                <source srcset="/src/images/minislide-hotel-tel@1x.jpg 1x, /src/images/minislide-hotel-tel@2x.jpg 2x"
+                    media="(min-width:414px)">
+                <img class="details-hotel__minislide"
+                    srcset="/src/images/minislide-hotel-tel@1x.jpg 1x, /src/images/minislide-hotel-tel@2x.jpg 2x"
+                    src="/src/images/minislide-hotel-tel@1x.jpg" alt="Яєшня">
+            </picture>
+            <picture>
+                <source srcset="/src/images/slide-rest-tel@1x.jpg 1x, /src/images/slide-rest-tel@2x.jpg 2x"
+                    media="(min-width:414px)">
+                <img class="details-res__good" srcset="/src/images/slide-rest-tel@1x.jpg 1x, /src/images/slide-rest-tel@2x.jpg 2x"
+                    src="/src/images/slide-rest-tel@1x.jpg" alt="Стейк">
+            </picture>
+        </div>   
+        
         <div class="details-res__telslide">
             <svg width="32px" height="32px">
                 <use href="/src/images/icons.svg#icon-arrow-left"></use>
