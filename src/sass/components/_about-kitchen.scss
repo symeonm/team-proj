@@ -1,8 +1,10 @@
 // < !-- Oleksandr Kalenchenko -->
 .about-kitchen {
+background-color: #fffdee;
+
   &__container {
     padding-bottom: 15px;
-    background-color: #fffdee;
+    
 
     @media (max-width: 1023.5px) {
       padding-top: 16px;
@@ -145,30 +147,23 @@
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   }
 
-  &__slider-icon {
-    text-align: right;
+  &__slider {
+    display: flex;
+
+    @media (max-width: 1023.5px) {
+      transform: translateX(69px);
+    }
+
+    @media (min-width: 1024px) {
+      justify-content: flex-end;
+    }
   }
 }
 
-.slider {
-  display: flex;
-  gap: 24px;
-  margin-bottom: 20px;
-
+// Клас для позіціонування стрілок
+.about-kitchen-swiper-btns {
+  justify-content: flex-end;
   @media (max-width: 1023.5px) {
-    transform: translateX(69px);
-  }
-
-  @media (min-width: 1024px) {
-    justify-content: flex-end;
-    margin-bottom: 32px;
-  }
-
-  @media (min-width: 1280px) {
-    margin-bottom: 40px;
-  }
-
-  &__image {
-    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    padding-right: 5px;
   }
 }

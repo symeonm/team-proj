@@ -1,0 +1,90 @@
+.slider-section {
+  &__title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }
+
+  &__medium-container {
+    width: 330px;
+    overflow: hidden;
+
+    @media (min-width: 1024px) {
+      width: 428px;
+    }
+
+    @media (min-width: 1280px) {
+      width: 548px;
+    }
+  }
+
+  &__small-container {
+    width: 284px;
+    overflow: hidden;
+
+    @media (min-width: 1024px) {
+      width: 428px;
+    }
+
+    @media (min-width: 1280px) {
+      width: 548px;
+    }
+  }
+
+  &__medium-picture {
+    width: 245px;
+
+    @media (min-width: 1024px) {
+      width: 194px;
+    }
+
+    @media (min-width: 1280px) {
+      width: 254px;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__small-picture {
+    width: 194px;
+
+    @media (min-width: 1024px) {
+      width: 194px;
+    }
+
+    @media (min-width: 1280px) {
+      width: 254px;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__image {
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.swiper-btns {
+  display: flex;
+  gap: 32px;
+  margin-top: 20px;
+}
+
+.swiper-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  &:hover {
+    fill: #f3c653;
+  }
+}
