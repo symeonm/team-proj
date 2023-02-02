@@ -4,45 +4,20 @@
             padding-top: 16px;
             padding-bottom: 20px;
             background-color: #fffdee;
-            background-image: linear-gradient(to right,
-            transparent 33.8%,
-            rgba(186, 186, 186, 0.4) 33.8% 33.9%,
-            transparent 33.9% 66.1%,
-            rgba(186, 186, 186, 0.4) 66.1% 66.2%,
-            transparent 66.2%);
         
             @include tablet {
                 padding-top: 120px;
                 padding-bottom: 32px;
-                // max-width: 1024px;
-                background-image: linear-gradient(to right,
-                transparent 27.1%,
-                rgba(186, 186, 186, 0.4) 27.1% 27.2%,
-                transparent 27.2% 50%,
-                rgba(186, 186, 186, 0.4) 50% 50.1%,
-                transparent 50.1% 72.4%,
-                rgba(186, 186, 186, 0.4) 72.4% 72.5%,
-                transparent 72.5%);
             }
         
             @include desktop {
                 padding-bottom: 50px;
-                // max-width: 1280px;
-                background-image: linear-gradient(to right,
-                transparent 26.4%,
-                rgba(186, 186, 186, 0.4) 26.4% 26.5%,
-                transparent 26.5% 50%,
-                rgba(186, 186, 186, 0.4) 50% 50.1%,
-                transparent 50.1% 73.6%,
-                rgba(186, 186, 186, 0.4) 73.6% 73.7%,
-                transparent 73.7%);
             }
         
             &__text {
                 color: #b4b4b4;
                 margin-bottom: 12px;
                 font-family: 'Times New Roman', serif;
-                font-style: normal;
                 font-weight: 400;
                 font-size: 20px;
                 line-height: 1.15;
