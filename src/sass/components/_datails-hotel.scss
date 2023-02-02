@@ -21,7 +21,7 @@
   @include tablet {
     height: 620px;
     padding-top: 48px;
-    padding-bottom: 96px;
+    padding-bottom: 40px;
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url('/src/images/details-hotel-tab@1x.jpg');
@@ -49,7 +49,6 @@
   }
 }
 
-// MIMINO
 .details-hotel__pre-title {
   margin-bottom: 12px;
   margin-left: calc(143px - 15px);
@@ -126,6 +125,10 @@
   @include tablet {
     justify-content: flex-end;
   }
+
+  @include desktop {
+    margin-left: 32px;
+  }
 }
 
 .details-hotel__booking {
@@ -162,7 +165,7 @@
   max-height: 270px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 
   @include tablet {
     display: none;
@@ -175,10 +178,10 @@
 
   @include tablet {
     justify-content: space-between;
+    margin-bottom: 24px;
   }
 
   @include desktop {
-    // transform: translateX(calc(52px - 85px));
   }
 }
 
@@ -207,5 +210,31 @@
     @include desktop {
       margin-right: calc(86px - (85px - 52px) / 2);
     }
+  }
+}
+
+.details-hotel__slide {
+  display: none;
+  @include tablet {
+    display: flex;
+    fill: $color-text-white;
+    gap: 33px;
+    margin-left: calc(614px - 47px);
+  }
+  @include desktop {
+    margin-left: calc(828px - 83px);
+  }
+}
+
+.details-hotel__telslide {
+  display: flex;
+  justify-content: flex-end;
+  fill: $color-text-white;
+  gap: 33px;
+  margin-right: 55px;
+  margin-bottom: 32px;
+
+  @include tablet {
+    display: none;
   }
 }
