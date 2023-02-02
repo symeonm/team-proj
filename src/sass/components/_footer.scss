@@ -6,17 +6,29 @@
     justify-content: space-between;
     width: 100%;
     margin: auto;
+    
+    @media (max-width: 1023px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    @media (max-width: 413px) {
+        padding-right: 33px;
+    }
 }
 
 .footer-content {
     display: flex;
     align-items: center;
     width: 100%;
-    @media screen and(min-width: 1024px) {}
-}
+    justify-content: center;
 
+    @media (max-width: 1023px) {
+            flex-wrap: wrap;
+        }
+}
 .footer-logo {
-    width: 100%;
+    
     height: auto;
     text-align: center;
     @media screen and(max-width: 413px) {
@@ -25,16 +37,15 @@
     }
     @media screen and(min-width: 414px) {
         margin-right: 85px;
-        margin-left: 44px;
+        
     }
     @media screen and(min-width: 1024px) {
         margin-right: 163px;
-        margin-left: 139px;
+        
         margin-top: 117px;
         margin-bottom: 118px;
     }
     @media screen and(min-width: 1280px) {
-        margin-left: auto;
         margin-right: 231px;
     }
 }
@@ -53,6 +64,13 @@
     }
 }
 
+.footer-position {
+    @media (min-width: 1024px) {
+        display: flex;
+    }
+    
+}
+
 .footer-navigation {
     margin-top: 40px;
     margin-right: auto;
@@ -67,11 +85,9 @@
 .footer-navigation-list {
     height: auto;
     @media screen and(min-width: 1024px) {
-        margin-right: 144px;
+        margin-right: 198px;
     }
-    @media screen and(min-width: 1280px) {
-        margin-right: auto;
-    }
+    
 }
 
 .footer-navigation__item {
@@ -94,14 +110,12 @@
 .footer-socials {
     display: inline-flex;
     gap: 23px;
-    margin-bottom: 41px;
+    
     height: auto;
     @media screen and(min-width: 1024px) {
         display: flex;
         flex-direction: column-reverse;
-        @media screen and(min-width: 1280px) {
-            margin-right: auto;
-        }
+       
     }
 }
 
