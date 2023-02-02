@@ -848,11 +848,6 @@ img {
     line-height: 1.078;
   }
 }
-@media screen and (min-width: 1280px) {
-  .restaurant__logo {
-    color: #828282;
-  }
-}
 .restaurant__flex {
   display: flex;
   align-items: center;
@@ -1282,6 +1277,9 @@ img {
     padding-bottom: 50px;
   }
 }
+.about-hotel__container-position {
+  position: relative;
+}
 .about-hotel__text {
   display: flex;
   flex-direction: row-reverse;
@@ -1317,11 +1315,6 @@ img {
     margin-bottom: 24px;
     font-size: 64px;
     line-height: 1.078;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .about-hotel__logo {
-    color: #828282;
   }
 }
 .about-hotel__flex {
@@ -1420,9 +1413,6 @@ img {
   .about-hotel__image-first {
     max-width: 460px;
   }
-}
-.about-hotel .swiper-about-hotel {
-  margin-left: 85px;
 }
 @media screen and (max-width: 1023px) {
   .about-hotel .swiper-about-hotel {
