@@ -1,1 +1,294 @@
 // < !-- Dzhaman Nazar -->
+
+.room-modal {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    overflow-y: auto;
+    width: 100%;
+    max-width: 414px;
+    height: 100%;
+    max-height: 780px;
+
+    padding: 60px 15px;
+    background-color: $color-background-modal;
+
+    @media screen and (min-width: 1024px) {
+        width: 100%;
+        max-width: 712px;
+        height: 100%;
+        max-height: 638px;
+
+        padding: 60px;
+    }
+}
+
+.icon-close {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    padding: 0;
+
+    border: none;
+    background-color: transparent;
+
+    &:hover {
+        fill: $color-text-brown;
+    }
+}
+
+.room-modal-form__header {
+    display: block;
+    font-family: Times New Roman, serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman';
+
+    line-height: 1.17;
+
+    letter-spacing: 0.05em;
+
+    color: $color-button-modal;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 40px;
+        line-height: 1.15;
+        margin-bottom: 36px;
+    }
+}
+
+.room-modal-form__item {
+    @media screen and (min-width: 1024px) {
+        display: inline-block;
+
+        &--left {
+            margin-left: 11px;
+        }
+    }
+}
+
+.room-modal-form__input {
+    width: 100%;
+    display: block;
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+
+    padding: 16px 12px;
+    cursor: pointer;
+    outline: none;
+
+    color: $color-text-modal;
+    border: 1px solid $color-text-brown;
+    margin-bottom: 8px;
+    background-color: $color-background-modal;
+
+    &:hover,
+    &:focus {
+        border-color: $color-text-modal;
+    }
+
+    @media screen and (min-width: 1024px) {
+        width: 288px;
+        font-size: 24px;
+        line-height: 1.17;
+    }
+}
+
+.js-inputmask {
+    width: 100%;
+    display: block;
+
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+
+    padding: 16px 12px;
+
+    cursor: pointer;
+    outline: none;
+
+    color: $color-text-modal;
+    border: 1px solid $color-text-brown;
+    margin-bottom: 8px;
+    background-color: $color-background-modal;
+
+    &:hover,
+    &:focus {
+        border-color: $color-text-modal;
+    }
+
+    @media screen and (min-width: 1024px) {
+        width: 288px;
+        font-size: 24px;
+        line-height: 1.17;
+    }
+}
+
+.room-modal__label {
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.21;
+
+    letter-spacing: 0.02em;
+
+    color: $color-text-brown;
+    padding-left: 12px;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1024px) {
+        margin-bottom: 28px;
+    }
+}
+
+.room-modal-form__select-one {
+    @media screen and (min-width: 1024px) {
+        width: 288px;
+        margin-left: auto;
+    }
+}
+
+.js-select {
+    border: none;
+}
+
+.nice-select {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    padding-left: 12px;
+    margin-bottom: 8px;
+
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+
+    letter-spacing: 0.05em;
+
+    color: $color-text-modal;
+    background-color: $color-background-modal;
+    border: 1px solid $color-text-brown;
+    border-radius: 0;
+
+    &:hover {
+        border-color: $color-text-modal;
+    }
+
+    & .nice-select-search {
+        background-color: $color-background-modal;
+        font-family: 'Times New Roman';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.15;
+
+        letter-spacing: 0.05em;
+        border: none;
+    }
+
+    &.open .nice-select-dropdown {
+        width: 100%;
+        background-color: $color-background-modal;
+        border-radius: 0;
+    }
+
+    @media screen and (min-width: 1024px) {
+        width: 288px;
+        font-size: 24px;
+        line-height: 1.17;
+    }
+}
+
+.nice-select::after {
+    content: "";
+    height: 15px;
+    width: 15px;
+    right: 20px;
+    top: 40%;
+    border-bottom: 3px solid $color-text-brown;
+    border-right: 3px solid$color-text-brown;
+}
+
+.room-modal-form__btn {
+    width: 100%;
+    display: block;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+.form-select-room {
+    width: 100%;
+    position: relative;
+    height: 54px;
+    padding-left: 12px;
+    margin-bottom: 8px;
+    border: 1px solid $color-text-brown;
+    border-radius: 2px;
+
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+    color: $color-text-modal;
+    background-color: $color-background-modal;
+
+    @media screen and (min-width: 1024px) {
+        height: 64px;
+        width: 288px;
+        font-size: 24px;
+        line-height: 1.17;
+    }
+}
+
+.form-input-room {
+    max-width: 384px;
+    width: 100%;
+    height: 54px;
+    padding: 16px 12px;
+    outline: none;
+    border: 1px solid $color-text-brown;
+    border-radius: 2px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+
+    background-color: $color-background-modal;
+    color: $color-text-modal;
+
+    margin-bottom: 8px;
+
+    @media screen and (min-width: 1024px) {
+        height: 64px;
+        width: 288px;
+        //  margin-right: 16px;
+
+        font-size: 24px;
+        line-height: 1.17;
+
+    }
+
+    &:focus {
+        outline: 1px solid $color-text-brown;
+    }
+}

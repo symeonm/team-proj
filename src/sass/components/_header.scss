@@ -1,1 +1,137 @@
-// < !-- Ihor Chepak -->
+    // < !-- Ihor Chepak -->
+    .header {
+        background-color: transparent;
+        position: absolute;
+        width: 100%;
+    }
+    
+    .header-navigation {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 17px;
+        @media screen and (min-width: 1024px) {
+            justify-content: space-between;
+            margin-top: 24px;
+        }
+    }
+    
+    .header-logo {
+        font-family: 'Film P3';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.07;
+        letter-spacing: 0.3em;
+        color: #FFFFFF;
+        margin-right: auto;
+        @media screen and (min-width: 320px) {
+            margin-right: 0;
+        }
+        @media screen and (min-width: 414px) {
+            margin-right: 52px;
+        }
+        @media screen and (min-width: 1024px) {
+            margin-right: 207px;
+            font-size: 40px;
+            line-height: 1.1;
+        }
+        @media screen and (min-width: 1280px) {
+            margin-right: 135px;
+        }
+    }
+    
+    .navigation-list {
+        display: inline-flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .navigation-list__item {
+        display: inline-flex;
+        margin-right: auto;
+        // border: 1px solid red;
+        @media screen and (min-width: 414px) {
+            margin-right: 6px;
+        }
+        @media screen and (min-width: 1024px) {
+            
+            margin-right: 32px;
+        }
+    }
+    
+    .navigation-list__item:nth-child(2n) {
+        margin-right: auto;
+        @media screen and (min-width: 414px) {
+            margin-right: 20px;
+        }
+        @media screen and (min-width: 1024px) {
+            border: 1px solid rgba(243, 198, 83, 0.7);
+            border-radius: 2px;
+            display: inline-flex;
+            align-items: center;
+            
+        }
+    }
+    
+    .navigation-list__item:last-child {
+        margin-right: 0;
+        @media screen and (min-width: 1280px) {
+            margin-right: 140px;
+        }
+    }
+    
+    .navigation-list__icon {
+        fill: #F3C653;
+        @media screen and (min-width: 1024px) {
+            margin-left: 8px;
+        }
+    }
+    
+    .navigation-list__link {
+        display: none;
+        @media screen and (min-width: 1024px) {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.21;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            display: inline-flex;
+            margin-top: 12px;
+            margin-bottom: 12px;
+            margin-left: 4px;
+            margin-right: 8px;
+        }
+    }
+    
+    .navigation-list__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        color: #F3C653;
+        @media screen and (min-width: 1024px) {
+            font-size: 20px;
+            line-height: 1.25;
+        }
+    }
+    
+    .header-socials {
+        display: none;
+        @media screen and (min-width: 1280px) {
+            display: inline-flex;
+            gap: 23px;
+        }
+    }
+    
+    .header-socials__icon {
+        fill: #F3C653;
+        &:hover,
+        &:focus {
+            fill: rgba(243, 198, 83, 0.7);
+        }
+    }
