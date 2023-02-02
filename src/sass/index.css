@@ -583,6 +583,7 @@ img {
   .main-slider {
     display: flex;
     gap: 266px;
+    align-items: center;
   }
 }
 .main-slider__content img {

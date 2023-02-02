@@ -77,13 +77,16 @@
         @media screen and (min-width: 1024px) {
             display: flex;
             gap: 266px;
+            align-items: center;
         }
     }
+   
     &-slider__content {
         img {
             max-width: 194px;
         }
     }
+
     &-slider__photos {
         display: flex;
         margin-bottom: 20px;
