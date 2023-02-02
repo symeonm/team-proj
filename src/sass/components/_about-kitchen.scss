@@ -1,13 +1,14 @@
 // < !-- Oleksandr Kalenchenko -->
 .about-kitchen {
-background-color: #fffdee;
+  background-color: #fffdee;
 
   &__container {
-    padding-bottom: 15px;
-    
+    // padding-bottom: 15px;
+    position: relative;
 
     @media (max-width: 1023.5px) {
       padding-top: 16px;
+      padding-bottom: 319px;
       overflow: hidden;
     }
 
@@ -149,21 +150,30 @@ background-color: #fffdee;
 
   &__slider {
     display: flex;
-
-    @media (max-width: 1023.5px) {
-      transform: translateX(69px);
-    }
-
     @media (min-width: 1024px) {
       justify-content: flex-end;
+    }
+  }
+// Клас для позіціонування слайдера в мобільній версії
+  &__slider-container {
+    @media (max-width: 1023.5px) {
+      width: 510px;
+      position: absolute;
+      left: 69px;
     }
   }
 }
 
 // Клас для позіціонування стрілок
 .about-kitchen-swiper-btns {
-  justify-content: flex-end;
-  @media (max-width: 1023.5px) {
-    padding-right: 5px;
+  @media (max-width: 414px) {
+    margin-left: calc(100vw - 200px);
+  }
+
+  @media (min-width: 414px) {
+    margin-left: 220px;
+  }
+  @media (min-width: 1024px) {
+    justify-content: flex-end;
   }
 }

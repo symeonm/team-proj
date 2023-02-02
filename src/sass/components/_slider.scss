@@ -11,11 +11,12 @@
   }
 
   &__medium-container {
-    width: 330px;
+    
     overflow: hidden;
 
     @media (min-width: 1024px) {
       width: 428px;
+      overflow: hidden;
     }
 
     @media (min-width: 1280px) {
