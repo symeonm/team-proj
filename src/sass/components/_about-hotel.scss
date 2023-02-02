@@ -145,7 +145,7 @@
 
         @include tablet {
             max-width: 400px;
-            max-height: 524px;
+            
             position: absolute;
             left: 65px;
             top: -144px;
@@ -246,4 +246,26 @@
         fill: #f3c653;
     }
 }
+
+.about-hotel__slider-container {
+        @media (max-width: 1023.5px) {
+            width: 510px;
+            position: absolute;
+            left: 69px;
+        }
+    }
+
+.about-hotel-swiper-btns {
+        @media (max-width: 414px) {
+            margin-left: calc(100vw - 200px);
+        }
+
+        @media (min-width: 414px) {
+            margin-left: 220px;
+        }
+
+        @media (min-width: 1024px) {
+            justify-content: flex-end;
+        }
+    }
 }

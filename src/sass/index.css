@@ -1393,7 +1393,6 @@ img {
 @media screen and (min-width: 1024px) {
   .about-hotel__image-first {
     max-width: 400px;
-    max-height: 524px;
     position: absolute;
     left: 65px;
     top: -144px;
@@ -1477,6 +1476,28 @@ img {
 }
 .about-hotel .swiper-about-hotel__svg-arrow:focus, .about-hotel .swiper-about-hotel__svg-arrow:hover {
   fill: #f3c653;
+}
+@media (max-width: 1023.5px) {
+  .about-hotel .about-hotel__slider-container {
+    width: 510px;
+    position: absolute;
+    left: 69px;
+  }
+}
+@media (max-width: 414px) {
+  .about-hotel .about-hotel-swiper-btns {
+    margin-left: calc(100vw - 200px);
+  }
+}
+@media (min-width: 414px) {
+  .about-hotel .about-hotel-swiper-btns {
+    margin-left: 220px;
+  }
+}
+@media (min-width: 1024px) {
+  .about-hotel .about-hotel-swiper-btns {
+    justify-content: flex-end;
+  }
 }
 
 .details-hotel {
