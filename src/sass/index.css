@@ -1051,9 +1051,7 @@ img {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.25);
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .details-res {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-tel@2x.jpg");
+
   }
 }
 @media screen and (min-width: 1024px) {
@@ -1063,9 +1061,7 @@ img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-tab@1x.jpg");
   }
 }
-@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (min-resolution: 192dpi), screen and (min-width: 1024px) and (min-resolution: 2dppx) {
-  .details-res {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-tab@2x.jpg");
+
   }
 }
 @media screen and (min-width: 1280px) {
@@ -1073,9 +1069,7 @@ img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-desk@1x.jpg");
   }
 }
-@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
-  .details-res {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-desk@2x.jpg");
+
   }
 }
 
@@ -2141,7 +2135,7 @@ img {
   width: 100%;
   max-width: 414px;
   padding: 60px 15px;
-  background-color: #F0ECD6;
+  background-color: #fffdee;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -2252,6 +2246,7 @@ img {
   height: 54px;
   margin-bottom: 8px;
   margin-top: 20px;
+  padding-left: 15px;
   font-family: "Times New Roman";
   font-style: normal;
   font-weight: 700;
@@ -2276,6 +2271,7 @@ img {
   .modal-price__select,
 .modal-price__input {
     width: 288px;
+    padding-left: 12px;
   }
 }
 
