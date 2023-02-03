@@ -3450,8 +3450,6 @@ img {
 }
 .modal-room__backdrop.is-hidden .modal-room__modal-wind {
   transform: translate(-50%, -50%) scale(0.6);
-<<<<<<< HEAD
-=======
 }
 
 .modal-table__modal-wind {
@@ -3705,5 +3703,4 @@ img {
 }
 .swiper-btn:hover {
   fill: #f3c653;
->>>>>>> 3101c0eb8f68c127acd1f0eb2cb31586bcf422d9
 }
