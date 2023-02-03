@@ -1,17 +1,58 @@
 // < !-- Maria Ostapovich -->
 
 .hero-hotel {
-    background-image: url(./images/hero/hero-room-mobile.jpg);
+
 
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            background-image: url(./images/hero/hero-room-mobile@2x.jpg);
+
         }
 
+    @media (min-width:1024px){
+        background-image: linear-gradient(to right,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)),
+        url(../images/hero/hero-room-tablet.jpg);
 
-    &__control-buttons{
-        margin-top: 178px;
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+        url(../images/hero/hero-room-tablet@2x.jpg);
+        }
     }
-        
+
+    @media (min-width:1280px){
+        background-image: linear-gradient(to right,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)),
+        url(../images/hero/hero-room-desktop.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+        url(../images/hero/hero-room-desktop@2x.jpg);
+        }
+    }
+
+    &__subtitle {
+        margin-top: 32px;
+        margin-bottom: 178px;
+
+        @media (min-width:1024px) {
+            margin-bottom: 226px;
+        }
+
+        @media (min-width:1024px) {
+            margin-bottom: 249px;
+        }
+
+    }
+
 }
