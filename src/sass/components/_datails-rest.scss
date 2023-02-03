@@ -48,7 +48,6 @@
   }
 }
 
-// MIMINO
 .details-res__pre-title {
   margin-bottom: 12px;
   margin-left: calc(140px - 15px);
@@ -127,15 +126,39 @@
 
 .details-res__booking {
   margin-bottom: 16px;
-  @extend .details-res__menu;
-}
-
-.details-res__menu {
   width: 236px;
   height: 48px;
   border-radius: 25px;
   border: 2px solid $color-text-white;
   background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+
+  letter-spacing: 0.02em;
+  color: $color-text-yellow;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $color-text-white;
+    border-color: $color-text-yellow;
+  }
+}
+
+.details-res__menu {
+  // width: 236px;
+  // height: 48px;
+  padding: 12px 30px;
+  border-radius: 25px;
+  border: 2px solid $color-text-white;
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
 
   font-family: 'Montserrat';
   font-style: normal;
