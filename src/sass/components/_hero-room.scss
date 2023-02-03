@@ -1,12 +1,12 @@
 // < !-- Maria Ostapovich -->
 .hero-room {
     padding-bottom: 14px;
-    background-image: url(./images/hero/hero-room-mobile.jpg);
+    background-image: url(../images/hero/hero-room-mobile.jpg);
 
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            background-image: url(./images/hero/hero-room-mobile@2x.jpg);
+            background-image: url(../images/hero/hero-room-mobile@2x.jpg);
         }
 
     @media (min-width:1024px){
