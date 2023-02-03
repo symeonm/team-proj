@@ -123,19 +123,9 @@
         @media screen and (min-width: 1280px) {
             display: inline-flex;
             gap: 23px;
-            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     }
     
-    .header-socials__item {
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+  
     
-    .header-socials__icon {
-        fill: #F3C653;
-        transition: fill 5000ms cubic-bezier(0.4, 0, 0.2, 1) ease;
-        &:hover,
-        &:focus {
-            fill: rgba(243, 198, 83, 0.7);
-        }
-    }
+ 

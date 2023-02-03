@@ -498,7 +498,7 @@ img {
 }
 @media screen and (min-width: 320px) {
   .header-logo {
-    margin-right: 0;
+    margin-right: 5px;
   }
 }
 @media screen and (min-width: 414px) {
@@ -619,13 +619,6 @@ img {
     display: inline-flex;
     gap: 23px;
   }
-}
-
-.header-socials__icon {
-  fill: #F3C653;
-}
-.header-socials__icon:hover, .header-socials__icon:focus {
-  fill: rgba(243, 198, 83, 0.7);
 }
 
 .hero {
