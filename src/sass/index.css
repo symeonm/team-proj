@@ -469,23 +469,8 @@ img {
   padding-left: 15px;
 }
 
-<<<<<<< Updated upstream
 .hero-rest {
   background-image: url(../images/hero/hero-rest-mobile.jpg);
-=======
-.details-res {
-  width: 100%;
-  height: 735px;
-  padding-top: 24px;
-  padding-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-tel@1x.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: rgba(0, 0, 0, 0.25);
->>>>>>> Stashed changes
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-rest {
@@ -500,11 +485,11 @@ img {
 }
 
 .hero-hotel {
-  background-image: url(../images/hero/hero-room-mobile.jpg);
+  background-image: url(./images/hero/hero-room-mobile.jpg);
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-hotel {
-    background-image: url(../images/hero/hero-room-mobile@2x.jpg);
+    background-image: url(./images/hero/hero-room-mobile@2x.jpg);
   }
 }
 .hero-hotel__control-buttons {
@@ -760,6 +745,11 @@ img {
     margin-right: 318px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .page-luxe__subtitle {
+    margin-right: 57px;
+  }
+}
 
 .content-title {
   display: flex;
@@ -778,11 +768,11 @@ img {
 .hero-room {
   padding-left: 15px;
   padding-bottom: 14px;
-  background-image: url(../images/hero/hero-room-mobile.jpg);
+  background-image: url(./images/hero/hero-room-mobile.jpg);
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-room {
-    background-image: url(../images/hero/hero-room-mobile@2x.jpg);
+    background-image: url(./images/hero/hero-room-mobile@2x.jpg);
   }
 }
 .hero-room__slider {

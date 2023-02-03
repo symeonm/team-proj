@@ -212,6 +212,9 @@
         flex-flow: column wrap;
         align-content: flex-end;
         display: flex;
+        @media screen and (min-width: 1280px) {
+            margin-right: 57px;
+        }
     }
     &-luxe__desc {
         @media screen and (min-width: 1024px) {
