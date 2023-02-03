@@ -799,188 +799,6 @@ img {
   }
 }
 
-.about-rest {
-  background-color: #fffdee;
-}
-.about-rest__container {
-  position: relative;
-}
-@media (max-width: 1023.5px) {
-  .about-rest__container {
-    padding-top: 16px;
-    padding-bottom: 319px;
-    overflow: hidden;
-  }
-}
-@media (min-width: 1024px) {
-  .about-rest__container {
-    padding-bottom: 32px;
-  }
-}
-.about-rest__title {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-.about-rest__text {
-  margin-bottom: 12px;
-  font-family: "Times New Roman";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.15;
-  color: #b4b4b4;
-}
-@media (min-width: 1024px) {
-  .about-rest__text {
-    font-size: 32px;
-    margin-bottom: 4px;
-  }
-}
-.about-rest__logo {
-  margin-bottom: 12px;
-  font-family: "Film P3";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 1.075;
-  letter-spacing: 0.3em;
-  color: #494848;
-}
-@media (min-width: 1024px) {
-  .about-rest__logo {
-    font-size: 64px;
-    margin-bottom: 24px;
-  }
-}
-@media (min-width: 1024px) {
-  .about-rest__cook-container {
-    display: flex;
-    align-items: center;
-    transform: translateY(-23px);
-  }
-}
-@media (min-width: 1280px) {
-  .about-rest__cook-container {
-    transform: translateY(-33px);
-  }
-}
-.about-rest__first-description {
-  margin-bottom: 28px;
-  max-width: 258px;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
-  color: #7a7a7a;
-}
-@media (min-width: 1024px) {
-  .about-rest__first-description {
-    font-size: 16px;
-    max-width: 429px;
-    margin-right: 26px;
-    margin-bottom: 0;
-  }
-}
-@media (min-width: 1280px) {
-  .about-rest__first-description {
-    max-width: 518px;
-    margin-right: 37px;
-    margin-bottom: 0;
-  }
-}
-.about-rest__cook-image {
-  display: block;
-  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
-}
-@media (max-width: 1023.5px) {
-  .about-rest__cook-image {
-    transform: translateX(140px);
-    margin-bottom: 32px;
-    max-width: 244px;
-  }
-}
-.about-rest__meat-container {
-  display: flex;
-  width: 100%;
-  gap: 20px;
-  margin-bottom: 32px;
-}
-@media (min-width: 1024px) {
-  .about-rest__meat-container {
-    gap: 48px;
-    transform: translateY(-39px);
-    margin-bottom: -67px;
-  }
-}
-@media (min-width: 1280px) {
-  .about-rest__meat-container {
-    gap: 32px;
-    transform: translateY(-98px);
-    margin-bottom: -249px;
-  }
-}
-.about-rest__second-description {
-  max-width: 163px;
-  align-self: center;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
-  color: #c79002;
-}
-@media (min-width: 1024px) {
-  .about-rest__second-description {
-    font-size: 16px;
-    max-width: 312px;
-  }
-}
-.about-rest__meat-image {
-  display: block;
-  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
-}
-
-.about-restaurant__slider {
-  display: flex;
-}
-@media (min-width: 1024px) {
-  .about-restaurant__slider {
-    justify-content: flex-end;
-  }
-}
-
-@media (max-width: 1023.5px) {
-  .about-restaurant__slider-container {
-    width: 510px;
-    position: absolute;
-    left: 69px;
-  }
-}
-
-@media (max-width: 414px) {
-  .about-restaurant-swiper-btns {
-    margin-left: calc(100vw - 200px);
-  }
-}
-@media (min-width: 414px) {
-  .about-restaurant-swiper-btns {
-    margin-left: 220px;
-  }
-}
-@media (min-width: 1024px) {
-  .about-restaurant-swiper-btns {
-    justify-content: flex-end;
-  }
-}
 
 .details-res {
   width: 100%;
@@ -1235,8 +1053,6 @@ img {
   margin: -1px;
 }
 
-.about-hotel__container {
-  position: relative;
 }
 @media (max-width: 1023.5px) {
   .about-hotel__container {
@@ -1246,15 +1062,6 @@ img {
   }
 }
 
-.about-hotel {
-  padding-top: 18px;
-  padding-bottom: 20px;
-  background-color: #fffdee;
-}
-@media screen and (min-width: 1024px) {
-  .about-hotel {
-    padding-top: 120px;
-    padding-bottom: 32px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -1262,23 +1069,7 @@ img {
     padding-bottom: 50px;
   }
 }
-.about-hotel__container-position {
-  position: relative;
-}
-.about-hotel__text {
-  display: flex;
-  flex-direction: row-reverse;
-  color: #b4b4b4;
-  margin-bottom: 6px;
-  font-family: "Times New Roman", serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.15;
-}
-@media screen and (min-width: 1024px) {
-  .about-hotel__text {
-    margin-bottom: 4px;
-    font-size: 32px;
+
   }
 }
 .about-hotel__logo {
@@ -1951,6 +1742,7 @@ img {
     left: 69px;
   }
 }
+
 
 @media (max-width: 414px) {
   .about-kitchen-swiper-btns {
@@ -2718,7 +2510,7 @@ img {
   width: 100%;
   max-width: 414px;
   padding: 60px 15px;
-  background-color: #F0ECD6;
+  background-color: #fffdee;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -2829,6 +2621,7 @@ img {
   height: 54px;
   margin-bottom: 8px;
   margin-top: 20px;
+  padding-left: 15px;
   font-family: "Times New Roman";
   font-style: normal;
   font-weight: 700;
@@ -2853,6 +2646,7 @@ img {
   .modal-price__select,
 .modal-price__input {
     width: 288px;
+    padding-left: 12px;
   }
 }
 
