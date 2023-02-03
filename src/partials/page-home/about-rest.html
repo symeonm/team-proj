@@ -1,15 +1,18 @@
 <!-- Olga Yastrebova -->
-<section class="restaurant">
-    <div class="container">
-      <h2 class="visually-hidden">About our restaurant</h2>
-        <span class="restaurant__text">Amet minim mollit non</span>
-      <p class="restaurant__logo">Mimiho</p>
-      <p class="restaurant__description-first">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-        Velit officia consequat duis enim velit mollit. Exercitation veniam
-        consequat sunt nostrud amet.
-      </p>  
-      <picture>
+<section class="about-rest">
+<div class="container about-rest__container">
+    <h2 class="about-rest__title">About our kitchen</h2>
+    <div class="about-rest__cook-container">
+      <div>
+        <p class="about-rest__text">Amet minim mollit non</p>
+        <p class="about-rest__logo">MIMIHO</p>
+        <p class="about-rest__first-description">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+      <picture class="about-rest__cook-image">
         <source
           srcset="
             ./images/restaurant/restaurant-interior-desktop.jpg    1x,
@@ -38,65 +41,380 @@
           "
           media="(max-width: 413px)"
         />
-  
+
         <img
           class="restaurant__image-first"
           src="./images/restaurant/restaurant-interior.jpg"
           alt="tables in restaurant"
         />
       </picture>
-  
-      <div class="restaurant__flex">
-        <picture>
-          <source
-            srcset="
-              ./images/restaurant/pexels-oruri-jacome-desktop.jpg    1x,
-              ./images/restaurant/pexels-oruri-jacome-desktop@2x.jpg 2x
-            "
-            media="(min-width: 1280px)"
-          />
-          <source
-            srcset="
-              ./images/restaurant/pexels-oruri-jacome-tablet.jpg    1x,
-              ./images/restaurant/pexels-oruri-jacome-tablet@2x.jpg 2x
-            "
-            media="(min-width: 1024px) and (max-width: 1279px)"
-          />
-          <source
-            srcset="
-              ./images/restaurant/pexels-oruri-jacome.jpg    1x,
-              ./images/restaurant/pexels-oruri-jacome@2x.jpg 2x
-            "
-            media="(min-width: 414px) and (max-width: 1023px)"
-          />
-          <source
-            srcset="
-              ./images/restaurant/pexels-oruri-jacome.jpg    1x,
-              ./images/restaurant/pexels-oruri-jacome@2x.jpg 2x
-            "
-            media="(min-width: 414px) and (max-width: 1023px)"
-          />
-          <source
-            srcset="
-              ./images/restaurant/pexels-oruri-jacome.jpg    1x,
-              ./images/restaurant/pexels-oruri-jacome@2x.jpg 2x
-            "
-            media="(max-width: 413px)"
-          />
-          <img
-            class="restaurant__image-second"
-            src="./images/restaurant/pexels-oruri-jacome.jpg"
-            alt="tables and chairs in a restaurant"
-          />
-        </picture>
-        <p class="restaurant__description-second">
+    </div>
+    <div class="about-rest__meat-container">
+      <picture class="about-rest__meat-image">
+        <source
+          srcset="
+            ./images/restaurant/pexels-oruri-jacome-desktop.jpg    1x,
+            ./images/restaurant/pexels-oruri-jacome-desktop@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./images/restaurant/pexels-oruri-jacome-tablet.jpg    1x,
+            ./images/restaurant/pexels-oruri-jacome-tablet@2x.jpg 2x
+          "
+          media="(min-width: 1024px) and (max-width: 1279px)"
+        />
+        <source
+          srcset="
+            ./images/restaurant/pexels-oruri-jacome.jpg    1x,
+            ./images/restaurant/pexels-oruri-jacome@2x.jpg 2x
+          "
+          media="(min-width: 414px) and (max-width: 1023px)"
+        />
+        <source
+          srcset="
+            ./images/restaurant/pexels-oruri-jacome.jpg    1x,
+            ./images/restaurant/pexels-oruri-jacome@2x.jpg 2x
+          "
+          media="(min-width: 414px) and (max-width: 1023px)"
+        />
+        <source
+          srcset="
+            ./images/restaurant/pexels-oruri-jacome.jpg    1x,
+            ./images/restaurant/pexels-oruri-jacome@2x.jpg 2x
+          "
+          media="(max-width: 413px)"
+        />
+        <img
+          class="restaurant__image-second"
+          src="./images/restaurant/pexels-oruri-jacome.jpg"
+          alt="tables and chairs in a restaurant"
+        />
+      </picture>
+      <p class="about-rest__second-description">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+    </div>
+
+
+
+  <!-- <div class="container about-restaurant__container">
+    <h2 class="visually-hidden">About our restaurant</h2>
+    <div class="restaurant__first-flex">
+      <div>
+        <span class="restaurant__text">Amet minim mollit non</span>
+        <p class="restaurant__logo">Mimiho</p>
+        <p class="restaurant__description-first">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
         </p>
       </div>
-  
-      <div class="swiper-restaurant swiper pageSwiper">
+      <picture class="restaurant__first-picture">
+        <source
+          srcset="
+            ./images/restaurant/restaurant-interior-desktop.jpg    1x,
+            ./images/restaurant/restaurant-interior-desktop@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./images/restaurant/restaurant-interior-tablet.jpg    1x,
+            ./images/restaurant/restaurant-interior-tablet@2x.jpg 2x
+          "
+          media="(min-width: 1024px) and (max-width: 1279px)"
+        />
+        <source
+          srcset="
+            ./images/restaurant/restaurant-interior.jpg    1x,
+            ./images/restaurant/restaurant-interior@2x.jpg 2x
+          "
+          media="(min-width: 414px) and (max-width: 1023px)"
+        />
+        <source
+          srcset="
+            ./images/restaurant/restaurant-interior.jpg    1x,
+            ./images/restaurant/restaurant-interior@2x.jpg 2x
+          "
+          media="(max-width: 413px)"
+        />
+
+        <img
+          class="restaurant__image-first"
+          src="./images/restaurant/restaurant-interior.jpg"
+          alt="tables in restaurant"
+        />
+      </picture>
+    </div>
+
+    <div class="restaurant__flex">
+      <picture>
+        <source
+          srcset="
+            ./images/restaurant/pexels-oruri-jacome-desktop.jpg    1x,
+            ./images/restaurant/pexels-oruri-jacome-desktop@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./images/restaurant/pexels-oruri-jacome-tablet.jpg    1x,
+            ./images/restaurant/pexels-oruri-jacome-tablet@2x.jpg 2x
+          "
+          media="(min-width: 1024px) and (max-width: 1279px)"
+        />
+        <source
+          srcset="
+            ./images/restaurant/pexels-oruri-jacome.jpg    1x,
+            ./images/restaurant/pexels-oruri-jacome@2x.jpg 2x
+          "
+          media="(min-width: 414px) and (max-width: 1023px)"
+        />
+        <source
+          srcset="
+            ./images/restaurant/pexels-oruri-jacome.jpg    1x,
+            ./images/restaurant/pexels-oruri-jacome@2x.jpg 2x
+          "
+          media="(min-width: 414px) and (max-width: 1023px)"
+        />
+        <source
+          srcset="
+            ./images/restaurant/pexels-oruri-jacome.jpg    1x,
+            ./images/restaurant/pexels-oruri-jacome@2x.jpg 2x
+          "
+          media="(max-width: 413px)"
+        />
+        <img
+          class="restaurant__image-second"
+          src="./images/restaurant/pexels-oruri-jacome.jpg"
+          alt="tables and chairs in a restaurant"
+        />
+      </picture>
+      <p class="restaurant__description-second">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet.
+      </p>
+    </div> -->
+
+    <section
+      class="section about-restaurant__slider slider-section"
+      data-slider="team-slider"
+    >
+      <div
+        class="slider-section__container slider-section__medium-container about-restaurant__slider-container"
+      >
+        <h2 class="section-title slider-section__title">Слайдер</h2>
+        <div class="swiper">
+          <ul class="swiper-wrapper slider-section__wrapper">
+            <li class="swiper-slide">
+              <div class="swiper-inner slider-section__medium-picture">
+                <picture class="slider-section__image">
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_dasktop_1.jpg    1x,
+                      ./images/slider/slider_rest_dasktop_1@2x.jpg 2x
+                    "
+                    media="(min-width: 1280px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_tablet_1.jpg    1x,
+                      ./images/slider/slider_rest_tablet_1@2x.jpg 2x
+                    "
+                    media="(min-width: 1024px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_mobile_1.jpg    1x,
+                      ./images/slider/slider_rest_mobile_1@2x.jpg 2x
+                    "
+                    media="(max-width: 1023.5px)"
+                  />
+                  <img
+                    src="./images/slider/slider_rest_dasktop_1.jpg"
+                    alt="Slider"
+                  />
+                </picture>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="swiper-inner slider-section__medium-picture">
+                <picture class="slider-section__image">
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_dasktop_2.jpg    1x,
+                      ./images/slider/slider_rest_dasktop_2@2x.jpg 2x
+                    "
+                    media="(min-width: 1280px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_tablet_2.jpg    1x,
+                      ./images/slider/slider_rest_tablet_2@2x.jpg 2x
+                    "
+                    media="(min-width: 1024px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_mobile_2.jpg    1x,
+                      ./images/slider/slider_rest_mobile_2@2x.jpg 2x
+                    "
+                    media="(max-width: 1023.5px)"
+                  />
+                  <img
+                    src="./images/slider/slider_rest_dasktop_2.jpg"
+                    alt="Slider"
+                  />
+                </picture>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="swiper-inner slider-section__medium-picture">
+                <picture class="slider-section__image">
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_dasktop_3.jpg    1x,
+                      ./images/slider/slider_rest_dasktop_3@2x.jpg 2x
+                    "
+                    media="(min-width: 1280px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_tablet_3.jpg    1x,
+                      ./images/slider/slider_rest_tablet_3@2x.jpg 2x
+                    "
+                    media="(min-width: 1024px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_mobile_3.jpg    1x,
+                      ./images/slider/slider_rest_mobile_3@2x.jpg 2x
+                    "
+                    media="(max-width: 1023.5px)"
+                  />
+                  <img
+                    src="./images/slider/slider_rest_dasktop_3.jpg"
+                    alt="Slider"
+                  />
+                </picture>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="swiper-inner slider-section__medium-picture">
+                <picture class="slider-section__image">
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_dasktop_4.jpg    1x,
+                      ./images/slider/slider_rest_dasktop_4@2x.jpg 2x
+                    "
+                    media="(min-width: 1280px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_tablet_4.jpg    1x,
+                      ./images/slider/slider_rest_tablet_4@2x.jpg 2x
+                    "
+                    media="(min-width: 1024px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_mobile_4.jpg    1x,
+                      ./images/slider/slider_rest_mobile_4@2x.jpg 2x
+                    "
+                    media="(max-width: 1023.5px)"
+                  />
+                  <img
+                    src="./images/slider/slider_rest_dasktop_4.jpg"
+                    alt="Slider"
+                  />
+                </picture>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="swiper-inner slider-section__medium-picture">
+                <picture class="slider-section__image">
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_dasktop_5.jpg    1x,
+                      ./images/slider/slider_rest_dasktop_5@2x.jpg 2x
+                    "
+                    media="(min-width: 1280px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_tablet_5.jpg    1x,
+                      ./images/slider/slider_rest_tablet_5@2x.jpg 2x
+                    "
+                    media="(min-width: 1024px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_mobile_5.jpg    1x,
+                      ./images/slider/slider_rest_mobile_5@2x.jpg 2x
+                    "
+                    media="(max-width: 1023.5px)"
+                  />
+                  <img
+                    src="./images/slider/slider_rest_dasktop_5.jpg"
+                    alt="Slider"
+                  />
+                </picture>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="swiper-inner slider-section__medium-picture">
+                <picture class="slider-section__image">
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_dasktop_1.jpg    1x,
+                      ./images/slider/slider_rest_dasktop_1@2x.jpg 2x
+                    "
+                    media="(min-width: 1280px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_tablet_1.jpg    1x,
+                      ./images/slider/slider_rest_tablet_1@2x.jpg 2x
+                    "
+                    media="(min-width: 1024px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/slider/slider_rest_mobile_1.jpg    1x,
+                      ./images/slider/slider_rest_mobile_1@2x.jpg 2x
+                    "
+                    media="(max-width: 1023.5px)"
+                  />
+                  <img
+                    src="./images/slider/slider_rest_dasktop_1.jpg"
+                    alt="Slider"
+                  />
+                </picture>
+              </div>
+            </li>
+          </ul>
+          <div class="swiper-btns about-restaurant-swiper-btns">
+            <button type="button" class="swiper-btn swiper-button-prev">
+              <svg width="32" height="32">
+                <use href="./images/icons.svg#icon-arrow-left"></use>
+              </svg>
+            </button>
+            <button type="button" class="swiper-btn swiper-button-next">
+              <svg width="32" height="32">
+                <use href="./images/icons.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="swiper-restaurant swiper pageSwiper">
         <div class="swiper-restaurant__flex swiper-wrapper">
           
             <div class="swiper-slide only-slide">
@@ -340,6 +658,6 @@
             <use href="./images/icons.svg#icon-arrow-right"></use>
           </svg>
         </div>
-      </div>
-    </div>
-  </section>
+      </div> -->
+  </div>
+</section>

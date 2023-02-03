@@ -13,6 +13,16 @@
     margin: -1px;
 }
 
+.about-hotel__container {
+    position: relative;
+
+  @media (max-width: 1023.5px) {
+    padding-top: 16px;
+    padding-bottom: 319px;
+    overflow: hidden;
+  }
+}
+
 .about-hotel {
     padding-top: 18px;
     padding-bottom: 20px;
@@ -77,16 +87,19 @@
         align-items: center;
         gap: 21px;
 
-        @media screen and (max-width: 1023px) {
-            margin-top: 32px;
-        }
+        @media (max-width: 1023.5px) {
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
 
         @include tablet {
             gap: 48px;
+            margin-bottom: -28px;
         }
 
         @include desktop {
             gap: 45px;
+            margin-bottom: -179px;
         }
     }
 
@@ -246,26 +259,33 @@
         fill: #f3c653;
     }
 }
-
-.about-hotel__slider-container {
-        @media (max-width: 1023.5px) {
-            width: 510px;
-            position: absolute;
-            left: 69px;
-        }
-    }
-
-.about-hotel-swiper-btns {
-        @media (max-width: 414px) {
-            margin-left: calc(100vw - 200px);
-        }
-
-        @media (min-width: 414px) {
-            margin-left: 220px;
-        }
-
-        @media (min-width: 1024px) {
-            justify-content: flex-end;
-        }
-    }
 }
+.about-hotel__slider {
+  display: flex;
+  @media (min-width: 1024px) {
+    // justify-content: flex-end;
+  }
+}
+// Клас для позіціонування слайдера в мобільній версії
+.about-hotel__slider-container {
+  @media (max-width: 1023.5px) {
+    width: 510px;
+    position: absolute;
+    left: -180px;
+  }
+}
+
+// Клас для позіціонування стрілок
+.about-hotel-swiper-btns {
+  @media (max-width: 1023.5px) {
+    margin-left: 175px;
+  }
+
+//   @media (min-width: 414px) {
+//     margin-left: 220px;
+//   }
+//   @media (min-width: 1024px) {
+//     justify-content: flex-end;
+//   }
+}
+
