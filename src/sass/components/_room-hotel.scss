@@ -33,7 +33,7 @@
             margin-bottom: 200px;
         }
         @media screen and (min-width: 1280px) {
-            margin-bottom: 143px;
+            margin-bottom: 221px;
         }
       
     }
@@ -76,7 +76,6 @@
             position: absolute;
             left: 465px;            
             top: -94px;
-            width: 400px;
         }
         @media screen and (min-width: 1280px) {
             left: 549px;
@@ -141,9 +140,12 @@
 
     &-buttons {
         max-width: 236px;
-        margin: 0 auto;
+        margin: 0;
         @media screen and (min-width: 1024px) {
             margin-bottom: 41px;
+        }
+        @media screen and (min-width: 1280px) {
+            margin-left: auto;
         }
     }
 
@@ -171,6 +173,9 @@
     &-buttons__button:focus {
         background-color: #fff;
         border-color: #F3C653;
+    }
+    &-buttons {
+        margin-right: 0;
     } 
 
 }
@@ -221,7 +226,7 @@
             left: 65px;
         }
         @media screen and (min-width: 1280px) {
-            left: 150px;
+            left: 90px;
         }
     }
     &-luxe {
@@ -238,7 +243,14 @@
         @media screen and (min-width: 1024px) {
             display: flex;
             flex-direction: row-reverse;
-            align-items: center;        }
+            align-items: center;      
+        }
+        @media screen and (min-width: 1280px) {
+            display: flex;
+            justify-content: space-between;   
+        }
+       
+
     }
     &-slider__photo {
         display: flex;
@@ -275,9 +287,9 @@
 .main-slider__slider-container {
     @media (max-width: 1023.5px) {
       width: 510px;
-      position: absolute;
       left: 69px;
     }
+
 }
 
 
@@ -305,4 +317,8 @@
 }
 .swiper-slide:not(:last-child) {
     margin-right: 10px;
+}
+.swiper-btn {
+    border: transparent;
+    background-color: transparent;
 }
