@@ -1,1 +1,179 @@
 // < !-- Oleksandr Kalenchenko -->
+.about-kitchen {
+  background-color: #fffdee;
+
+  &__container {
+    // padding-bottom: 15px;
+    position: relative;
+
+    @media (max-width: 1023.5px) {
+      padding-top: 16px;
+      padding-bottom: 319px;
+      overflow: hidden;
+    }
+
+    @media (min-width: 1024px) {
+      padding-bottom: 32px;
+    }
+  }
+
+  &__title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }
+
+  &__text {
+    margin-bottom: 12px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    color: #b4b4b4;
+
+    @media (min-width: 1024px) {
+      font-size: 32px;
+      margin-bottom: 4px;
+    }
+  }
+
+  &__logo {
+    margin-bottom: 12px;
+    font-family: 'Film P3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.075;
+    letter-spacing: 0.3em;
+    color: #494848;
+
+    @media (min-width: 1024px) {
+      font-size: 64px;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__cook-container {
+    @media (min-width: 1024px) {
+      display: flex;
+      align-items: center;
+      transform: translateY(-23px);
+    }
+
+    @media (min-width: 1280px) {
+      transform: translateY(-33px);
+    }
+  }
+
+  &__first-description {
+    margin-bottom: 28px;
+    max-width: 258px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #7a7a7a;
+
+    @media (min-width: 1024px) {
+      font-size: 16px;
+      max-width: 429px;
+      margin-right: 26px;
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 1280px) {
+      max-width: 518px;
+      margin-right: 37px;
+      margin-bottom: 0;
+    }
+  }
+
+  &__cook-image {
+    display: block;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+
+    @media (max-width: 1023.5px) {
+      transform: translateX(140px);
+      margin-bottom: 32px;
+      max-width: 293px;
+    }
+  }
+
+  &__meat-container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 32px;
+
+    @media (min-width: 1024px) {
+      gap: 48px;
+      transform: translateY(-39px);
+      margin-bottom: -67px;
+    }
+
+    @media (min-width: 1280px) {
+      gap: 32px;
+      transform: translateY(-98px);
+      margin-bottom: -249px;
+    }
+  }
+
+  &__second-description {
+    max-width: 163px;
+    align-self: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #c79002;
+
+    @media (min-width: 1024px) {
+      font-size: 16px;
+      max-width: 312px;
+    }
+  }
+
+  &__meat-image {
+    display: block;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  }
+
+  &__slider {
+    display: flex;
+    @media (min-width: 1024px) {
+      justify-content: flex-end;
+    }
+  }
+// Клас для позіціонування слайдера в мобільній версії
+  &__slider-container {
+    @media (max-width: 1023.5px) {
+      width: 510px;
+      position: absolute;
+      left: 69px;
+    }
+  }
+}
+
+// Клас для позіціонування стрілок
+.about-kitchen-swiper-btns {
+  @media (max-width: 414px) {
+    margin-left: calc(100vw - 200px);
+  }
+
+  @media (min-width: 414px) {
+    margin-left: 220px;
+  }
+  @media (min-width: 1024px) {
+    justify-content: flex-end;
+  }
+}
