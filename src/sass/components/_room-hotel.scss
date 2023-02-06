@@ -1,1 +1,223 @@
 // < !-- Andriy Kovratovskiy -->
+.page {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: rgba(255, 253, 238, 1);
+    @media screen and (min-width: 1024px) {
+        padding-top: 62px;
+        padding-bottom: 40px; 
+    }
+    @media screen and (min-width: 1024px) {
+        padding-top: 72px;
+    }
+    &-content {
+        @media screen and (min-width: 1024px) {
+            display: flex;
+            gap: 21px;
+        }
+    }
+    .content-main__title {
+        margin-right: -11px;
+    }
+    &-subtitle {
+        font-family: 'Times New Roman';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.05em;
+
+        color: rgba(0, 0, 0, 1);
+        @media screen and (min-width: 1024px) {
+            font-size: 30px;
+            line-height: 34px;
+        }
+        @media screen and (min-width: 1280px) {
+            font-size: 36px;
+        }
+    }
+
+    &-subtitle:not(:last-child) {
+        margin-bottom: 12px;
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 16px;
+        }
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 24px;
+        }
+    }
+
+    &-text {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.02em;
+
+        color: rgba(122, 122, 122, 1);
+        @media screen and (min-width: 1024px) {
+            font-size: 16px;
+            line-height: 20px;
+        }
+        @media screen and (min-width: 1280px) {
+            max-width: 400px;
+        }
+    }
+    &-text {
+        display: block;
+        margin-bottom: 32px;
+        max-width: 258px;
+        @media screen and (min-width: 1024px) {
+            max-width: 439px;
+            margin-bottom: 176px;
+        }
+        @media screen and (min-width: 1280px) {
+            margin-bottom: 188px;
+        }
+    }
+    &-images {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 32px;
+        img {
+            box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+        }
+        @media screen and (min-width: 1024px) {
+            position: absolute;
+            transform: translate(465px , -94px);
+        }
+        @media screen and (min-width: 10280px) {
+            transform: translate(555px , -104px);
+        }
+    }
+    &__buttons {
+        text-align: center;
+        @media screen and (min-width: 1024px) {
+            margin-top: 41px;
+            text-align: right;
+        }
+    }
+    &-btn {
+        max-width: 236px;
+        width: 100%;
+        height: 48px;
+        background: #000000;
+        border: 2px solid #FFFDEE;
+        border-radius: 25px;
+
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #F3C653;
+    }
+    &-btn:not(:last-child) {
+        margin-bottom: 16px;
+    }
+}
+
+.content-page {
+    &__desk {
+        font-family: 'Times New Roman';
+        font-size: 20px;
+        line-height: 23px;
+
+        color: rgba(180, 180, 180, 1);
+        @media screen and (min-width: 1024px) {
+            font-size: 32px;
+            line-height: 37px;
+        }
+    }
+    &__desk:not(:last-child) {
+        margin-bottom: 8px;
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 4px;
+        }
+    }
+    &__title {
+        font-family: 'Film P3';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 43px;
+        letter-spacing: 0.3em;
+
+        color: rgba(73, 72, 72, 1);
+        @media screen and (min-width: 1024px) {
+            font-size: 64px;
+            line-height: 69px;
+        }
+        
+    }
+    &__title:not(:last-child) {
+        margin-bottom: 32px;
+        display: block;
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 62px;
+        }
+        @media screen and (min-width: 1280px) {
+            margin-bottom: 72px;
+        }
+    }
+}
+// MAIN 
+.main {
+    background-color: rgba(240, 236, 214, 1);
+    &-slider {
+        @media screen and (min-width: 1024px) {
+            flex-direction: row-reverse;
+        }
+    }
+    &-text {
+        max-width: 400px;
+    }
+    &-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .page__subtitle {
+        flex-flow: column wrap;
+        align-content: flex-end;
+        display: flex;
+        @media screen and (min-width: 1024px) {
+            max-width: 400px;
+        }
+        
+    }
+
+    &-images {
+        justify-content: flex-start;
+        @media screen and (min-width: 1024px) {
+            transform: translate(65px, -94px);
+        }
+    }
+    &-slider {
+        flex-direction: row-reverse;
+    }
+    &__buttons {
+        text-align: left;
+    }
+}
+
+.content-main {
+    flex-direction: column;
+}
+
+
+// slider
+.content-slider {
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.about-kitchen__slider  {
+    margin-bottom: 20px;
+    @media screen and (min-width: 1024px) {
+        margin-bottom: 0px;
+    }
+}
+.slider-section__container {
+    position: static;
+}
