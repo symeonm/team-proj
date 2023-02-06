@@ -16,9 +16,6 @@
             gap: 21px;
         }
     }
-    .content-main__title {
-        margin-right: -11px;
-    }
     &-subtitle {
         font-family: 'Times New Roman';
         font-weight: 700;
@@ -41,7 +38,7 @@
         @media screen and (min-width: 1024px) {
             margin-bottom: 16px;
         }
-        @media screen and (min-width: 1024px) {
+        @media screen and (min-width: 1280px) {
             margin-bottom: 24px;
         }
     }
@@ -57,9 +54,7 @@
         @media screen and (min-width: 1024px) {
             font-size: 16px;
             line-height: 20px;
-        }
-        @media screen and (min-width: 1280px) {
-            max-width: 400px;
+
         }
     }
     &-text {
@@ -72,6 +67,7 @@
         }
         @media screen and (min-width: 1280px) {
             margin-bottom: 188px;
+            max-width: 400px;
         }
     }
     &-images {
@@ -83,9 +79,9 @@
         }
         @media screen and (min-width: 1024px) {
             position: absolute;
-            transform: translate(465px , -94px);
+            transform: translate(465px , -104px);
         }
-        @media screen and (min-width: 10280px) {
+        @media screen and (min-width: 1280px) {
             transform: translate(555px , -104px);
         }
     }
@@ -93,6 +89,10 @@
         text-align: center;
         @media screen and (min-width: 1024px) {
             margin-top: 41px;
+            text-align: right;
+        }
+        @media screen and (min-width: 1280px) {
+            margin-top: 72px;
             text-align: right;
         }
     }
@@ -168,40 +168,56 @@
         }
     }
     &-text {
-        max-width: 400px;
+        max-width: 242px;
+        @media screen and (min-width: 1024px) {
+            max-width: 400px;
+        }
     }
     &-content {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        @media screen and (min-width: 1280px) {
+            margin-right: 57px;
+        }
     }
 
     .page__subtitle {
         flex-flow: column wrap;
         align-content: flex-end;
         display: flex;
-        @media screen and (min-width: 1024px) {
-            max-width: 400px;
-        }
         
     }
 
     &-images {
         justify-content: flex-start;
         @media screen and (min-width: 1024px) {
-            transform: translate(65px, -94px);
+            transform: translate(65px, -104px);
         }
+        @media screen and (min-width: 1280px) {
+            transform: translate(95px, -104px);
+        }
+        
     }
     &-slider {
         flex-direction: row-reverse;
     }
     &__buttons {
-        text-align: left;
+        text-align: center;
+       @media screen and (min-width: 1024px) {
+            text-align: left;
+       }
     }
 }
 
 .content-main {
     flex-direction: column;
+    &__title {
+        margin-right: -11px;
+        @media screen and (min-width: 1280px) {
+            margin-right: -20px;
+        }
+    }
 }
 
 

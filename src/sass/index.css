@@ -2491,9 +2491,6 @@ img {
     gap: 21px;
   }
 }
-.page .content-main__title {
-  margin-right: -11px;
-}
 .page-subtitle {
   font-family: "Times New Roman";
   font-weight: 700;
@@ -2521,7 +2518,7 @@ img {
     margin-bottom: 16px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .page-subtitle:not(:last-child) {
     margin-bottom: 24px;
   }
@@ -2540,11 +2537,6 @@ img {
     line-height: 20px;
   }
 }
-@media screen and (min-width: 1280px) {
-  .page-text {
-    max-width: 400px;
-  }
-}
 .page-text {
   display: block;
   margin-bottom: 32px;
@@ -2559,6 +2551,7 @@ img {
 @media screen and (min-width: 1280px) {
   .page-text {
     margin-bottom: 188px;
+    max-width: 400px;
   }
 }
 .page-images {
@@ -2572,10 +2565,10 @@ img {
 @media screen and (min-width: 1024px) {
   .page-images {
     position: absolute;
-    transform: translate(465px, -94px);
+    transform: translate(465px, -104px);
   }
 }
-@media screen and (min-width: 10280px) {
+@media screen and (min-width: 1280px) {
   .page-images {
     transform: translate(555px, -104px);
   }
@@ -2586,6 +2579,12 @@ img {
 @media screen and (min-width: 1024px) {
   .page__buttons {
     margin-top: 41px;
+    text-align: right;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .page__buttons {
+    margin-top: 72px;
     text-align: right;
   }
 }
@@ -2665,40 +2664,63 @@ img {
   }
 }
 .main-text {
-  max-width: 400px;
+  max-width: 242px;
+}
+@media screen and (min-width: 1024px) {
+  .main-text {
+    max-width: 400px;
+  }
 }
 .main-content {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
+@media screen and (min-width: 1280px) {
+  .main-content {
+    margin-right: 57px;
+  }
+}
 .main .page__subtitle {
   flex-flow: column wrap;
   align-content: flex-end;
   display: flex;
-}
-@media screen and (min-width: 1024px) {
-  .main .page__subtitle {
-    max-width: 400px;
-  }
 }
 .main-images {
   justify-content: flex-start;
 }
 @media screen and (min-width: 1024px) {
   .main-images {
-    transform: translate(65px, -94px);
+    transform: translate(65px, -104px);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .main-images {
+    transform: translate(95px, -104px);
   }
 }
 .main-slider {
   flex-direction: row-reverse;
 }
 .main__buttons {
-  text-align: left;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .main__buttons {
+    text-align: left;
+  }
 }
 
 .content-main {
   flex-direction: column;
+}
+.content-main__title {
+  margin-right: -11px;
+}
+@media screen and (min-width: 1280px) {
+  .content-main__title {
+    margin-right: -20px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
