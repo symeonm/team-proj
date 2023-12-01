@@ -236,24 +236,24 @@
   }
 }
 
-.details-res__slide {
-  display: none;
-  @include tablet {
-    display: flex;
-    fill: $color-text-white;
-    gap: 33px;
-    margin-left: calc(312px - 47px);
-  }
-}
+// .details-res__slide {
+//   display: none;
+//   @include tablet {
+//     display: flex;
+//     // fill: $color-text-white;
+//     gap: 33px;
+//     margin-left: calc(312px - 47px);
+//   }
+// }
 
-.details-res__telslide {
-  display: flex;
-  margin-left: 25px;
-  fill: $color-text-white;
-  gap: 33px;
+// .details-res__telslide {
+//   display: flex;
+//   margin-left: 25px;
+//   // fill: $color-text-white;
+//   gap: 33px;
 
-  margin-bottom: 32px;
-  @include tablet {
-    display: none;
-  }
-}
+//   margin-bottom: 32px;
+//   @include tablet {
+//     display: none;
+//   }
+// }
