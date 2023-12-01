@@ -1,1 +1,85 @@
-// < !-- Andriy Kovratovskiy -->
+// < !-- room-hotel -->
+.room-hotel {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    &__text {
+        color: #B4B4B4;
+        font-family: Times New Roman;
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    &__logo {
+        color: #494848;
+        font-family: 'Film P3';
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 12px;
+        margin-bottom: 32px;
+    }
+
+    &__logoo{
+        letter-spacing: 0;
+    }
+
+    &__title {
+        color: #000;
+        font-family: Times New Roman;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        margin-bottom: 12px;
+    }
+
+    &__description {
+        color: #7A7A7A;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.24px;
+        margin-bottom: 32px;
+        max-width: 258px;
+    }
+}
+
+.two-room__image,
+.three-room__image {
+    max-width: 244px;
+    border-radius: 2px;
+    margin-bottom: 32px;
+    background: #DADADA;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+}
+
+.two-room__image {
+    margin-left: auto;
+}
+
+.three-room{
+background-color: #F0ECD6;
+
+&__image {
+        margin-right: auto;
+    }
+
+&__description {
+        max-width: 242px;
+        margin-left: 86px;
+        text-align: left;
+    }
+&__text-box {
+    text-align: right;
+}
+}
+
+.buttons-container{
+    text-align: center;
+}
+
+.button__details{
+    display: inline-block;
+    padding: 14px 64px;
+    margin-bottom: 16px;   
+}
+
