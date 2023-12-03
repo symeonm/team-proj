@@ -2,12 +2,31 @@
 .room-hotel {
     padding-top: 32px;
     padding-bottom: 32px;
+    position: relative;
+
+    &__slider {
+        display: flex;
+        @media (max-width:990px){
+        margin-bottom: 310px;
+        }
+        
+        @media (min-width: 1024px) {
+        justify-content: flex-end;
+        margin-bottom: 10px;
+        }
+    }
+
+   
 
     &__text {
         color: #B4B4B4;
         font-family: Times New Roman;
         font-size: 20px;
         margin-bottom: 8px;
+
+    @media (min-width:1024px){
+        font-size: 32px;
+    }
     }
 
     &__logo {
@@ -17,6 +36,12 @@
         font-weight: 700;
         letter-spacing: 12px;
         margin-bottom: 32px;
+
+        @media (min-width:1024px){
+            font-size: 64px;
+            letter-spacing: 19.2px;
+            margin-bottom: 62px;
+        }
     }
 
     &__logoo{
@@ -30,6 +55,12 @@
         font-weight: 700;
         letter-spacing: 1.2px;
         margin-bottom: 12px;
+
+    @media (min-width:1024px){
+        font-size: 30px;
+        letter-spacing: 1.5px;
+        margin-bottom: 16px;
+    }
     }
 
     &__description {
@@ -40,7 +71,30 @@
         letter-spacing: 0.24px;
         margin-bottom: 32px;
         max-width: 258px;
+
+    @media (min-width:1024px){
+        font-size: 16px;
+        font-style: normal;
+        letter-spacing: 0.32px;
+        max-width: 439px;
+        margin-right: 26px;
     }
+}
+}
+
+.two-room{
+@media (min-width:1024px){
+transform: translateY(-53px);
+}
+}
+
+.two-room__box{
+@media (min-width:1024px){
+    display: flex;
+    justify-content: space-around;
+    //gap: 26px;
+    align-items: center;   
+}
 }
 
 .two-room__image,
@@ -50,6 +104,10 @@
     margin-bottom: 32px;
     background: #DADADA;
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+
+    @media (min-width:1024px){
+        max-width: 400px;
+    }
 }
 
 .two-room__image {
@@ -58,28 +116,60 @@
 
 .three-room{
 background-color: #F0ECD6;
+width: 100%;
 
+
+  
 &__image {
-        margin-right: auto;
+    margin-right: auto;
+    @media (max-width: 1023.5px){
+    margin-bottom: 32px;
     }
+}
+
+&__box {
+    @media (min-width:1024px) {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        transform: translateY(-53px);
+        flex-flow: row-reverse;
+    }
+}
 
 &__description {
         max-width: 242px;
         margin-left: 86px;
         text-align: left;
+
+    @media (min-width:1024px){
+    max-width: 400px;
+    margin-left: auto;
+    }
     }
 &__text-box {
     text-align: right;
+    @media (min-width:1024px){
+        text-align: left;
+    }
 }
 }
 
-.buttons-container{
+.button-container{
     text-align: center;
+    @media (min-width:1024px){
+    max-width: 236px;
+    margin-left: auto;
+    }
 }
 
 .button__details{
     display: inline-block;
     padding: 14px 64px;
-    margin-bottom: 16px;   
+    @media (min-width:1024px){
+        margin-top: 10px;
+    }
 }
+
+
 
