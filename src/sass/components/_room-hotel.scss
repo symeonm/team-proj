@@ -3,7 +3,9 @@
     padding-top: 32px;
     padding-bottom: 32px;
     position: relative;
+@media (max-width: 1023.5px){
     overflow: hidden;
+   }
 
     &__text {
         color: #B4B4B4;
