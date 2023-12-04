@@ -1,7 +1,7 @@
 <!--room-hotel-->
 <section>
   <!--First room-->
-  <div class="container room-hotel two-room">   
+  <div class="container room-hotel two-room">
     <div class="two-room__box">
       <div>
         <p class="room-hotel__text">Amet minim mollit non</p>
@@ -49,73 +49,76 @@
         />
       </picture>
     </div>
-    <div class="button-container">
+    <div class="button-container two-room__button-container">
       <a href="/src/room.html" class="button button__details">Детальніше</a>
     </div>
-  </div>  
+  </div>
   <!--Second room-->
   <div class="container room-hotel three-room">
     <div class="three-room__box">
-<div class="three-room__text-box">
-      <p class="room-hotel__text">Amet minim mollit non</p>
-      <p class="room-hotel__logo">
-        MIMIH<span class="room-hotel__logoo">O</span>
-      </p>
-      <h2 class="room-hotel__title">ТРЬОХМІСНИЙ НОМЕР</h2>
-      <p class="room-hotel__description three-room__description">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat duis enim velit mollit. Exercitation
-        veniam consequat sunt nostrud amet.
-      </p>
+      <div class="three-room__text-box">
+        <p class="room-hotel__text">Amet minim mollit non</p>
+        <p class="room-hotel__logo">
+          MIMIH<span class="room-hotel__logoo">O</span>
+        </p>
+        <h2 class="room-hotel__title">ТРЬОХМІСНИЙ НОМЕР</h2>
+        <p class="room-hotel__description three-room__description">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+      </div>
+      <picture>
+        <source
+          srcset="
+            ./images/hotel/apartment-desktop.jpg    1x,
+            ./images/hotel/apartment-desktop@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./images/hotel/apartment-tablet.jpg    1x,
+            ./images/hotel/apartment-tablet@2x.jpg 2x
+          "
+          media="(min-width: 1024px) and (max-width: 1279px)"
+        />
+        <source
+          srcset="
+            ./images/hotel/apartment.jpg    1x,
+            ./images/hotel/apartment@2x.jpg 2x
+          "
+          media="(min-width: 414px) and (max-width: 1023px)"
+        />
+        <source
+          srcset="
+            ./images/hotel/apartment.jpg    1x,
+            ./images/hotel/apartment@2x.jpg 2x
+          "
+          media="(max-width: 413px)"
+        />
+        <img
+          class="three-room__image"
+          src="/src/images/hotel/apartment-desktop.jpg"
+          alt="bed in the room"
+        />
+      </picture>
     </div>
-    <picture>
-      <source
-        srcset="
-          ./images/hotel/apartment-desktop.jpg    1x,
-          ./images/hotel/apartment-desktop@2x.jpg 2x
-        "
-        media="(min-width: 1280px)"
-      />
-      <source
-        srcset="
-          ./images/hotel/apartment-tablet.jpg    1x,
-          ./images/hotel/apartment-tablet@2x.jpg 2x
-        "
-        media="(min-width: 1024px) and (max-width: 1279px)"
-      />
-      <source
-        srcset="
-          ./images/hotel/apartment.jpg    1x,
-          ./images/hotel/apartment@2x.jpg 2x
-        "
-        media="(min-width: 414px) and (max-width: 1023px)"
-      />
-      <source
-        srcset="
-          ./images/hotel/apartment.jpg    1x,
-          ./images/hotel/apartment@2x.jpg 2x
-        "
-        media="(max-width: 413px)"
-      />
-      <img
-        class="three-room__image"
-        src="/src/images/hotel/apartment-desktop.jpg"
-        alt="bed in the room"
-      />
-    </picture>
-    </div>
-    
     <!--Swiper-->
     <section
-      class="section  slider-section room-hotel__slider" data-slider="team-slider"
+      class="section slider-section room-hotel__slider"
+      data-slider="team-slider"
     >
       <!-- Slider main container -->
       <div
-        class="slider-section__container slider-section__medium-container about-kitchen__slider-container">
+        class="slider-section__container slider-section__medium-container room-hotel__slider-container"
+      >
         <h2 class="section-title slider-section__title">Слайдер</h2>
         <div class="swiper">
           <!-- Additional required wrapper -->
-          <div class="swiper-wrapper slider-section__wrapper room__slider-container">
+          <div
+            class="swiper-wrapper slider-section__wrapper room__slider-container"
+          >
             <!-- Slides -->
             <div class="swiper-slide">
               <div class="swiper-inner slider-section__medium-picture">
@@ -243,7 +246,7 @@
             </div>
           </div>
           <!--navigation buttons -->
-          <div class="swiper-btns about-kitchen-swiper-btns">
+          <div class="swiper-btns room-hotel-swiper-btns">
             <button type="button" class="swiper-btn swiper-button-prev">
               <svg width="32" height="32">
                 <use href="./images/icons.svg#icon-arrow-left"></use>
@@ -258,13 +261,12 @@
         </div>
       </div>
     </section>
-
-    <div class="button-container">
-      <button type="button" class="button">Переглянути ціни</button>
+    <div class="button-container three-room__button-container">
+      <a href="/src/room.html" class="button button__details">Детальніше</a>
     </div>
   </div>
   <!--Third room-->
-  <div class="container room-hotel two-room">   
+  <div class="container room-hotel two-room">
     <div class="two-room__box">
       <div>
         <p class="room-hotel__text">Amet minim mollit non</p>
@@ -312,7 +314,7 @@
         />
       </picture>
     </div>
-    <div class="button-container">
+    <div class="button-container two-room__button-container">
       <a href="/src/room.html" class="button button__details">Детальніше</a>
     </div>
   </div>
