@@ -31,21 +31,21 @@
     
     height: auto;
     text-align: center;
-    @media screen and(max-width: 413px) {
+    @media screen and (max-width: 413px) {
         margin-left: auto;
         margin-right: auto;
     }
-    @media screen and(min-width: 414px) {
+    @media screen and (min-width: 414px) {
         margin-right: 85px;
         
     }
-    @media screen and(min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
         margin-right: 163px;
         
         margin-top: 117px;
         margin-bottom: 118px;
     }
-    @media screen and(min-width: 1280px) {
+    @media screen and (min-width: 1280px) {
         margin-right: 231px;
     }
 }
@@ -58,7 +58,7 @@
     line-height: 1.08;
     letter-spacing: 0.3em;
     color: #F3C653;
-    @media screen and(min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
         font-size: 64px;
         line-height: 1.08;
     }
@@ -76,7 +76,7 @@
     margin-right: auto;
     justify-content: space-between;
     width: 100%;
-    @media screen and(min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
         display: flex;
         justify-content: space-between;
     }
@@ -84,7 +84,7 @@
 
 .footer-navigation-list {
     height: auto;
-    @media screen and(min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
         margin-right: 198px;
     }
     
@@ -112,7 +112,7 @@
     gap: 23px;
     
     height: auto;
-    @media screen and(min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
         display: flex;
         flex-direction: column-reverse;
        
@@ -120,7 +120,7 @@
 }
 
 .footer-socials__item {
-    @media screen and(min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
         border: 0.5px solid #F3C653;
         border-radius: 2px;
         text-align: center;
@@ -136,7 +136,7 @@
 }
 
 .footer-socials__link {
-    @media screen and(min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
         text-align: center;
         display: flex;
     }
@@ -144,12 +144,12 @@
 
 .footer-socials__icon {
     fill: rgba(243, 198, 83, 0.7);
-    @media screen and(min-width: 1024px) {}
+    @media screen and (min-width: 1024px) {}
 }
 
 .footer-socials__text {
     display: none;
-    @media screen and(min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
