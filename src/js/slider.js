@@ -15,7 +15,8 @@ function swiperSlider() {
 
             let swiper = new Swiper(slider.querySelector('.swiper'), {
                 speed: 1500,
-                // автоплей
+                loop: true,
+                // автоплей 
                 centeredSlides: true,
                 autoplay: {
                     delay: 3000,
