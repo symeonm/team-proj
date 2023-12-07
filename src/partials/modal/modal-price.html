@@ -1,10 +1,8 @@
 <!-- Domin Oleksandr -->
- <div class="modal-price__backdrop is-hidden" data-modal-price
- data-modal-price-room>
-      <div class="modal-price__modal-wind" data-modal="3">
-          <button class="btn-modal--close" type="button"
-          data-modal-price-close
-       >
+
+  <div class="modal3 modal-price__backdrop is-hidden">
+    <div class="modal-price__modal-wind">
+          <button class="btn-modal--close js-modal-close" type="button">
             <svg width="18" height="18" >
               <use href="./images/icons.svg#close-black">
               </use>
@@ -14,10 +12,10 @@
           <h3 class="modal-price__title">ЦІНИ НА НОМЕР</h3>
           <h4 class="modal-price__title-room" >Двомісний люкс</h4>
           <p class="modal-price__discr">Категорія номеру</p>
-          <div class="modal-price__thumb">
+      <div class="modal-price__thumb">
             <form class="modal-price__form">
             <select class="modal-price__select" name="number-nigh" id="number-nigh" required>
-              <option value=" ">1</option>
+              <option value="number">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="4">4</option>
@@ -27,9 +25,10 @@
           <form class="modal-price__form-price">
             <input class="modal-price__input" type="text" name="room-price" id="room-price" placeholder="1000" required>
             <label class="modal-price__label" for="room-price">грн</label>
-          </form>
-          </div>
-          <button class="btn-modal__booking" type="submit">ЗАБРОНЮВАТИ НОМЕР</button>          
-          </div>
-      </div>
+        </div>
+            <button class="btn-modal__booking" type="submit">ЗАБРОНЮВАТИ НОМЕР</button>               
+          </form>          
     </div>
+  </div>
+
+

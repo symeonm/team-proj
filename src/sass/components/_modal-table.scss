@@ -180,7 +180,8 @@
 
 }
 
-.modal-table__backdrop {
+//.modal-table__backdrop 
+.modal {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -192,7 +193,7 @@
     transform: translate(-50%, -50%);
 
     opacity: 1;
-
+    
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
