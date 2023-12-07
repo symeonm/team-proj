@@ -31,19 +31,19 @@
 
 document.addEventListener('DOMContentLoaded', function () {
   modalController({
-    modal: '.modal',
+    modal: '.modal',//modal-table
     btnOpen: '.button-js',
     btnClose: '.js-modal-close',
   });
 
   modalController({
     modal: '.modal2',
-    btnOpen: '.button2-js',
+    btnOpen: '.button2-js',//modal-room
     btnClose: '.js-modal-close',
   });
 
   modalController({
-    modal: '.modal3',
+    modal: '.modal3',//modal-price
     btnOpen: '.button3-js',
     btnClose: '.js-modal-close',
   });
