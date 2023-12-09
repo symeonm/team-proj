@@ -631,7 +631,7 @@ img {
   background-color: #000000;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-home-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-home-mobile@2x.jpg);
   }
@@ -643,7 +643,7 @@ img {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-home-tablet.jpg);
   }
 }
-@media (min-width: 1024px) and (min-device-pixel-ratio: 2), (min-width: 1024px) and (min-resolution: 192dpi), (min-width: 1024px) and (min-resolution: 2dppx) {
+@media (min-width: 1024px) and (min-device-pixel-ratio: 2), (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1024px) and (min-resolution: 192dpi), (min-width: 1024px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-home-tablet@2x.jpg);
   }
@@ -655,7 +655,7 @@ img {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-home-desktop.jpg);
   }
 }
-@media (min-width: 1280px) and (min-device-pixel-ratio: 2), (min-width: 1280px) and (min-resolution: 192dpi), (min-width: 1280px) and (min-resolution: 2dppx) {
+@media (min-width: 1280px) and (min-device-pixel-ratio: 2), (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1280px) and (min-resolution: 192dpi), (min-width: 1280px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-home-desktop@2x.jpg);
   }
@@ -988,7 +988,7 @@ img {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.25);
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .details-res {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-tel@2x.jpg");
   }
@@ -1000,7 +1000,7 @@ img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-tab@1x.jpg");
   }
 }
-@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (min-resolution: 192dpi), screen and (min-width: 1024px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (min-resolution: 192dpi), screen and (min-width: 1024px) and (min-resolution: 2dppx) {
   .details-res {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-tab@2x.jpg");
   }
@@ -1010,7 +1010,7 @@ img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-desk@1x.jpg");
   }
 }
-@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .details-res {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-rest-desk@2x.jpg");
   }
@@ -1204,31 +1204,6 @@ img {
 @media screen and (min-width: 1280px) {
   .details-res__img:not(:last-child) {
     margin-right: 69.5px;
-  }
-}
-
-.details-res__slide {
-  display: none;
-}
-@media screen and (min-width: 1024px) {
-  .details-res__slide {
-    display: flex;
-    fill: rgb(255, 255, 255);
-    gap: 33px;
-    margin-left: 265px;
-  }
-}
-
-.details-res__telslide {
-  display: flex;
-  margin-left: 25px;
-  fill: rgb(255, 255, 255);
-  gap: 33px;
-  margin-bottom: 32px;
-}
-@media screen and (min-width: 1024px) {
-  .details-res__telslide {
-    display: none;
   }
 }
 
@@ -1507,7 +1482,7 @@ img {
   background-position: center;
   background-color: rgba(0, 0, 0, 0.25);
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .details-hotel {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-hotel-tel@2x.jpg");
   }
@@ -1520,7 +1495,7 @@ img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-hotel-tab@1x.jpg");
   }
 }
-@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (min-resolution: 192dpi), screen and (min-width: 1024px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (min-resolution: 192dpi), screen and (min-width: 1024px) and (min-resolution: 2dppx) {
   .details-hotel {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-hotel-tab@2x.jpg");
   }
@@ -1530,7 +1505,7 @@ img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-hotel-desk@1x.jpg");
   }
 }
-@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .details-hotel {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/src/images/details-hotel-desk@2x.jpg");
   }
@@ -2001,14 +1976,15 @@ img {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
   margin: -1px;
 }
 
 .hero-rest {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-rest-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-rest {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-rest-mobile@2x.jpg);
   }
@@ -2018,7 +1994,7 @@ img {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-rest-tablet.jpg);
   }
 }
-@media (min-width: 1024px) and (min-device-pixel-ratio: 2), (min-width: 1024px) and (min-resolution: 192dpi), (min-width: 1024px) and (min-resolution: 2dppx) {
+@media (min-width: 1024px) and (min-device-pixel-ratio: 2), (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1024px) and (min-resolution: 192dpi), (min-width: 1024px) and (min-resolution: 2dppx) {
   .hero-rest {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-rest-tablet@2x.jpg);
   }
@@ -2028,7 +2004,7 @@ img {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-rest-desktop.jpg);
   }
 }
-@media (min-width: 1280px) and (min-device-pixel-ratio: 2), (min-width: 1280px) and (min-resolution: 192dpi), (min-width: 1280px) and (min-resolution: 2dppx) {
+@media (min-width: 1280px) and (min-device-pixel-ratio: 2), (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1280px) and (min-resolution: 192dpi), (min-width: 1280px) and (min-resolution: 2dppx) {
   .hero-rest {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-rest-desktop@2x.jpg);
   }
@@ -2428,7 +2404,7 @@ img {
 .hero-hotel {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-room-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-hotel {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-room-mobile@2x.jpg);
   }
@@ -2438,7 +2414,7 @@ img {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-room-tablet.jpg);
   }
 }
-@media (min-width: 1024px) and (min-device-pixel-ratio: 2), (min-width: 1024px) and (min-resolution: 192dpi), (min-width: 1024px) and (min-resolution: 2dppx) {
+@media (min-width: 1024px) and (min-device-pixel-ratio: 2), (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1024px) and (min-resolution: 192dpi), (min-width: 1024px) and (min-resolution: 2dppx) {
   .hero-hotel {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-room-tablet@2x.jpg);
   }
@@ -2448,7 +2424,7 @@ img {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-room-desktop.jpg);
   }
 }
-@media (min-width: 1280px) and (min-device-pixel-ratio: 2), (min-width: 1280px) and (min-resolution: 192dpi), (min-width: 1280px) and (min-resolution: 2dppx) {
+@media (min-width: 1280px) and (min-device-pixel-ratio: 2), (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1280px) and (min-resolution: 192dpi), (min-width: 1280px) and (min-resolution: 2dppx) {
   .hero-hotel {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero/hero-room-desktop@2x.jpg);
   }
@@ -2468,11 +2444,232 @@ img {
   }
 }
 
+.room-hotel {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  position: relative;
+}
+@media (max-width: 1023.5px) {
+  .room-hotel {
+    overflow: hidden;
+  }
+}
+.room-hotel__text {
+  color: #B4B4B4;
+  font-family: Times New Roman;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+@media (min-width: 1024px) {
+  .room-hotel__text {
+    font-size: 32px;
+  }
+}
+.room-hotel__logo {
+  color: #494848;
+  font-family: "Film P3";
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 12px;
+  margin-bottom: 32px;
+}
+@media (min-width: 1024px) {
+  .room-hotel__logo {
+    font-size: 64px;
+    letter-spacing: 19.2px;
+    margin-bottom: 62px;
+  }
+}
+.room-hotel__logoo {
+  letter-spacing: 0;
+}
+.room-hotel__title {
+  color: #000;
+  font-family: Times New Roman;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin-bottom: 12px;
+}
+@media (min-width: 1024px) {
+  .room-hotel__title {
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+  }
+}
+@media (min-width: 1280px) {
+  .room-hotel__title {
+    font-size: 36px;
+    letter-spacing: 1.8px;
+  }
+}
+.room-hotel__description {
+  color: #7A7A7A;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.24px;
+  margin-bottom: 32px;
+  max-width: 258px;
+}
+@media (min-width: 1024px) {
+  .room-hotel__description {
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.32px;
+    max-width: 439px;
+    margin-right: 26px;
+  }
+}
+.room-hotel__slider {
+  display: flex;
+}
+@media (max-width: 1023px) {
+  .room-hotel__slider {
+    margin-bottom: 310px;
+  }
+}
+@media (min-width: 1024px) {
+  .room-hotel__slider {
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1023.5px) {
+  .room-hotel__slider-container {
+    width: 510px;
+    position: absolute;
+    left: 69px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .two-room {
+    transform: translateY(-53px);
+  }
+}
+@media (min-width: 1024px) {
+  .two-room__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+.two-room__image {
+  margin-left: auto;
+}
+
+.two-room__image,
+.three-room__image {
+  max-width: 244px;
+  border-radius: 2px;
+  margin-bottom: 32px;
+  background: #DADADA;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+}
+@media (min-width: 1024px) {
+  .two-room__image,
+  .three-room__image {
+    max-width: 400px;
+  }
+}
+
+.three-room {
+  background-color: #F0ECD6;
+  width: 100%;
+}
+.three-room__image {
+  margin-right: auto;
+}
+@media (max-width: 1023.5px) {
+  .three-room__image {
+    margin-bottom: 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .three-room__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(-53px);
+    flex-flow: row-reverse;
+  }
+}
+.three-room__description {
+  max-width: 242px;
+  margin-left: 86px;
+  text-align: left;
+}
+@media (min-width: 1024px) {
+  .three-room__description {
+    max-width: 400px;
+    margin-left: auto;
+  }
+}
+@media (min-width: 1280px) {
+  .three-room__description {
+    max-width: 453px;
+  }
+}
+.three-room__text-box {
+  text-align: right;
+}
+@media (min-width: 1024px) {
+  .three-room__text-box {
+    text-align: left;
+  }
+}
+
+.button-container {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .two-room__button-container {
+    max-width: 236px;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .three-room__button-container {
+    position: absolute;
+    transform: translateY(-153px);
+  }
+}
+
+.button__details {
+  display: inline-block;
+  padding: 14px 64px;
+}
+@media (min-width: 1024px) {
+  .button__details {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 414px) {
+  .room-hotel-swiper-btns {
+    margin-left: calc(100vw - 200px);
+  }
+}
+@media (min-width: 414px) {
+  .room-hotel-swiper-btns {
+    margin-left: 220px;
+  }
+}
+@media (min-width: 1024px) {
+  .room-hotel-swiper-btns {
+    justify-content: flex-end;
+  }
+}
+
 .hero-room {
   padding-bottom: 14px;
   background-image: url(../images/hero/hero-room-mobile.jpg);
 }
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-room {
     background-image: url(../images/hero/hero-room-mobile@2x.jpg);
   }
@@ -2484,7 +2681,7 @@ img {
     background-image: url(../images/hero/hero-room-tablet.jpg);
   }
 }
-@media (min-width: 1024px) and (min-device-pixel-ratio: 2), (min-width: 1024px) and (min-resolution: 192dpi), (min-width: 1024px) and (min-resolution: 2dppx) {
+@media (min-width: 1024px) and (min-device-pixel-ratio: 2), (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1024px) and (min-resolution: 192dpi), (min-width: 1024px) and (min-resolution: 2dppx) {
   .hero-room {
     background-image: url(../images/hero/hero-room-tablet@2x.jpg);
   }
@@ -2496,7 +2693,7 @@ img {
     background-image: url(../images/hero/hero-room-desktop.jpg);
   }
 }
-@media (min-width: 1280px) and (min-device-pixel-ratio: 2), (min-width: 1280px) and (min-resolution: 192dpi), (min-width: 1280px) and (min-resolution: 2dppx) {
+@media (min-width: 1280px) and (min-device-pixel-ratio: 2), (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1280px) and (min-resolution: 192dpi), (min-width: 1280px) and (min-resolution: 2dppx) {
   .hero-room {
     background-image: url(../images/hero/hero-room-desktop@2x.jpg);
   }
@@ -3118,7 +3315,7 @@ img {
 }
 @media screen and (min-width: 1024px) {
   .modal-price__select,
-.modal-price__input {
+  .modal-price__input {
     width: 288px;
     padding-left: 12px;
   }
@@ -3599,7 +3796,7 @@ img {
   outline: 1px solid rgb(199, 144, 2);
 }
 
-.modal-table__backdrop {
+.modal {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -3610,12 +3807,12 @@ img {
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-table__backdrop.is-hidden {
+.modal.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
 }
-.modal-table__backdrop.is-hidden .modal-table__modal-wind {
+.modal.is-hidden .modal-table__modal-wind {
   transform: translate(-50%, -50%) scale(0.6);
 }
 
@@ -3703,4 +3900,4 @@ img {
 }
 .swiper-btn:hover {
   fill: #f3c653;
-}
+}/*# sourceMappingURL=index.css.map */
