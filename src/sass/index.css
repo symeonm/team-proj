@@ -2571,7 +2571,7 @@ img {
 @media (min-width: 1024px) {
   .two-room__image,
   .three-room__image {
-    max-width: 400px;
+    max-width: 450px;
   }
 }
 
@@ -2635,7 +2635,10 @@ img {
 @media (min-width: 1024px) {
   .three-room__button-container {
     position: absolute;
-    transform: translateY(-153px);
+    transform: translateY(-223px);
+    margin-left: 84px;
+    display: flex;
+    flex-direction: column;
   }
 }
 
